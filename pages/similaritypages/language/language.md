@@ -15,7 +15,7 @@ keywords: Language
 
         <ul id="posts-list">
             {% for post in site.posts %}
-                {% if post.category=='Language'  or post.keywords contains 'language' or post.keywords contains 'language'  or post.keywords contains 'python'  or post.keywords contains 'Python'  or post.keywords contains 'bat'  or post.keywords contains 'Bat'  or post.keywords contains 'Scala'  or post.keywords contains 'scala' %}
+                {% if post.category=='Language'  or post.keywords contains 'language' or post.keywords contains 'language'  or post.keywords contains 'python'  or post.keywords contains 'Python'  or post.keywords contains 'Bat' or post.keywords contains 'Scala'  or post.keywords contains 'scala' %}
                 <li class="posts-list-item">
                     <div class="posts-content">
                         <span class="posts-list-meta">{{ post.date | date: "%Y-%m-%d" }}</span>

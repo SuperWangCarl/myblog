@@ -5,10 +5,10 @@ copyright: me
 original: me
 comments: true
 title: bat 进入或跳转到其它目录命令
-category: bat
+category: Bat
 tags: [language,bat]
 excerpt: windows bat 进入或跳转到其它目录命令
-keywords: carlme,superwang,superwangcarl,carl,卡尔米,bat,language
+keywords: carlme,superwang,superwangcarl,carl,卡尔米,Bat,language
 ---
 
 
@@ -55,7 +55,7 @@ goto start
 7. goto 标签 注释内容（可以用作说明goto的条件和执行内容）
 8. :标签 注释内容（可以用作标签下方段的执行内容）
 
-## 目录的命令	
+  ## 目录的命令
 
 在【”D:\jijs\bin\Test.bat” 】文件中测试以下命令，对应的输出如下表：
 

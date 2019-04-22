@@ -167,3 +167,5 @@ keytool -import -alias hedian -keystore D:\Develop\jdk1.8.0_111\jre\lib\security
 ## 4. 参考资料
 
 [cas 配置https改为ip而不是使用域名](https://blog.csdn.net/qq_33873431/article/details/79354148)
+
+[IP地址开启https](https://blog.csdn.net/gui66497/article/details/79289047)

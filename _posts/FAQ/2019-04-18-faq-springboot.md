@@ -11,8 +11,6 @@ excerpt: SpringBoot采坑总结(持续更新)
 keywords: carlme,superwang,superwangcarl,carl,卡尔米,springboot,FAQ
 ---
 
-
-
 ## 简介
 
 此篇主要介绍在平常工作中的有关springboot遇到的问题
@@ -65,6 +63,31 @@ keywords: carlme,superwang,superwangcarl,carl,卡尔米,springboot,FAQ
 **解决 :** 修改url的连接
 
 ***
+
+### 无法加载配置类
+
+**问题 :** 配置了`@Configuration`无法生效
+
+**原因 :** 不再springboot的基包中
+
+**解决 :** 
+
+1. 如果 ServerConfig不再springboot的基类包扫描中,需要在META-INF/spring.factories中配置
+
+   ```properties
+   org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+     com.hedian.cas.config.SpringConfig
+   ```
+
+`META-INF/spring.factories 和configration 区别`
+
+>  `@Configuration`需要在springbootapplication的基类包下  
+
+> `META-INF/spring.factories`  不需要在springbootapplication的基类包下
+
+***
+
+
 
 ## 常用
 
