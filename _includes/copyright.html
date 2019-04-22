@@ -1,0 +1,21 @@
+<div>
+    <p align="center" style="margin-top: 15px; font-size: 25px;color: #843534;">
+    <strong>（本篇博文完结,一共:<span style="color: #cc0000;">{{ page.content | number_of_words }} </span>字）</strong>
+</p>
+    <p align="center">
+        {% if page.copyright %}
+        <img src="{{ site.cdn }}/assets/images/{{ page.copyright }}.jpg">
+        {% else %}
+        <img src="{{ site.cdn }}/assets/images/me.jpg">
+        {% endif %}
+        <br/>
+        扫扫加好友  让我们一起学习一起成长
+    </p>
+    <p align="center" style="margin-top: 15px; font-size: 11px;color: #cc0000;">
+        {% if page.original!='me' %}
+        <strong>（本文转载自 : <a href="{{ page.original }}">{{ page.original }}</a>）</strong>
+        {% else %}
+        <strong>（转载本站文章请注明作者和出处 <a href="{{ site.url }}{{ page.url }}">SuperWang</a>）</strong>
+        {% endif %}
+    </p>
+</div>

@@ -1,0 +1,277 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title:  SuperWang
+subtitle: 拥抱开源、热爱开源、分享开源
+name:  SuperWang
+email: carlme@aliyun.com
+description: 本站是Carl的技术分享博客
+keywords: 卡尔米,carlme,superwang,superwangcarl,carl,Spring,Spring Boot,Spring Cloud,MongoDB,Jvm,Docker,DevOps,生活故事,架构,大数据,一线,开源,开发者,编程,代码,开源,IT网站,Developer,Programmer,Coder,Geek,IT技术博客,Java,Python
+encoding: "utf-8"
+favicon: favicon.ico
+
+repository: superwangcarl/superwangcarl.github.io
+github_url: https://github.com/superwangcarl
+url: https://www.superwang.xin:8943
+cdn: https://cdn.carlme.com:8001
+smartcdn: https://cdn.carlme.com:8001
+#enforce_ssl: carlme.com
+
+## Gem
+plugins:
+  - jekyll-paginate
+  - jekyll-geo-pattern
+  - rouge
+  - kramdown
+  - jekyll-github-metadata
+  - jekyll-octicons
+  - jekyll-sitemap
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+lsi:         false
+excerpt_separator: "\n\n"
+
+source:      .
+destination: ./_site
+
+quiet:    false
+defaults: []
+
+kramdown:
+  input: GFM
+  enable_coderay: true
+  syntax_highlighter: rouge
+
+syntax_highlighter_opts:
+   coderay_line_numbers:  nil
+
+# Pagination
+paginate: 10
+paginate_path: 'page:num'
+
+# Disque
+#disque: my_disque_settings # ex. httpdongchuangithubio.disqus.com
+
+# Navigation. top menu list
+menus:
+  -
+    href: /link.html
+    label: 友链
+    target: _self
+
+  -
+    href: /about.html
+    label: 关于
+    target: _self
+
+  -
+    href: /blog.html
+    label: Blog
+    target: _self
+
+# Navigation. main menu list
+navs:
+
+  -
+    href: /
+    label: Home
+
+  -
+    href: /java.html
+    label: Java
+    target: _self
+    subnav:
+     -
+       subHref: /jvm.html
+       subLabel: JVM
+
+     -
+       subHref: /spring.html
+       subLabel: Spring
+
+     -
+       subHref: /dubbo.html
+       subLabel: Dubbo
+
+     -
+       subHref: /springboot.html
+       subLabel: Spring Boot
+
+     -
+       subHref: /springcloud.html
+       subLabel: Spring Cloud
+
+     -
+       subHref: /hadoop.html
+       subLabel: Hadoop
+
+  -
+    href: /linux.html
+    label: Linux
+    target: _self
+    subnav:
+
+    - subHref: /linux.html
+      subLabel: Base
+
+    - subHref: /docker.html
+      subLabel: Docker & k8s
+
+  -
+    href: /web.html
+    label: Web
+    target: _self
+    subnav:
+
+    - subHref: /jquery.html
+      subLabel: Jquery
+
+    - subHref: /react.html
+      subLabel: React
+
+    - subHref: /vue.html
+      subLabel: Vue
+
+  -
+    href: /data.html
+    label: Data
+    target: _self
+    subnav:
+
+    - subHref: /mysql.html
+      subLabel: Mysql
+
+    - subHref: /oracle.html
+      subLabel: Oracle
+
+    - subHref: /mongodb.html
+      subLabel: MongoDB
+
+    - subHref: /fastdfs.html
+      subLabel: FastDFS
+
+  -
+    href: /language.html
+    label: Language
+    target: _self
+    subnav:
+
+    - subHref: /python.html
+      subLabel: Python
+
+    - subHref: /scala.html
+      subLabel: Scala
+
+    - subHref: /bat.html
+      subLabel: Bat
+
+  - href: /code.html
+    label: Code
+    target: _blank
+
+  - href: /all.html
+    label: All
+    target: _self
+
+# labels. my blog key words
+labels:
+
+  -
+    href: /myblog.html
+    label: myblog
+    target: _blank
+
+  -
+    href: /devops.html
+    label: DevOps
+    target: _blank
+
+  -
+    href: /mybatis.html
+    label: mybatis
+    target: _blank
+
+  -
+    href: /faq.html
+    label: FAQ
+    target: _blank
+
+  -
+    href: /sso.html
+    label: sso
+    target: _blank
+
+# selected articles
+classes:
+
+  -
+    href: /life.html
+    name: 工作生活
+    describe: 记录生活和工作的点点滴滴
+
+  -
+    href: /arch.html
+    name: 架构师之路
+    describe: 一个架构师的自我修养
+
+  -
+    href: /java.html
+    name: Java 系列文章
+    describe: Java 之根基
+
+
+# ---------------- #
+#       RSS        #
+# ---------------- #
+subscribe_rss: /feed.xml
+
+# Sidebar to show popular repo
+side_bar_repo_limit: 6 # Number of repos to show
+
+# Google Analytics
+# analytics :
+# provider : google
+#   google :
+#     tracking_id : ''  # ex. UA-72165600-X
+
+# For about.html. Fell free to create your own!
+skill_software_keywords: [Java, Python, MySQL, Oracle, Linux , MongoDB, Redis,RabbitMq]
+skill_j2ee_keywords: [Spring, SpringBoot, SpringCloud, Dubbo, Struct, Hibernet, MyBatis, JSP]
+skill_web_keywords: [HTML, CSS, JS, JQuery, Ajax, NodeJS, Boostrap, Vue , React, Augujs]
+skill_mobile_app_keywords: [NULL]
+
+# ---------------- #
+#      Comments    #
+# ---------------- #
+# support provider: disqus, gitment, gitalk
+comments_provider: gitalk
+
+# !!!重要!!! 请修改下面这些信息为你自己申请的
+# !!!Important!!! Please modify infos below to yours
+# https://disqus.com
+#disqus:
+#    username: superwang
+
+# https://imsun.net/posts/gitment-introduction/
+gitment:
+    owner: SuperWangCarl
+    repo: blog-comments
+    oauth:
+        client_id: 9c08819e5042f9d7e12d
+        client_secret: 8d4abf7589658f704d7aabd5d39577e68f812c5a
+
+# https://github.com/gitalk/gitalk#install
+gitalk:
+    owner: SuperWangCarl
+    repo: blog-comments
+    clientID: 9c08819e5042f9d7e12d
+    clientSecret: 8d4abf7589658f704d7aabd5d39577e68f812c5a
+# 在使用其它评论组件时可点击显示 Disqus
+lazy_load_disqus : true

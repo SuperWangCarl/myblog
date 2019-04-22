@@ -1,0 +1,6 @@
+_site
+_drafts
+assets
+.sass-cache
+.jekyll-metadata
+.idea

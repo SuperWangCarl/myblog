@@ -1,0 +1,66 @@
+
+<footer class="container">
+    <div class="site-footer">
+
+        {% include self-link.html %}
+
+        <div class="site-footer-links mobile-hidden">
+            {% for nav in site.labels %}
+            <a href="{{ nav.href }}" title="{{ nav.label }}" target="{{ nav.target | default: _self }}">{{ nav.label }}</a>
+            {% endfor %}
+        </div>
+        <div class="site-footer-icons">
+               <a href="http://www.miitbeian.gov.cn" target="_blank">苏ICP备17036105号</a>
+        </div>
+        <div class="scrolltop">
+            <a href="javascript:window.scrollTo(0,0)" >TOP</a>
+        </div>
+        <div class="rss">
+            <a href="{{ site.subscribe_rss }}"><span class="octicon octicon-rss" style="color:orange;"></span></a>
+            Power by <a href="https://github.com/DONGChuan/Yummy-Jekyll">Yummy Jekyll</a>
+        </div>
+    </div>
+
+    <!-- Third-Party JS -->
+    <script type="text/javascript" src="{{ site.smartcdn }}/assets/js/geopattern.min.js"></script>
+    <!-- My JS -->
+    <script type="text/javascript" src="{{ site.smartcdn }}/assets/js/script.min.js"></script>
+
+    {% for javascript in page.javascript %}
+    <script type="text/javascript"  src="{{ site.smartcdn }}/assets/js/{{javascript}}"></script>
+    {% endfor %}
+
+    <!--站点统计-->
+    <!-- Cnzz Analytics -->
+    <div style="display:none">
+        <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? "https://" : "http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1276915611'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s96.cnzz.com/z_stat.php%3Fid%3D1276915611' type='text/javascript'%3E%3C/script%3E"));</script>
+    </div>
+
+    <!-- 点击图片缩放 -->
+    <script type="text/javascript" src="{{ site.smartcdn }}/assets/js/zoomify.min.js"></script>
+
+    <script type="text/javascript">
+        $('img').zoomify();
+    </script>
+
+    <!-- 实现搜索 -->
+    <script type="text/javascript" src="{{ site.smartcdn }}/assets/js/simple-jekyll-search.min.js"></script>
+
+    <script type="text/javascript" >
+        window.simpleJekyllSearch = new SimpleJekyllSearch({
+            searchInput: document.getElementById('search-input'),
+            resultsContainer: document.getElementById('results-container'),
+            json: '{{ site.cdn }}/assets/json/search.json',
+            searchResultTemplate: '<li><a href="{url}?query={query}" title="{desc}">{title}</a></li>',
+            noResultsText: 'No results found',
+            limit: 10000,
+            fuzzy: false,
+          /*  exclude: ['Welcome']*/
+        })
+    </script>
+
+    <!-- 流程图 -->
+    <script type="text/javascript"  src="{{ site.smartcdn }}/assets/js/raphael.min.js"></script>
+    <script type="text/javascript"  src="{{ site.smartcdn }}/assets/js/flowchart.min.js"></script>
+    <script type="text/javascript"  src="{{ site.smartcdn }}/assets/js/flow.min.js"></script>
+</footer>
