@@ -25,6 +25,10 @@ keywords: carlme,superwang,superwangcarl,carl,卡尔米,nas,exsi
 
 ![img]({{site.cdn}}/assets/images/blog/2019/20190421191437.png)
 
+之后需要到需要将文件放到百度云的这个目录下,才会自动同步,上传的文件默认也是到这个目录下
+
+![img]({{site.cdn}}/assets/images/blog/2019/20190424113011.png)
+
 ### *Drive
 
 > 和电脑的备份
