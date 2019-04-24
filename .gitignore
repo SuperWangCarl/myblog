@@ -1,6 +1,7 @@
 _site
 _drafts
 assets
+download
 .sass-cache
 .jekyll-metadata
 .idea

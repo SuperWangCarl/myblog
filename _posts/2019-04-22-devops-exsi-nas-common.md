@@ -244,6 +244,16 @@ keywords: carlme,superwang,superwangcarl,carl,卡尔米,nas,exsi
 > 无论是创建每周执行工作列表、与团队成员共享项目信息或只是描述您的最佳假日回忆，DS note 的编辑功能能够随时随地 (甚至在没有网络的情况下) 轻松愉快地记录所需的任何事情。使用标签、记事本和快捷方式组成所有的便签，并立即与所需的任何人共享。而且始终安全，因为 DS note 将所有数据与您 Synology NAS 服务器、个人云中的便签库保持同步。
 > [安卓端程序下载](https://cndl.synology.cn/download/Mobile/Android-DSnote/1.9.0-210/Android-DSnote.1.9.0-210.apk)
 
+## FAQ
+
+Cloud Statin Backup不可以修改
+
+![img]({{site.cdn}}/assets/images/blog/2019/20190422231640.png)
+
+重新连接之后可以设置
+
+![img]({{site.cdn}}/assets/images/blog/2019/20190422231830.png)
+
 ## 参考资料
 
 [Synology 服务使用哪些网络端口？](https://o.hiue.cn/41.html)
