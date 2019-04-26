@@ -23,6 +23,8 @@ keywords: carlme,superwang,superwangcarl,carl,卡尔米,nas,exsi
 
 ### 电脑和nas备份
 
+> 比较小号cpu资源慎用
+
 ***nas端安装 :*** `Drive` 端口 `6690`
 
 ***PC端安装 :*** `Cloud Station Drive` 或者 `Cloud Station Backup`

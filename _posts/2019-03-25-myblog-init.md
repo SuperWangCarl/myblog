@@ -89,11 +89,11 @@ exit;
 - [安全加固]({{site.url}}/myblog/2019/04/10/myblog-safe.html)
 - [增加流程图解析](https://www.carlme.com/myblog/2019/04/12/myblog-flow.html)
 - 添加订阅
+- 图片加速
+- 文件服务器
 
 ## 5. 后期规划
 
-- 图片加速
-- 文件服务器
 - 开发微信公众号
 - jenkins邮箱配置
 

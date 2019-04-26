@@ -4,10 +4,10 @@ no-post-nav: false
 copyright: me
 original: me
 comments: true
-title: bat 进入或跳转到其它目录命令
+title: bat常用
 category: Bat
 tags: [language,bat]
-excerpt: windows bat 进入或跳转到其它目录命令
+excerpt: windows bat 目录跳转 注释 脚本
 keywords: carlme,superwang,superwangcarl,carl,卡尔米,Bat,language
 ---
 
