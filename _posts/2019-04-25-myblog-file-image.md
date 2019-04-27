@@ -11,8 +11,6 @@ excerpt: 博客图片和文件
 keywords: carlme,superwang,superwangcarl,carl,卡尔米,linux,nginx,myblog
 ---
 
-
-
 ## 1. 简介
 
 由于服务器一直使用的是阿里云的最低配置的虚拟机,带宽只有1M,所以图片加载了比较慢,所在在自己家里搞了个物理机,使用了阿里云的ddns让域名和ip绑定,本地图片和文件直接通过rsync上传到家里的物理机,文档通过git上传到github之后通过钩子触发jenkins进行持续集成
