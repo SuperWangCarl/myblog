@@ -87,6 +87,22 @@ keywords: carlme,superwang,superwangcarl,carl,卡尔米,springboot,FAQ
 
 ***
 
+### jar包中的文件无法下载
+
+**问题 :** 
+
+**原因 :** 调用的方法错误,应该使用stream的方式调用
+
+**解决 :** 
+
+```java
+//原来使用的调用方法
+//String filePath = this.getClass().getClassLoader().getResource("template/" + fileName).getPath();
+//FileInputStream inputStream = new FileInputStream(filePath);
+//应该使用的调用方法
+InputStream inputStream = this.getClass().getClassLoader().getResourceAsStream("template/" + fileName);//获取文件路径
+```
+
 
 
 ## 常用

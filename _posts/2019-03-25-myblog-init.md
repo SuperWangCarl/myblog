@@ -87,10 +87,10 @@ exit;
 - [爬虫主动爬取]({{site.url}}/myblog/2019/04/09/myblog-robots.html)
 - [评论]({{site.url}}/myblog/2019/04/10/myblog-comment.html)
 - [安全加固]({{site.url}}/myblog/2019/04/10/myblog-safe.html)
-- [增加流程图解析](https://www.carlme.com/myblog/2019/04/12/myblog-flow.html)
+- [增加流程图解析]({{site.url}}/myblog/2019/04/12/myblog-flow.html)
 - 添加订阅
-- 图片加速
-- 文件服务器
+- [图片加速]({{site.url}}/myblog/2019/04/25/myblog-file-image.html)
+- [文件服务器]({{site.url}}/myblog/2019/04/25/myblog-file-image.html)
 
 ## 5. 后期规划
 
