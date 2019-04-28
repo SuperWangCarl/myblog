@@ -121,6 +121,9 @@ navs:
     - subHref: /linux.html
       subLabel: Base
 
+    - subHref: /software.html
+      subLabel: SoftWare
+
     - subHref: /docker.html
       subLabel: Docker & k8s
 
