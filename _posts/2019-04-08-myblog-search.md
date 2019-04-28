@@ -58,22 +58,7 @@ keywords: carlme,superwang,superwangcarl,carl,blog,search,搜索,卡尔米,nginx
 ### 4.search.json
 
 ```json
----
-layout: null
----
-[
-  {% for post in site.posts %}
-    {
-      "title"    : "\{{ post.title | escape }}",
-      "category" : "\{{ post.category }}",
-      "tags"     : "\{{ post.tags | join: ', ' }}",
-      "excerpt"  : "\{{ post.excerpt }}",
-      "keywords" : "\{{ post.keywords }}",
-      "url"      : "\{{ site.url }}{{ post.url }}",
-      "date"     : "\{{ post.date }}"
-    } {% unless forloop.last %},{% endunless %}
-  {% endfor %}
-]
+见图
 ```
 
 ![img]({{site.cdn}}/assets/images/blog/2019/20190411085852.png)
