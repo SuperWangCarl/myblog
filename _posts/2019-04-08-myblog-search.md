@@ -57,6 +57,8 @@ keywords: carlme,superwang,superwangcarl,carl,blog,search,搜索,卡尔米,nginx
 
 ### 4.search.json
 
+[文件下载]({{site.cdn}}/download/search.json)
+
 ```json
 见图
 ```
