@@ -11,8 +11,6 @@ excerpt: mybatis-plus模版生成修改
 keywords: carlme,superwang,superwangcarl,carl,卡尔米,mybatis,mybatisplus,ssm
 ---
 
-
-
 ## 简介
 
 由于公司最近使用的是mybatis-plus来操作数据库,但是写了几天后发现好多都是复制粘贴的功能,所以就想在生成代码的时候,直接把这些相似的代码生成出来.
