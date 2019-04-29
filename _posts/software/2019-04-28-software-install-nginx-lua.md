@@ -161,6 +161,18 @@ EOF
 ldconfig
 ```
 
+***
+
+### 找不到shell.lua
+
+**问题 :** 找不到shell.lua
+
+![img]({{site.cdn}}/assets/images/blog/2019/20190429160515.png)
+
+**原因 :** 路径配置错误,或者权限不够
+
+**解决 :** 修改权限,或者路径
+
 
 
 
