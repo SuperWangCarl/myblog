@@ -30,6 +30,7 @@ keywords: carlme,superwang,superwangcarl,carl,卡尔米,software,nginx,shell,lua
 [ngx_devel_kit-0.3.0.tar.gz]({{site.cdn}}/download/ngx_devel_kit-0.3.0.tar.gz)
 
 [LuaJIT-2.0.4.tar.gz]({{site.cdn}}/download/ngx_devel_kit-0.3.0.tar.gz)
+
 [lua-nginx-module-0.10.8.tar.gz]({{site.cdn}}/download/lua-nginx-module-0.10.8.tar.gz)
 
 **lua调用shell所需**
