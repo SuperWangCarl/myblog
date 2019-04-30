@@ -255,6 +255,28 @@ windows配置启用发现
 
 ***
 
+### 配置域名https
+
+第一步
+
+控制面板->安全性
+
+![img]({{site.cdn}}/assets/images/blog/2019/20190430195334.png)
+
+第二步
+
+替换证书
+
+![img]({{site.cdn}}/assets/images/blog/2019/20190430195400.png)
+
+![img]({{site.cdn}}/assets/images/blog/2019/20190430195449.png)
+
+具体私钥和证书可以查看我给博客配置https的那边[博文]({{site.url}}/myblog/2019/04/07/myblog-https.html),需要去阿里云申请
+
+![img]({{site.cdn}}/assets/images/blog/2019/20190430195518.png)
+
+***
+
 ### *初始化密钥管理器
 
 暂无
