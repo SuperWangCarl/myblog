@@ -43,6 +43,8 @@ keywords: carlme,superwang,superwangcarl,carl,卡尔米,nas,exsi
 
 ### *video station
 
+`使用的是5000 和 5001 的端口号`
+
 > 网页看视频
 
 ### *photo station

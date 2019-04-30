@@ -19,6 +19,7 @@ repository: superwangcarl/superwangcarl.github.io
 github_url: https://github.com/superwangcarl
 url: https://www.carlme.com
 cdn: https://cdn.carlme.com:8001
+downcdn: https://cdn.carlme.com:8001
 smartcdn: https://cdn.carlme.com:8001
 #enforce_ssl: carlme.com
 

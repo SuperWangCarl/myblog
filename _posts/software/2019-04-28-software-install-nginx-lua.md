@@ -23,20 +23,20 @@ keywords: carlme,superwang,superwangcarl,carl,卡尔米,software,nginx,shell,lua
 
 **nignx源码包**
 
-[nginx-1.10.3.tar.gz]({{site.cdn}}/download/nginx-1.10.3.tar.gz)
+[nginx-1.10.3.tar.gz]({{site.downcdn}}/download/nginx-1.10.3.tar.gz)
 
 **lua脚本 所需依赖**
 
-[ngx_devel_kit-0.3.0.tar.gz]({{site.cdn}}/download/ngx_devel_kit-0.3.0.tar.gz)
+[ngx_devel_kit-0.3.0.tar.gz]({{site.downcdn}}/download/ngx_devel_kit-0.3.0.tar.gz)
 
-[LuaJIT-2.0.4.tar.gz]({{site.cdn}}/download/ngx_devel_kit-0.3.0.tar.gz)
+[LuaJIT-2.0.4.tar.gz]({{site.downcdn}}/download/ngx_devel_kit-0.3.0.tar.gz)
 
-[lua-nginx-module-0.10.8.tar.gz]({{site.cdn}}/download/lua-nginx-module-0.10.8.tar.gz)
+[lua-nginx-module-0.10.8.tar.gz]({{site.downcdn}}/download/lua-nginx-module-0.10.8.tar.gz)
 
 **lua调用shell所需**
 
-[sockproc.tar.gz]({{site.cdn}}/download/sockproc.tar.gz)
-[lua-resty-shell.tar.gz]({{site.cdn}}/download/lua-resty-shell.tar.gz)
+[sockproc.tar.gz]({{site.downcdn}}/download/sockproc.tar.gz)
+[lua-resty-shell.tar.gz]({{site.downcdn}}/download/lua-resty-shell.tar.gz)
 
 ### 安装依赖
 
