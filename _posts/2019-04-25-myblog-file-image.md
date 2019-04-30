@@ -59,7 +59,7 @@ rsync -avPz --progress /cygdrive/e/myblog/assets rsync_backup@rsync.superang.xin
 rsync -avPz --progress /cygdrive/e/myblog/download rsync_backup@rsync.superang.xin::online --delete --password-file=/cygdrive/e/rsync/rsync.password --port=803 --delete
 ::向git提交
 git add .
-git commit -m 'blogupdate'
+git commit -m 'blogupdate' 
 git push
 exit 
 ```
