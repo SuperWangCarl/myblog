@@ -91,6 +91,9 @@ cd /application/nginx/conf
 git clone https://github.com/juce/sockproc
 cd sockproc
 make
+cd ..
+mv sockproc /application/
+cd /application/sockproc
 ./sockproc /tmp/shell.sock
 chmod 0666 /tmp/shell.sock
 ```
