@@ -173,7 +173,7 @@ windows配置启用发现
 
 设置邮箱并测试
 
-![img]({{site.cdn}}/assets/images/blog/2019/220190421191042.png)
+![img]({{site.cdn}}/assets/images/blog/2019/20190421191042.png)
 
 ***
 
