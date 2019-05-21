@@ -173,6 +173,8 @@ windows配置启用发现
 
 设置邮箱并测试
 
+`此处密码应该输入 授权码(去网页163上面配置) 不可以直接使用密码`
+
 ![img]({{site.cdn}}/assets/images/blog/2019/20190421191042.png)
 
 ***
@@ -288,6 +290,44 @@ windows配置启用发现
 应为是装到exsi里面的,声音也没什么用,所以关了
 
 ![img]({{site.cdn}}/assets/images/blog/2019/20190421192042.png)
+
+***
+
+### 配置ssh登录
+
+启用ssh
+
+![img]({{site.cdn}}/assets/images/blog/2019/20190521075008.png)
+
+xshell连接
+
+`只有admin群组的帐号才可以登录`
+
+![img]({{site.cdn}}/assets/images/blog/2019/20190521075139.png)
+
+***
+
+### 配置rsync
+
+`需要指定 ssh,因为nas的rsync传输是通过ssh加密的`
+
+```shell
+rsync -e "/usr/bin/ssh" -avzl /home/wwwroot/bugging/ dms账号@群晖IP::NetBackup
+```
+
+
+
+***
+
+### 配置ftp
+
+在路由器上做相应的映射
+
+![img]({{site.cdn}}/assets/images/blog/2019/20190521075452.png)
+
+***
+
+
 
 ## 参考资料
 

@@ -15,7 +15,7 @@ keywords: devops
 
         <ul id="posts-list">
             {% for post in site.posts %}
-                {% if post.category=='devops' or post.keywords contains 'git' or post.keywords contains 'jenkins' or post.keywords contains 'svn' or post.keywords contains 'docker'%}
+                {% if post.category=='devops' or post.keywords contains 'devops'%}
                 <li class="posts-list-item">
                     <div class="posts-content">
                         <span class="posts-list-meta">{{ post.date | date: "%Y-%m-%d" }}</span>

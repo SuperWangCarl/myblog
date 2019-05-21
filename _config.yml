@@ -94,6 +94,10 @@ navs:
        subLabel: JVM
 
      -
+       subHref: /mybatis.html
+       subLabel: mybatis
+
+     -
        subHref: /spring.html
        subLabel: Spring
 
@@ -195,11 +199,6 @@ labels:
   -
     href: /devops.html
     label: DevOps
-    target: _blank
-
-  -
-    href: /mybatis.html
-    label: mybatis
     target: _blank
 
   -
