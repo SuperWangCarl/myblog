@@ -11,8 +11,6 @@ excerpt: Windows Server安装配置
 keywords: carlme,superwang,superwangcarl,carl,卡尔米,windos服务器安装配置
 ---
 
-
-
 ## 简介
 
 由于最近做了比较多的是企业政府项目,用到了windows服务器比较多,所以就记录下windows的服务器的安装和常用配置
@@ -76,6 +74,28 @@ keywords: carlme,superwang,superwangcarl,carl,卡尔米,windos服务器安装配
 ![img]({{site.cdn}}/assets/images/blog/2019/20190522003719.png)
 
 ## 配置
+
+### 配置固定ip
+
+- 打开网络中心
+
+  ![img]({{site.cdn}}/assets/images/blog/2019/20190522004136.png)
+
+- 更改适配器
+
+  ![img]({{site.cdn}}/assets/images/blog/2019/20190522004307.png)
+
+- 点击网卡属性
+
+  ![img]({{site.cdn}}/assets/images/blog/2019/20190522004340.png)
+
+- 双击配置
+
+  ![img]({{site.cdn}}/assets/images/blog/2019/20190522004408.png)
+
+- 配置
+
+  ![img]({{site.cdn}}/assets/images/blog/2019/20190522004505.png)
 
 ### 远程登录用户配置
 
