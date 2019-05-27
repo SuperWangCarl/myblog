@@ -4,7 +4,7 @@ no-post-nav: false
 copyright: me
 original: me
 comments: true
-title: easyexcel操作excel
+title: easyexcel操作excel(转)
 category: java
 tags: [java]
 excerpt: 使用easyexcel操作excel
@@ -54,83 +54,74 @@ EasyExcelFactory.readBySax(inputStream, new Sheet(2, 1,JavaModel.class), excelLi
 ### 没有模板
 
 ```java
-ExcelWriter writer = EasyExcelFactory.getWriter(out);
+/**
+ * 表头动态生成
+ * @throws Exception
+ */
+public void writeExcelDynamic() throws Exception {
+	// 文件输出位置
+	OutputStream out = new FileOutputStream(path + ClassUtils.getMethodName() + ".xlsx");
 
-//写第一个sheet, sheet1  数据全是List<String> 无模型映射关系
-Sheet sheet1 = new Sheet(1, 3);
-sheet1.setSheetName("第一个sheet");
-//设置列宽 设置每列的宽度
-Map columnWidth = new HashMap();
-columnWidth.put(0,10000);columnWidth.put(1,40000);columnWidth.put(2,10000);columnWidth.put(3,10000);
-sheet1.setColumnWidthMap(columnWidth);
-sheet1.setHead(createTestListStringHead());
-//or 设置自适应宽度
-//sheet1.setAutoWidth(Boolean.TRUE);
-writer.write1(createTestListObject(), sheet1);
+	ExcelWriter writer = EasyExcelFactory.getWriter(out);
 
-//写第二个sheet sheet2  模型上打有表头的注解，合并单元格
-Sheet sheet2 = new Sheet(2, 3, JavaModel1.class, "第二个sheet", null);
-sheet2.setTableStyle(createTableStyle());
-writer.write(createTestListJavaMode(), sheet2);
+	// 动态添加表头，适用一些表头动态变化的场景
+	Sheet sheet1 = new Sheet(1, 0);
 
-//写第三个sheet包含多个table情况
-Sheet sheet3 = new Sheet(3, 0);
-sheet3.setSheetName("第三个sheet");
-Table table1 = new Table(1);
-table1.setHead(createTestListStringHead());
-writer.write1(createTestListObject(), sheet3, table1);
+	sheet1.setSheetName("第一个sheet");
 
-//写sheet2  模型上打有表头的注解
-Table table2 = new Table(2);
-table2.setTableStyle(createTableStyle());
-table2.setClazz(JavaModel1.class);
-writer.write(createTestListJavaMode(), sheet3, table2);
+	// 创建一个表格，用于 Sheet 中使用
+	Table table1 = new Table(1);
 
-//关闭资源
-writer.finish();
-out.close();
+	// 自定义表格样式
+    table1.setTableStyle(DataUtil.createTableStyle());
 
+	// 无注解的模式，动态添加表头
+	table1.setHead(DataUtil.createTestListStringHead());
+	// 写数据
+	writer.write1(DataUtil.createDynamicModelList(), sheet1, table1);
+
+	// 合并单元格
+	writer.merge(5, 6, 0, 4);
+
+	// 将上下文中的最终 outputStream 写入到指定文件中
+	writer.finish();
+
+	// 关闭流
+	out.close();
+}
 ```
 
 ### 有模板
 
 ```java
-OutputStream out = new FileOutputStream("/Users/jipengfei/2007.xlsx");
-ExcelWriter writer = EasyExcelFactory.getWriterWithTemp(inputStream,out,ExcelTypeEnum.XLSX,true);
+/**
+ * 简单的excel写出
+ * 表头根据注解生成
+ * @throws Exception
+ */
+public void writeExcelSimple() throws Exception {
+	// 文件输出位置
+	OutputStream out = new FileOutputStream(path + ClassUtils.getMethodName() + ".xlsx");
 
-//写第一个sheet, sheet1  数据全是List<String> 无模型映射关系
-Sheet sheet1 = new Sheet(1, 3);
-sheet1.setSheetName("第一个sheet");
-//设置列宽 设置每列的宽度
-Map columnWidth = new HashMap();
-columnWidth.put(0,10000);columnWidth.put(1,40000);columnWidth.put(2,10000);columnWidth.put(3,10000);
-sheet1.setColumnWidthMap(columnWidth);
-sheet1.setHead(createTestListStringHead());
-//or 设置自适应宽度
-//sheet1.setAutoWidth(Boolean.TRUE);
-writer.write1(createTestListObject(), sheet1);
+	ExcelWriter writer = EasyExcelFactory.getWriter(out);
 
-//写第二个sheet sheet2  模型上打有表头的注解，合并单元格
-Sheet sheet2 = new Sheet(2, 3, JavaModel1.class, "第二个sheet", null);
-sheet2.setTableStyle(createTableStyle());
-writer.write(createTestListJavaMode(), sheet2);
+	// 写仅有一个 Sheet 的 Excel 文件, 此场景较为通用
+	Sheet sheet1 = new Sheet(1, 0, WriteModelUser.class);
 
-//写第三个sheet包含多个table情况
-Sheet sheet3 = new Sheet(3, 0);
-sheet3.setSheetName("第三个sheet");
-Table table1 = new Table(1);
-table1.setHead(createTestListStringHead());
-writer.write1(createTestListObject(), sheet3, table1);
+	// 第一个 sheet 名称
+	sheet1.setSheetName("第一个sheet");
 
-//写sheet2  模型上打有表头的注解
-Table table2 = new Table(2);
-table2.setTableStyle(createTableStyle());
-table2.setClazz(JavaModel1.class);
-writer.write(createTestListJavaMode(), sheet3, table2);
+	// 写数据到 Writer 上下文中
+	// 入参1: 创建要写入的模型数据
+	// 入参2: 要写入的目标 sheet
+	writer.write(DataUtil.createModelList(), sheet1);
 
-//关闭资源
-writer.finish();
-out.close();
+	// 将上下文中的最终 outputStream 写入到指定文件中
+	writer.finish();
+
+	// 关闭流
+	out.close();
+}
 ```
 
 ## web下载实例写法
