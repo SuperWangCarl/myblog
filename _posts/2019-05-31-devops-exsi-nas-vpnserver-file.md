@@ -69,23 +69,21 @@ keywords: carlme,superwang,superwangcarl,carl,卡尔米,nas,exsi
 
 ### 配置所有请求都不走vpn网关
 
-#### 点击适配器属性
+1. 点击适配器属性
 
-![img]({{site.cdn}}/assets/images/blog/2019/20190531004002.png)
+   ![img]({{site.cdn}}/assets/images/blog/2019/20190531004002.png)
 
-#### 双击ipv4
+2. 双击ipv4
 
-![img]({{site.cdn}}/assets/images/blog/2019/20190531004050.png)
+   ![img]({{site.cdn}}/assets/images/blog/2019/20190531004050.png)
 
-#### 点击高级
+3. 点击高级
 
-![img]({{site.cdn}}/assets/images/blog/2019/20190531004129.png)
+   ![img]({{site.cdn}}/assets/images/blog/2019/20190531004129.png)
 
-#### 取消在远程网络上使用默认网关的勾选
+4. 取消在远程网络上使用默认网关的勾选 之后点击保存
 
-![img]({{site.cdn}}/assets/images/blog/2019/20190531004154.png)
-
-#### 之后点击保存
+   ![img]({{site.cdn}}/assets/images/blog/2019/20190531004154.png)
 
 > **第二次查看路由表**
 >
@@ -142,17 +140,17 @@ exit
 
 1. 打开`Win+R`输入我们的nas地址`\\192.168.1.150`
 
-![img]({{site.cdn}}/assets/images/blog/2019/20190531010509.png)
+   ![img]({{site.cdn}}/assets/images/blog/2019/20190531010509.png)
 
-![img]({{site.cdn}}/assets/images/blog/2019/20190531010609.png)
+   ![img]({{site.cdn}}/assets/images/blog/2019/20190531010609.png)
 
 2. 选中共享文件 右键将之映射为网络驱动器
 
-![img]({{site.cdn}}/assets/images/blog/2019/20190531010714.png)
+   ![img]({{site.cdn}}/assets/images/blog/2019/20190531010714.png)
 
 3. 查看
 
-![img]({{site.cdn}}/assets/images/blog/2019/20190531010811.png)
+   ![img]({{site.cdn}}/assets/images/blog/2019/20190531010811.png)
 
 ## 使EveryThing可以搜网络驱动器
 
@@ -164,39 +162,41 @@ exit
 
 1. 下载后使用任意版本即可
 
-![img]({{site.cdn}}/assets/images/blog/2019/20190531011308.png)
+   ![img]({{site.cdn}}/assets/images/blog/2019/20190531011308.png)
 
 2. 双击打开
 
-![img]({{site.cdn}}/assets/images/blog/2019/20190531013325.png)
+   ![img]({{site.cdn}}/assets/images/blog/2019/20190531013325.png)
 
 3. 点击运行
 
-![img]({{site.cdn}}/assets/images/blog/2019/20190531013404.png)
+   ![img]({{site.cdn}}/assets/images/blog/2019/20190531013404.png)
 
 4. 如果弹出此界面选择`安装"Everything"服务`,否则将看不到映射的磁盘（共享文件）
 
-![img]({{site.cdn}}/assets/images/blog/2019/20190531014102.png)
+   ![img]({{site.cdn}}/assets/images/blog/2019/20190531014102.png)
 
 5. 打开 工具->选项
 
-![img]({{site.cdn}}/assets/images/blog/2019/20190531011420.png)
+   ![img]({{site.cdn}}/assets/images/blog/2019/20190531011420.png)
 
 6. 选中需要添加的点击确定即可
 
-![img]({{site.cdn}}/assets/images/blog/2019/20190531011716.png)
+   ![img]({{site.cdn}}/assets/images/blog/2019/20190531011716.png)
 
-![img]({{site.cdn}}/assets/images/blog/2019/20190531014209.png)
+   ![img]({{site.cdn}}/assets/images/blog/2019/20190531014209.png)
 
 7. 搜索(可以看到是可以搜索到映射的磁盘中的文件的)
 
-![img]({{site.cdn}}/assets/images/blog/2019/20190531014347.png)
+   ![img]({{site.cdn}}/assets/images/blog/2019/20190531014347.png)
 
 ## FAQ
 
 ### 外网不可访问445,139
 
-**问题 :** 未配置VPN,在路由器做了139 和445的端口映射后
+**问题 :** 
+
+未配置VPN,在路由器做了139 和445的端口映射后
 
 ![img]({{site.cdn}}/assets/images/blog/2019/20190531002929.png)
 
