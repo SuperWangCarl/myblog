@@ -51,21 +51,21 @@ keywords: carlme,superwang,superwangcarl,carl,卡尔米,nas,exsi
 
 ## 配置vpn
 
-此时所有的链接都走的vpn的网关,即我们访问任何网站,比如百度时,都需要经过我们的nas,这是不需要的,我们需要的结果是访问nas共享文件夹才走vpn的网关,访问外网的时候仍然走我们以前的网关,不经过我们的nas,此时需要配置一些参数
+> 此时所有的链接都走的vpn的网关,即我们访问任何网站,比如百度时,都需要经过我们的nas,这是不需要的,我们需要的结果是访问nas共享文件夹才走vpn的网关,访问外网的时候仍然走我们以前的网关,不经过我们的nas,此时需要配置一些参数
 
-### 查看路由表
-
-cmd命令行下执行
-
-```
-route print
-```
-
-可以查看到
-
-`此时任何网络都是走的vpn网关`
-
-![img]({{site.cdn}}/assets/images/blog/2019/20190531005635.png)
+> **第一次查看路由表**
+>
+> cmd命令行下执行
+>
+> ```
+> route print
+> ```
+>
+> 可以查看到
+>
+> `此时任何网络都是走的vpn网关`
+>
+> ![img]({{site.cdn}}/assets/images/blog/2019/20190531005635.png)
 
 ### 配置所有请求都不走vpn网关
 
@@ -87,36 +87,43 @@ route print
 
 #### 之后点击保存
 
+> **第二次查看路由表**
+>
+> cmd命令行下执行
+>
+> ```
+> route print
+> ```
+>
+> 可以查看到
+>
+> `此时任何网络都是走的非vpn网关`
+>
+> ![img]({{site.cdn}}/assets/images/blog/2019/20190531005005.png)
+
 ### 配置访问nas的走vpn网关
 
-### 查看路由表
-
-cmd命令行下执行
-
-```
-route print
-```
-
-可以查看到
-
-`此时任何网络都是走的非vpn网关`
-
-![img]({{site.cdn}}/assets/images/blog/2019/20190531005005.png)
-
-### cmd命令行下执行 
+#### cmd命令行下执行 
 
 路由表添加
 
 ```
 route add 192.168.1.150 mask 255.255.255.255 10.103.45.1
-route print
 ```
 
-`此时只有访问192.168.1.150是走的vpn网关`
-
-![img]({{site.cdn}}/assets/images/blog/2019/20190531005213.png)
+> 第三次查看路由表
+>
+> ```
+> route print
+> ```
+>
+> `此时只有访问192.168.1.150是走的vpn网关`
+>
+> ![img]({{site.cdn}}/assets/images/blog/2019/20190531005213.png)
 
 ### 编写一键bat脚本
+
+`自动链接 VPN 自动添加网关`
 
 `需要右键已管理员的身份运行`
 
@@ -133,17 +140,17 @@ exit
 
 ## 将共享文件映射问本地磁盘
 
-打开`Win+R`输入我们的nas地址`\\192.168.1.150`
+1. 打开`Win+R`输入我们的nas地址`\\192.168.1.150`
 
 ![img]({{site.cdn}}/assets/images/blog/2019/20190531010509.png)
 
 ![img]({{site.cdn}}/assets/images/blog/2019/20190531010609.png)
 
-选中共享文件 右键将之映射为网络驱动器
+2. 选中共享文件 右键将之映射为网络驱动器
 
 ![img]({{site.cdn}}/assets/images/blog/2019/20190531010714.png)
 
-查看
+3. 查看
 
 ![img]({{site.cdn}}/assets/images/blog/2019/20190531010811.png)
 
@@ -155,33 +162,33 @@ exit
 
 [下载地址]({{site.downcdn}}/download/everythingportable32w64w.zip)
 
-下载后使用任意版本即可
+1. 下载后使用任意版本即可
 
 ![img]({{site.cdn}}/assets/images/blog/2019/20190531011308.png)
 
-双击打开
+2. 双击打开
 
 ![img]({{site.cdn}}/assets/images/blog/2019/20190531013325.png)
 
-点击运行
+3. 点击运行
 
 ![img]({{site.cdn}}/assets/images/blog/2019/20190531013404.png)
 
-如果弹出此界面选择`安装"Everything"服务`,否则将看不到映射的磁盘（共享文件）
+4. 如果弹出此界面选择`安装"Everything"服务`,否则将看不到映射的磁盘（共享文件）
 
 ![img]({{site.cdn}}/assets/images/blog/2019/20190531014102.png)
 
-打开 工具->选项
+5. 打开 工具->选项
 
 ![img]({{site.cdn}}/assets/images/blog/2019/20190531011420.png)
 
-选中需要添加的点击确定即可
+6. 选中需要添加的点击确定即可
 
 ![img]({{site.cdn}}/assets/images/blog/2019/20190531011716.png)
 
 ![img]({{site.cdn}}/assets/images/blog/2019/20190531014209.png)
 
-搜索(可以看到是可以搜索到映射的磁盘中的文件的)
+7. 搜索(可以看到是可以搜索到映射的磁盘中的文件的)
 
 ![img]({{site.cdn}}/assets/images/blog/2019/20190531014347.png)
 
@@ -210,6 +217,8 @@ exit
 **参考连接 :** 无
 
 **解决 :** 未解决,配置vpn server实现外网访问内部文件夹
+
+***
 
 ### everything无法识别网络驱动器
 
