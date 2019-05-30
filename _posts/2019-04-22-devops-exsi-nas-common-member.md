@@ -61,35 +61,15 @@ keywords: carlme,superwang,superwangcarl,carl,卡尔米,nas,exsi
 
 ### *iscsi manager
 
+### *iSCSI Target
+
+### *iSCSI LUN
+
 > nas的存储 映射到电脑上
 
 ### *vpn server
 
-> 远程链接内网nas共享文件夹
-
-![img]({{site.cdn}}/assets/images/blog/2019/20190529122012.png)
-
-#### 配置
-
-![img]({{site.cdn}}/assets/images/blog/2019/20190529122127.png)
-
-#### 路由器做外网映射
-
-![img]({{site.cdn}}/assets/images/blog/2019/20190529122206.png)
-
-#### 配置电脑vpn
-
-![img]({{site.cdn}}/assets/images/blog/2019/20190529122300.png)
-
-#### 添加vpn
-
-![img]({{site.cdn}}/assets/images/blog/2019/20190529122345.png)
-
-![img]({{site.cdn}}/assets/images/blog/2019/20190529122431.png)
-
-#### 连接
-
-![img]({{site.cdn}}/assets/images/blog/2019/20190529122500.png)
+> 远程链接内网nas 实现外网访问 共享文件夹
 
 ## FAQ
 

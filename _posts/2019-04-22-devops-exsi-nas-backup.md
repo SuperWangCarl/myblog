@@ -4,7 +4,7 @@ no-post-nav: false
 copyright: me
 original: me
 comments: true
-title: NAS的备份和磁盘映射
+title: NAS的备份
 category: devops
 tags: [devops]
 excerpt: NAS的备份和磁盘映射
@@ -19,7 +19,7 @@ keywords: carlme,superwang,superwangcarl,carl,卡尔米,nas,exsi
 
 ### raid备份
 
-无,详见上篇博文
+无,详见[上篇博文](https://www.expreview.com/25412-all.html)
 
 ### 电脑和nas备份
 
@@ -31,7 +31,7 @@ keywords: carlme,superwang,superwangcarl,carl,卡尔米,nas,exsi
 
 服务端的`drive`默认端口为6690,需要在路由器中做相应的映射
 
-服务端代开 Drive管理控制台
+服务端代开 `Drive管理控制台`
 
 ![img]({{site.cdn}}/assets/images/blog/2019/20190421204411.png)
 
@@ -78,17 +78,3 @@ keywords: carlme,superwang,superwangcarl,carl,卡尔米,nas,exsi
 ![img]({{site.cdn}}/assets/images/blog/2019/20190422092308.png)
 
 ![img]({{site.cdn}}/assets/images/blog/2019/20190422092340.png)
-
-## *磁盘映射本地
-
-### iSCSI Target
-
-### iSCSI LUN
-
-暂无
-
-## 参考资料
-
-[PC与NAS之间的备份](http://www.cdaten.com/news/html/?629.html)
-
-[全身心拥抱NAS，如何使用iSCSI Target服务？](https://www.expreview.com/25412-all.html)
