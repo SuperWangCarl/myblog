@@ -69,6 +69,8 @@ keywords: carlme,superwang,superwangcarl,carl,卡尔米,nas,exsi
 
 ### *vpn server
 
+[教程]({{site.url}}/devops/2019/05/31/devops-exsi-nas-vpnserver-file.html)
+
 > 远程链接内网nas 实现外网访问 共享文件夹
 
 ## FAQ
