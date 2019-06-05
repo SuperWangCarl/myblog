@@ -23,9 +23,9 @@ keywords: carlme,superwang,superwangcarl,carl,卡尔米,流程图,jekyll
 
 ```html
 <!-- 流程图 -->
-<script src="https://cdn.bootcss.com/raphael/2.2.0/raphael-min.js"></script>
-<script src="https://cdn.bootcss.com/flowchart/1.6.3/flowchart.js"></script>
-<script src="/assets/js/flow.min.js"></script>
+    <script type="text/javascript"  src="{{ site.smartcdn }}/assets/js/raphael.min.js"></script>
+    <script type="text/javascript"  src="{{ site.smartcdn }}/assets/js/flowchart.min.js"></script>
+    <script type="text/javascript"  src="{{ site.smartcdn }}/assets/js/flow.min.js"></script>
 ```
 
 ### 2. 其中flow.min.js是自己改的代码

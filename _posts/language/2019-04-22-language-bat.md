@@ -24,7 +24,9 @@ keywords: carlme,superwang,superwangcarl,carl,卡尔米,Bat,language
 ```powershell
 @echo off 
 for /R "./" %%s in (*.mp4) do (
+:: ns 遍历所有文件不带带后缀
 md %%~ns
+:: nxs 遍历所有文件带后缀
 echo %%~nxs
 ffmpeg -i %%s -map 0 -c copy -f ssegment -segment_list %%~ns/%%~ns.m3u8 -segment_list_type m3u8  -segment_time 10  %%~ns/ezjzw01_%%01d.ts
 ) 
@@ -85,3 +87,5 @@ goto start
 ## 参考资料
 
 [bat 进入或跳转到其它目录命令](https://blog.csdn.net/jijianshuai/article/details/78833101)
+
+[批处理脚本遍历指定文件夹下的文件](https://www.cnblogs.com/liangblog/p/9835940.html)
