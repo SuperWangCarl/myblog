@@ -11,8 +11,6 @@ excerpt: 博客jekyll添加模版动画
 keywords: carlme,superwang,superwangcarl,carl,卡尔米,live2d-widget,jekyll
 ---
 
-
-
 ## 1. 简介
 
 感觉这个动画满萌的添加个动画
