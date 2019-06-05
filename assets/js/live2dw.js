@@ -12,7 +12,7 @@ $(function () {
             "pluginModelPath": "assets/",
             "tagMode": false,
             "debug": false,
-            "model": {"jsonPath": "/assets/live2dw/assets/Epsilon2.1.model.json"},
+            "model": {"jsonPath": "{{ site.smartcdn }}/assets/live2dw/assets/Epsilon2.1.model.json"},
             "display": {"position": "right", "width": 150, "height": 300},
             "mobile": {"show": true},
             "log": false
