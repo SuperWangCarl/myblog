@@ -19,7 +19,87 @@ keywords: carlme,superwang,superwangcarl,carl,卡尔米,live2d-widget,jekyll
 
 ![img]({{site.cdn}}/assets/images/blog/2019/20190605172515.png)
 
+由于这个是基于Hexo的方式开发的,所以引用到jekyll里面还是费点劲的
+
 ## 2. 步骤
+
+> 此步骤可以忽略,纯粹是为了获取生成的静态数据,可以直接到第三步中获取
+
+### 1.安装nodejs(略)
+
+### 2.安装Hexo
+
+1. 执行命令
+
+   ```shell
+   ::安装脚手架
+   npm install hexo-cli -g
+   ::初始化博客
+   hexo init blog
+   ::进入博客
+   cd blog
+   ::为博客安装依赖
+   npm install
+   ::启动博客
+   hexo server
+   ```
+
+2. 效果如图
+
+   ![img]({{site.cdn}}/assets/images/blog/2019/20190605230213.png)
+
+### 3.安装Live2D
+
+1. 接着上面的命令行执行
+
+   ```shell
+   npm install --save hexo-helper-live2d
+   ```
+
+2. 将下面的代码添加到Hexo博客的配置文件`_config.xml`中
+
+   ```yaml
+   live2d:
+     enable: true
+     scriptFrom: local
+     pluginRootPath: live2dw/
+     pluginJsPath: lib/
+     pluginModelPath: assets/
+     tagMode: false
+     debug: false
+     model:
+       use: wanko
+     display:
+       position: right
+       width: 150
+       height: 300
+     mobile:
+       show: true
+   ```
+
+3. 但这一步只下载了个空壳，不包含看板娘的。所以还需要下载看板娘`资源`。详见[live2d-widget-models](https://github.com/xiazeyu/live2d-widget-models)。
+
+   ```
+    git clone https://github.com/xiazeyu/live2d-widget-models.git
+   ```
+
+4. 找到项目里的`live2d-widget-model-wanko`文件夹，把里面`assets`里面的内容（不含`assets`文件夹），拷贝到Hexo的`blog`文件夹下新建一个`live2d_models\wanko`文件夹中。
+
+   ![img]({{site.cdn}}/assets/images/blog/2019/20190605230817.png)
+
+5. 注意`_config.xml`中的`model`下面的`use`和`live2d_models`下面的文件夹相对应。
+
+6. 重新运行
+
+   ```
+   hexo server
+   ```
+
+   效果图:
+
+   ![img]({{site.cdn}}/assets/images/blog/2019/20190605230920.png)
+
+
 
 ### 1. 在footer中引入js
 
@@ -35,3 +115,9 @@ keywords: carlme,superwang,superwangcarl,carl,卡尔米,live2d-widget,jekyll
 ```javascript
 
 ```
+
+## 3.参考链接
+
+[如何给你的Jekyll博客添加可爱的二次元看板娘(Live2D)](https://done.moe/tutorial/2018/08/11/how-to-add-cute-live2d-in-jekyll-blog/)
+
+[hexo 添加live2d看板动画](https://www.cnblogs.com/xiaqiuchu/p/10356578.html)
