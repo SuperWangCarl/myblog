@@ -23,7 +23,9 @@ keywords: carlme,superwang,superwangcarl,carl,卡尔米,live2d-widget,jekyll
 
 ## 2. 步骤
 
-> 此步骤可以忽略,纯粹是为了获取生成的静态数据,可以直接到第三步中获取
+> 此步骤可以忽略,纯粹是为了获取生成的静态数据
+>
+> 可以直接到3.7之后获取
 
 ### 1.安装nodejs(略)
 
@@ -99,22 +101,45 @@ keywords: carlme,superwang,superwangcarl,carl,卡尔米,live2d-widget,jekyll
 
    ![img]({{site.cdn}}/assets/images/blog/2019/20190605230920.png)
 
+7. 编译静态文件
 
+   ```
+   hexo deploy
+   ```
 
-### 1. 在footer中引入js
+### 4.配置jekyll的动态图
 
-```html
-<!-- 动漫图 -->
-<script src="/assets/js/L2Dwidget.js"></script>
-```
+1. 打开public下的`index.html`文件,获取此行,放入footer中
 
-### 2. 其中flow.min.js是自己改的代码
+   `可以适当修改`
 
-修改的如下,也比较简单
+   ```javascript
+   <!-- 动漫图 -->
+       <script src="{{ site.smartcdn }}/assets/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script>
+       <script>
+           setTimeout(() => {
+               L2Dwidget.init({
+                   "pluginRootPath": "assets/live2dw/",
+                   "pluginJsPath": "lib/",
+                   "pluginModelPath": "assets/",
+                   "tagMode": false,
+                   "debug": false,
+                   "model": {"jsonPath": "/assets/live2dw/assets/wanko.model.json"},
+                   "display": {"position": "right", "width": 150, "height": 300},
+                   "mobile": {"show": true},
+                   "log": false
+               })
+           }, 1000)
+       </script>
+   ```
 
-```javascript
+2. 将public下的`live2dw`复制放倒jekyll的assets目录下
 
-```
+   ![img]({{site.cdn}}/assets/images/blog/2019/20190605232958.png)
+
+3. 如图,打工告成
+
+   ![img]({{site.cdn}}/assets/images/blog/2019/20190605233352.png)
 
 ## 3.参考链接
 

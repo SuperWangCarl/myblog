@@ -68,47 +68,24 @@
     <script type="text/javascript" src="{{ site.smartcdn }}/assets/js/flow.min.js"></script>
 
     <!-- 动漫图 -->
-    <script src="{{ site.smartcdn }}/assets/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05">
-
-    </script>
-    <script>L2Dwidget.init({
-        "pluginRootPath": "assets/live2dw/",
-        "pluginJsPath": "lib/",
-        "pluginModelPath": "assets/",
-        "tagMode": false,
-        "debug": false,
-        "model": {"jsonPath": "/assets/live2dw/assets/wanko.model.json"},
-        "display": {"position": "right", "width": 150, "height": 300},
-        "mobile": {"show": true},
-        "log": false
-    });</script>
-    1<!-- 右下角live2d效果 -->
-    <script type="text/javascript">
+    <script src="{{ site.smartcdn }}/assets/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script>
+    <script>
         setTimeout(() => {
             L2Dwidget.init({
-                "model": {
-                    "scale": 0.5
-                },
-                "display": {
-                    "position": "right",
-                    "width": 180,
-                    "height": 260,
-                    "hOffset": 0,
-                    "vOffset": -20
-                },
-                "mobile": {
-                    "show": true,
-                    "scale": 0.5
-                },
-                "react": {
-                    "opacityDefault": 0.7,
-                    "opacityOnHover": 0.2
-                }
-            });
+                "pluginRootPath": "assets/live2dw/",
+                "pluginJsPath": "lib/",
+                "pluginModelPath": "assets/",
+                "tagMode": false,
+                "debug": false,
+                "model": {"jsonPath": "/assets/live2dw/assets/wanko.model.json"},
+                "display": {"position": "right", "width": 150, "height": 300},
+                "mobile": {"show": true},
+                "log": false
+            })
         }, 1000)
     </script>
-    <div id="live2d-widget">
-        <canvas id="live2dcanvas" width="300" height="600"
-                style="position: fixed; opacity: 0.7; right: 0px; bottom: -20px; z-index: 99999; pointer-events: none; border: 1px dashed rgb(204, 204, 204);"></canvas>
-    </div>
+    <!-- <div id="live2d-widget">
+         <canvas id="live2dcanvas" width="300" height="600"
+                 style="position: fixed; opacity: 0.7; right: 0px; bottom: -20px; z-index: 99999; pointer-events: none; border: 1px dashed rgb(204, 204, 204);"></canvas>
+     </div>-->
 </footer>
