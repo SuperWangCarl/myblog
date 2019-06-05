@@ -135,7 +135,7 @@ keywords: carlme,superwang,superwangcarl,carl,卡尔米,live2d-widget,jekyll
 
    ![img]({{site.cdn}}/assets/images/blog/2019/20190605232958.png)
 
-3. 如图,打工告成
+3. 如图,大功告成
 
    ![img]({{site.cdn}}/assets/images/blog/2019/20190605233352.png)
 
@@ -143,11 +143,11 @@ keywords: carlme,superwang,superwangcarl,carl,卡尔米,live2d-widget,jekyll
 
 如果需要更换图片,只需要更换两个地方即可
 
-1. 将第四布中 github下载的文件中找出自己满意的样式
+1. 将第四步中 github下载的文件中找出自己满意的样式
 
-2. 将下图中的1位置里面的文件都删除,将上一步中的assets中的文件赋值到该位置
+2. 将下图中的1位置里面的文件都删除,将上一步中的assets中的文件复制到该位置
 
-3. 修改  js代码 将model名字替换为和assests中文件同名
+3. 修改 js代码 将model名字替换为和assests中文件同名
 
 4. 如图
 
