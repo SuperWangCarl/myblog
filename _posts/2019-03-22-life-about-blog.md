@@ -24,6 +24,6 @@ sitemap: false
 
 [Yummy-Jekyll的主题地址](https://github.com/DONGChuan/Yummy-Jekyll)
 
-> 此博客用于记录 以后学习的新技术 等
+> 此博客用于记录 以后学习的新技术 等..
 
 ​	
