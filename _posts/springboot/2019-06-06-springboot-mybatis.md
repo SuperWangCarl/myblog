@@ -63,7 +63,7 @@ keywords: carlme,superwang,superwangcarl,carl,卡尔米,springboot,java,Mybatisp
 
 10. 测试
 
-   ![img]({{site.cdn}}/assets/images/blog/2019/20190606164335.png)
+  ![img]({{site.cdn}}/assets/images/blog/2019/20190606164335.png)
 
 11. 结果
 
