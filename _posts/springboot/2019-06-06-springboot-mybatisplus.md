@@ -13,7 +13,7 @@ keywords: carlme,superwang,superwangcarl,carl,卡尔米,springboot,java,Mybatisp
 
 ## 简介
 
-mybatisplus操作数据库还是比较方便的,性能也没有什么损耗.此篇集成一下
+mybatisplus操作数据库还是比较方便的,性能也没有什么损耗.此篇讲解mybatisplus的集成和MP代码生成器
 
 ## 代码地址
 
@@ -49,7 +49,11 @@ mybatisplus操作数据库还是比较方便的,性能也没有什么损耗.此�
 
    ![img]({{site.cdn}}/assets/images/blog/2019/20190606151718.png)
 
-8. 测试
+8. 配置maven将xml可编译带class中
+
+   ![img]({{site.cdn}}/assets/images/blog/2019/20190606152630.png)
+
+9. 测试
 
    ![img]({{site.cdn}}/assets/images/blog/2019/20190606151735.png)
 

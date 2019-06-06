@@ -103,6 +103,44 @@ keywords: carlme,superwang,superwangcarl,carl,卡尔米,springboot,FAQ
 InputStream inputStream = this.getClass().getClassLoader().getResourceAsStream("template/" + fileName);//获取文件路径
 ```
 
+***
+
+整合durid数据源出错
+
+**问题 :**  Failed to bind properties under 'spring.datasource' to javax.sql.DataSource
+
+![img]({{site.cdn}}/assets/images/blog/2019/20190606162055.png)
+
+![img]({{site.cdn}}/assets/images/blog/2019/20190606162109.png)
+
+**原因 :** `springboot升级到2.X会出现此问题`
+
+![img]({{site.cdn}}/assets/images/blog/2019/20190606162627.png)
+
+根据报错提示在配置文件的24行，查看配置文件，该行代码是     filters: stat,wall,log4j
+
+**参考连接 :** [Failed to bind properties under](https://blog.csdn.net/xingkongtianma01/article/details/81624313)
+
+**解决 :** 
+
+方式一: 在pom中添加需要的依赖
+
+```xml
+<dependency>
+   <groupId>log4j</groupId>
+   <artifactId>log4j</artifactId>
+   <version>1.2.17</version>
+</dependency>
+```
+
+方式二: 将DuridConfig中的配置注释掉
+
+![img]({{site.cdn}}/assets/images/blog/2019/20190606162422.png)
+
+方式三: 将springboot的版本退回`2.0以下`
+
+***
+
 
 
 ## 常用
