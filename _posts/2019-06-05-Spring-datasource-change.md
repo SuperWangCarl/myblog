@@ -4,16 +4,16 @@ no-post-nav: false
 copyright: me
 original: me
 comments: true
-title: spring多数据源切换
+title: 多数据源切换--Spring
 category: java
 tags: [java]
-excerpt: spring多数据源切换
+excerpt: 多数据源切换--Spring
 keywords: carlme,superwang,superwangcarl,carl,卡尔米,springboot,java
 ---
 
 ## 简介
 
-spring多数据源切换总结
+多数据源切换--Spring
 
 ## 代码地址
 
