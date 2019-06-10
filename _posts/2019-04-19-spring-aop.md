@@ -30,7 +30,7 @@ keywords: carlme,superwang,superwangcarl,carl,卡尔米,Spring,aop
 
 ### ProceedingJoinPoint 
 
-- ProceedingJoinPoint : 继承JoinPoint子接口，它新增了两个用于执行连接点方法的方法：
+- ProceedingJoinPoint : `继承JoinPoint子接口`，它新增了两个用于执行连接点方法的方法：
 - java.lang.Object proceed() throws java.lang.Throwable：通过反射执行目标对象的连接点处的方法；
 - java.lang.Object proceed(java.lang.Object[] args) throws java.lang.Throwable：通过反射执行目标对象连接点处的方法，不过使用新的入参替换原来的入参。 
 
