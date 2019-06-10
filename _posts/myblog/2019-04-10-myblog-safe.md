@@ -23,7 +23,7 @@ keywords: carlme,superwang,superwangcarl,carl,卡尔米,linux,nginx,myblog
 
 ### 1. nginx禁止GET,HEAD以外的请求
 
-> 由于我使用的都是静态文件,所以我就精致了GET|HEAD以外的其他请求
+> 由于我使用的都是静态文件,所以我就禁止了GET|HEAD以外的其他请求
 
 直接在http模块中添加
 
