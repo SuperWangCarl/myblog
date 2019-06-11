@@ -105,7 +105,7 @@ InputStream inputStream = this.getClass().getClassLoader().getResourceAsStream("
 
 ***
 
-整合durid数据源出错
+### 整合durid数据源出错
 
 **问题 :**  Failed to bind properties under 'spring.datasource' to javax.sql.DataSource
 
@@ -141,26 +141,3 @@ InputStream inputStream = this.getClass().getClassLoader().getResourceAsStream("
 
 ***
 
-
-
-## 常用
-
-### springmvc两个参数实体的封装
-
-#### 默认封装 (可以)
-
-***请求url*** : localhost:8080/mytest/mytest?outputcode=1243&id&netweight=321
-
-***后台代码***
-
-![img]({{site.cdn}}/assets/images/blog/2019/20190419144417.png)
-
-***结果***
-
-![img]({{site.cdn}}/assets/images/blog/2019/20190419144518.png)
-
-#### @RequestBody封装 (不可以)
-
-***结果***
-
-![img]({{site.cdn}}/assets/images/blog/2019/20190419144615.png)
