@@ -141,3 +141,30 @@ InputStream inputStream = this.getClass().getClassLoader().getResourceAsStream("
 
 ***
 
+### 多数据源配置为找到mapper
+
+**问题 :** 多数据源配置为找到mapper
+
+**原因 :** 没有添加@MapperScan注解
+
+**参考链接 :** 
+
+**解决 :** 添加@MapperScan
+
+***
+
+### 在where中使用`1=1` 出错
+
+**问题 :** 
+
+![img]({{site.cdn}}/assets/images/blog/2019/20190618144752.png)
+
+**原因 :** druid中配置了`wall`防火前
+
+**参考链接 :** [druid sql黑名单 报异常 sql injection violation, part alway true condition not allow](https://www.cnblogs.com/catalina-/p/druid.html)
+
+**解决 :** 
+
+```
+将属性<property name="filters" value="config,stat,wall,log4j" />改成<property name="filters" value="config,stat,log4j" />
+```
