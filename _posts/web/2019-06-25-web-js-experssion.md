@@ -4,10 +4,10 @@ no-post-nav: false
 copyright: me
 original: https://www.cnblogs.com/lemonade1172/p/7388638.html
 comments: true
-title: JavaScript赋值语句中的逻辑与&&和逻辑或||(转)
+title: JS中&&和||(转)
 category: js
 tags: [web,javascript]
-excerpt: 介绍常见的三种开源协议
+excerpt: JavaScript赋值语句中的逻辑与&&和逻辑或||(转)
 keywords: carlme,superwang,superwangcarl,carl,git,license,卡尔米,web,javascript
 ---
 
