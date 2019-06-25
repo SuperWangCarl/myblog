@@ -8,7 +8,7 @@ title: 开源协议介绍
 category: git
 tags: [license]
 excerpt: 介绍常见的三种开源协议
-keywords: carlme,superwang,superwangcarl,carl,git,license,卡尔米
+keywords: carlme,superwang,superwangcarl,carl,git,license,卡尔米,utils
 ---
 
 ## 1. 常见许可证

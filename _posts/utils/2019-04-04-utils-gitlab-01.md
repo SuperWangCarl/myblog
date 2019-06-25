@@ -8,7 +8,7 @@ title: gitlab常用总结
 category: devops
 tags: [git,gitlab,linux]
 excerpt: gitlab常用总结
-keywords: carlme,superwang,superwangcarl,carl,git,gitlab,linux,用户,devops,卡尔米
+keywords: carlme,superwang,superwangcarl,carl,git,gitlab,linux,用户,devops,卡尔米,utils
 ---
 
 # Gitlab
