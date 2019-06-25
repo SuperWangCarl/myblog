@@ -4,10 +4,10 @@ no-post-nav: false
 copyright: me
 original: me
 comments: true
-title: gitlab初级操作
+title: gitlab常用总结
 category: devops
 tags: [git,gitlab,linux]
-excerpt: gitlab的初级操作
+excerpt: gitlab常用总结
 keywords: carlme,superwang,superwangcarl,carl,git,gitlab,linux,用户,devops,卡尔米
 ---
 

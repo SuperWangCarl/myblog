@@ -1,12 +1,12 @@
 ---
 layout: page
-title: 常用错误总结
-titlebar: FAQ
-subtitle: <span class="mega-octicon octicon-clippy"></span>&nbsp;&nbsp; 总结些平常工作中的错误
+title: 设计模式
+titlebar: souce
+subtitle: <span class="mega-octicon octicon-clippy"></span>&nbsp;&nbsp; 总结一些常用的设计模式
 menu: all
 css: ['blog-page.min.css']
-permalink: /faq.html
-keywords: FAQ
+permalink: /dese-model.html
+keywords: dese
 ---
 
 <div class="row">
@@ -15,7 +15,7 @@ keywords: FAQ
 
         <ul id="posts-list">
             {% for post in site.posts %}
-                {% if post.category=='FAQ' or post.keywords contains 'faq' or post.keywords contains 'FAQ' %}
+                {% if post.category=='dese' or post.keywords contains 'dese'%}
                 <li class="posts-list-item">
                     <div class="posts-content">
                         <span class="posts-list-meta">{{ post.date | date: "%Y-%m-%d" }}</span>

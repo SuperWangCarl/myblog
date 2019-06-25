@@ -1,12 +1,12 @@
 ---
 layout: page
-title: sso
-titlebar: sso
-subtitle: <span class="mega-octicon octicon-clippy"></span>&nbsp;&nbsp; sso单点登录
+title: 工具集合
+titlebar: utils
+subtitle: <span class="mega-octicon octicon-clippy"></span>&nbsp;&nbsp; 开发中用到的工具集合
 menu: all
 css: ['blog-page.min.css']
-permalink: /sso.html
-keywords: sso
+permalink: /utils.html
+keywords: utils
 ---
 
 <div class="row">
@@ -15,7 +15,7 @@ keywords: sso
 
         <ul id="posts-list">
             {% for post in site.posts %}
-                {% if post.category=='sso'%}
+                {% if post.category=='utils' or post.keywords contains 'utils' or post.keywords contains 'utils' %}
                 <li class="posts-list-item">
                     <div class="posts-content">
                         <span class="posts-list-meta">{{ post.date | date: "%Y-%m-%d" }}</span>

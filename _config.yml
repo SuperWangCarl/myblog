@@ -207,8 +207,28 @@ labels:
     target: _blank
 
   -
-    href: /sso.html
-    label: sso
+    href: /utils.html
+    label: utils
+    target: _blank
+
+  -
+    href: /safe.html
+    label: 安全认证
+    target: _blank
+
+  -
+    href: /performance-optimize.html
+    label: 性能优化
+    target: _blank
+
+  -
+    href: /source-parse.html
+    label: 源码解析
+    target: _blank
+
+  -
+    href: /dese-model.html
+    label: 设计模式
     target: _blank
 
 # selected articles
@@ -220,7 +240,7 @@ classes:
     describe: 记录生活和工作的点点滴滴
 
   -
-    href: /arch.html
+    href: /all.html
     name: 架构师之路
     describe: 一个架构师的自我修养
 
