@@ -108,4 +108,4 @@ console.log(b || a);                   //56
 
 ## 参考资料
 
-[【JavaScript】JavaScript赋值语句中的逻辑与&&和逻辑或||](https://www.cnblogs.com/lemonade1172/p/7388638.html)
+[JavaScript赋值语句中的逻辑与和逻辑或](https://www.cnblogs.com/lemonade1172/p/7388638.html)
