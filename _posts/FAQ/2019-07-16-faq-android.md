@@ -19,7 +19,21 @@ keywords: carlme,superwang,superwangcarl,carl,卡尔米,Android,FAQ
 
 ## Android配置
 
-...
+**问题 :** 配置后出错
+
+![img]({{site.cdn}}/assets/images/blog/2019/20190819105351.png)
+
+**原因 :** 添加了无法解析的属性,删除即可
+
+![img]({{site.cdn}}/assets/images/blog/2019/20190819105452.png)
+
+**参考链接 :** 
+
+**解决 :** 
+
+![img]({{site.cdn}}/assets/images/blog/2019/20190819105520.png)
+
+
 
 ## Android和H5
 
@@ -52,4 +66,23 @@ public void showcontacts() {
     });
 }
 ```
+
+## Android调试
+
+### failed to copy ... Read-only file system
+
+**问题 :** 遇到需要将jar和so push到设备的情况，某些没有调整文件权限的设备可能会遇到
+
+failed to copy ... Read-only file system 类似的提示。
+
+**原因 :** 权限不够
+
+**参考链接 :** [android设备调试遇到failed to copy ... Read-only file sys](https://ifoggy.iteye.com/blog/1889226)
+
+**解决 :** 
+
+1. 用 adb shell 命令进入到设备的文件系统；
+2. 用 su 命令切换到root用户（设备需要root）；
+3. 用 mount -o remount,rw -t yaffs2 /dev/block/mtdblock0 /system 重新挂载文件系统（如果没有这一步，即使修改了system文件夹的权限，也不能push成功）；
+4. 用 chmod 777 /system 修改相关文件夹权限。
 
