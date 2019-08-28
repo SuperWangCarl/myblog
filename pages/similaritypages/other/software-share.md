@@ -1,12 +1,12 @@
 ---
 layout: page
-title: Docker 系列文章
-titlebar: linux
-subtitle: <span class="mega-octicon octicon-flame"></span>&nbsp;&nbsp; Docker 系列教程
-menu: docker
+title: 软件分享
+titlebar: utils
+subtitle: <span class="mega-octicon octicon-clippy"></span>&nbsp;&nbsp; 一些娱乐类的软件分享
+menu: all
 css: ['blog-page.min.css']
-permalink: /docker.html
-keywords: Docker,DockerFile,Swarm,docker-machine,MCompose,Docker 学习,服务编排
+permalink: /software-share.html
+keywords: software-share
 ---
 
 <div class="row">
@@ -15,7 +15,7 @@ keywords: Docker,DockerFile,Swarm,docker-machine,MCompose,Docker 学习,服务�
 
         <ul id="posts-list">
             {% for post in site.posts %}
-                {% if post.category=='docker' or post.keywords contains 'docker' or post.keywords contains 'Docker' %}
+                {% if post.category=='utils' or post.keywords contains 'utils' or post.keywords contains 'utils' %}
                 <li class="posts-list-item">
                     <div class="posts-content">
                         <span class="posts-list-meta">{{ post.date | date: "%Y-%m-%d" }}</span>

@@ -138,6 +138,9 @@ navs:
     target: _self
     subnav:
 
+    - subHref: /js.html
+      subLabel: js
+
     - subHref: /jquery.html
       subLabel: Jquery
 
@@ -190,7 +193,6 @@ navs:
 
 # labels. my blog key words
 labels:
-
   -
     href: /myblog.html
     label: myblog
@@ -224,6 +226,11 @@ labels:
   -
     href: /source-parse.html
     label: 源码解析
+    target: _blank
+
+  -
+    href: /software-share.html
+    label: 软件分享
     target: _blank
 
   -

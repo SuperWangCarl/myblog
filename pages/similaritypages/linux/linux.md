@@ -15,7 +15,7 @@ keywords: linux
 
         <ul id="posts-list">
             {% for post in site.posts %}
-                {% if post.category=='linux'  or post.keywords contains 'Linux' or post.keywords contains 'linux' or post.keywords contains 'Docker' or post.keywords contains 'docker'%}
+                {% if post.category=='linux'  or if post.category=='software' or if post.category=='docker'%}
                 <li class="posts-list-item">
                     <div class="posts-content">
                         <span class="posts-list-meta">{{ post.date | date: "%Y-%m-%d" }}</span>
