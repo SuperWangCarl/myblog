@@ -25,7 +25,7 @@ uglifyjs -V
 
 其中的升级和错误,暂且不说
 
-![img]({{site.cdn}}/assets/images/blog/2019/20190828112931.png)
+![img]({{site.cdn}}/assets/images/blog/2019/20190828112931.jpg)
 
 ## 简单使用
 
@@ -68,7 +68,7 @@ uglifyjs 1.js 2.js -o min.js -c -m --source-map
 
 此处我配置两个,一个合并压缩所有的js文件,一个合并压缩单个的js文件
 
-![img]({{site.cdn}}/assets/images/blog/2019/20190828114832.png)
+![img]({{site.cdn}}/assets/images/blog/2019/20190828114832.jpg)
 
 ### 合并压缩所有
 
@@ -80,17 +80,17 @@ uglifyjs 1.js 2.js -o min.js -c -m --source-map
    $FileName$  -o ../dist/all.min.js -c -m
    ```
 
-![img]({{site.cdn}}/assets/images/blog/2019/20190828115143.png)
+![img]({{site.cdn}}/assets/images/blog/2019/20190828115143.jpg)
 
 2. 配置过滤
 
-   ![img]({{site.cdn}}/assets/images/blog/2019/20190828115235.png)
+   ![img]({{site.cdn}}/assets/images/blog/2019/20190828115235.jpg)
 
 ### 合并压缩单个
 
 1. 配置
 
-   ![img]({{site.cdn}}/assets/images/blog/2019/20190828115659.png)
+   ![img]({{site.cdn}}/assets/images/blog/2019/20190828115659.jpg)
 
 ## 参考资料
 

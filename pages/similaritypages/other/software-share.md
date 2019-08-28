@@ -1,12 +1,12 @@
 ---
 layout: page
-title: 软件分享
+title: 分享
 titlebar: utils
-subtitle: <span class="mega-octicon octicon-clippy"></span>&nbsp;&nbsp; 一些娱乐类的软件分享
+subtitle: <span class="mega-octicon octicon-clippy"></span>&nbsp;&nbsp; 一些分享
 menu: all
 css: ['blog-page.min.css']
-permalink: /software-share.html
-keywords: software-share
+permalink: /share.html
+keywords: share
 ---
 
 <div class="row">
@@ -15,7 +15,7 @@ keywords: software-share
 
         <ul id="posts-list">
             {% for post in site.posts %}
-                {% if post.category=='utils' or post.keywords contains 'utils' or post.keywords contains 'utils' %}
+                {% if post.category=='share' or post.keywords contains 'share' or post.keywords contains 'share' %}
                 <li class="posts-list-item">
                     <div class="posts-content">
                         <span class="posts-list-meta">{{ post.date | date: "%Y-%m-%d" }}</span>
