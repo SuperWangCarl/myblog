@@ -5,7 +5,7 @@ copyright: me
 original: me
 comments: true
 title: 前端js批量压缩和webStrom配置
-category: js
+category: web
 tags: [web,javascript]
 excerpt: 前端js批量压缩和webStrom配置
 keywords: carlme,superwang,superwangcarl,carl,git,license,卡尔米,web,javascript
@@ -72,19 +72,25 @@ uglifyjs 1.js 2.js -o min.js -c -m --source-map
 
 ### 合并压缩所有
 
+> 注意需要按照 加载js的顺序进行合并,否则会导致有的文件无法引用
+>
+
 1. 配置监听
 
-   参数:
-
-   ```
-   $FileName$  -o ../dist/all.min.js -c -m
-   ```
 
 ![img]({{site.cdn}}/assets/images/blog/2019/20190828115143.jpg)
 
-2. 配置过滤
+2. 参数值
 
-   ![img]({{site.cdn}}/assets/images/blog/2019/20190828115235.jpg)
+   > $FileName$  -o ../dist/all.min.js -c -m
+
+   > uglifyjs config.js simple-jquery.js slide.js log.js common.js  -o ../dist/all.min.js -c -m
+
+   ![img]({{site.cdn}}/assets/images/blog/2019/20190901232624.jpg)
+
+3. 配置过滤
+
+![img]({{site.cdn}}/assets/images/blog/2019/20190828115235.jpg)
 
 ### 合并压缩单个
 
