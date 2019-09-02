@@ -4,10 +4,10 @@ no-post-nav: false
 copyright: me
 original: me
 comments: true
-title: 前端css批量压缩和webStrom配置
+title: 前端css压缩和webStrom配置
 category: web
 tags: [web,css]
-excerpt: 前端css批量压缩和webStrom配置
+excerpt: 前端css压缩和webStrom配置
 keywords: carlme,superwang,superwangcarl,carl,git,license,卡尔米,web,css
 ---
 
