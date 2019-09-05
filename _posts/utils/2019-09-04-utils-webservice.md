@@ -27,7 +27,7 @@ webSerivce虽然是一个比较老的跨语言交互接口,但是现在还是需
 
 [**Axis_Client_Server_Generate**](https://github.com/SuperWangCarl/Axis_Client_Server_Generate)
 
-## 使用
+## 生成
 
 - 根据wsdl创建项目
 
@@ -47,7 +47,7 @@ webSerivce虽然是一个比较老的跨语言交互接口,但是现在还是需
 
   ![img]({{site.cdn}}/assets/images/blog/2019/20190904181925.jpg)
 
-### 生成服务端
+### 生成传统服务端
 
 - 选择生成服务端
 
@@ -135,7 +135,7 @@ webSerivce虽然是一个比较老的跨语言交互接口,但是现在还是需
 
     ![img]({{site.cdn}}/assets/images/blog/2019/20190905144900.jpg)
 
-## springboot的服务端
+### 生成springboot服务端
 
 - 新建springboot的web项目
 
@@ -187,6 +187,29 @@ webSerivce虽然是一个比较老的跨语言交互接口,但是现在还是需
 - 访问后效果相同
 
   ![img]({{site.cdn}}/assets/images/blog/2019/20190905151324.jpg)
+
+## 使用
+
+### 客户端
+
+创建对象调用即可
+
+![img]({{site.cdn}}/assets/images/blog/2019/20190905153200.jpg)
+
+`example`
+
+```java
+CSPRequestService service = new CSPRequestServiceLocator();
+					CtmsSoapBindingStub stub =(CtmsSoapBindingStub) service.getctms();
+					//CtmsSoapBindingStub stub = (CtmsSoapBindingStub) service.getctms(url);
+					CSPResult csp=stub.execCmd(Constants.CPID, Constants.LSPID, item_id, Constants.LOCAL_URL + "injectXML/" + item_id+"_"+action+ ".xml");
+```
+
+### 服务端
+
+只需在这个`CtmsSoapBindingImpl`类中编写我们的业务逻辑即可
+
+![img]({{site.cdn}}/assets/images/blog/2019/20190905153108.jpg)
 
 ## 参考资料
 
