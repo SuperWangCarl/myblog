@@ -100,6 +100,19 @@ data: String类型， 一段html代码
 - minifyCSS 默认值false；是否压缩html里的css（使用clean-css进行的压缩）
 
 
+## FAQ
+
+### string的replace未定义
+
+**问题 :** string的replace未定义
+
+![img]({{site.cdn}}/assets/images/blog/2019/20190903113851.jpg)
+
+**原因 :** 参数未指定决定路径找不到该文件
+
+**参考链接 :** 
+
+**解决 :** 
 
 ## 参考资料
 
