@@ -168,3 +168,48 @@ InputStream inputStream = this.getClass().getClassLoader().getResourceAsStream("
 ```
 将属性<property name="filters" value="config,stat,wall,log4j" />改成<property name="filters" value="config,stat,log4j" />
 ```
+***
+
+### bean重复
+
+**问题 :** 
+
+![img]({{site.cdn}}/assets/images/blog/2019/20190906162600.jpg)
+
+**原因 :** 两个bean的name相同
+
+![img]({{site.cdn}}/assets/images/blog/2019/20190906162833.jpg)
+
+**参考链接 :** 
+
+**解决 :** 修改其中一个bean的名称
+
+***
+
+### rediestemple类型转换错误
+
+**问题 :** 
+
+![img]({{site.cdn}}/assets/images/blog/2019/20190910094232.jpg)
+
+**原因 :** 由于bean同名,所以导致
+
+![img]({{site.cdn}}/assets/images/blog/2019/20190910095015.jpg)
+
+**参考链接 :** 
+
+**解决 :** 修改bean名称
+
+***
+
+
+
+**问题 :** 关于SpringBoot2整合Redis集群时遇到的LettuceConnectionFactory空指针问题
+
+![img]({{site.cdn}}/assets/images/blog/2019/20190910150132.jpg)
+
+**原因 :** 在StringRedisTemplate对象调用setConnectionFactory()方法前，LettuceConnectionFactory对象先调用afterPropertiesSet()方法初始化。
+
+**参考链接 :** [关于SpringBoot2整合Redis集群时遇到的LettuceConnectionFactory空指针问题](https://blog.csdn.net/CHIMEer/article/details/88827933)
+
+**解决 :**  添加 factory.afterPropertiesSet();
