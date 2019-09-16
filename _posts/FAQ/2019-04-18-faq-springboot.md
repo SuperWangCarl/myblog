@@ -141,7 +141,7 @@ InputStream inputStream = this.getClass().getClassLoader().getResourceAsStream("
 
 ***
 
-### 多数据源配置为找到mapper
+### 多数据源配置未找到mapper
 
 **问题 :** 多数据源配置为找到mapper
 
@@ -202,9 +202,9 @@ InputStream inputStream = this.getClass().getClassLoader().getResourceAsStream("
 
 ***
 
+### LettuceConnectionFactory空指针
 
-
-**问题 :** 关于SpringBoot2整合Redis集群时遇到的LettuceConnectionFactory空指针问题
+问题 :** 关于SpringBoot2整合Redis集群时遇到的LettuceConnectionFactory空指针问题
 
 ![img]({{site.cdn}}/assets/images/blog/2019/20190910150132.jpg)
 
@@ -213,3 +213,54 @@ InputStream inputStream = this.getClass().getClassLoader().getResourceAsStream("
 **参考链接 :** [关于SpringBoot2整合Redis集群时遇到的LettuceConnectionFactory空指针问题](https://blog.csdn.net/CHIMEer/article/details/88827933)
 
 **解决 :**  添加 factory.afterPropertiesSet();
+
+***
+
+### @Test注解无效
+
+**问题 :** 
+
+![img]({{site.cdn}}/assets/images/blog/2019/20190916151242.jpg)
+
+**原因 :** 
+
+1. 同包名下的有Test类了
+2. 该测试类没有放倒test目录下
+
+**参考链接 :** 
+
+**解决 :** 
+
+1. 将自定义的Test类型修改为其他
+
+2. 将测试类放倒test目录下
+
+   ![img]({{site.cdn}}/assets/images/blog/2019/20190916151524.jpg)
+
+***
+
+### @Mapper和@MappserScan注解无法同时生效
+
+**问题 :** @Mapper和@MappserScan注解无法同时生效
+
+**原因 :**  暂无
+
+**参考链接 :** 
+
+**解决 :** 给MapperScan配置扫描不同包
+
+***
+
+### java.lang.NoSuchFieldError: INSTANCE
+
+**问题 :**  java.lang.NoSuchFieldError: INSTANCE
+
+![img]({{site.cdn}}/assets/images/blog/2019/20190916164137.jpg)
+
+**原因 :** 基本都是jar包冲突
+
+**参考链接 :** 
+
+**解决 :** 删除冲突的jar
+
+![img]({{site.cdn}}/assets/images/blog/2019/20190916164333.jpg)
