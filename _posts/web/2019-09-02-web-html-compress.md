@@ -19,7 +19,7 @@ keywords: carlme,superwang,superwangcarl,carl,git,license,卡尔米,web,css
 
 ```shell
 #先安装 node
-#省略
+#略
 #安装 html-minifier
 npm install -g html-minifier
 ```
