@@ -6,9 +6,9 @@ original: me
 comments: true
 title: Spring-session-data-redis采坑
 category: FAQ
-tags: [faq]
+tags: [faq,springboot]
 excerpt: Spring-session-data-redis在chrome跨域下的丢失cookie
-keywords: carlme,superwang,superwangcarl,carl,卡尔米,FAQ
+keywords: carlme,superwang,superwangcarl,carl,卡尔米,FAQ,springboot
 ---
 
 ## 简介
@@ -116,6 +116,48 @@ keywords: carlme,superwang,superwangcarl,carl,卡尔米,FAQ
 
    ![img]({{site.cdn}}/assets/images/blog/2019/20190911173851.jpg)
 
+## FQA
+
+### session过期时间设置
+
+spring boot autoconfig中有个类`RedisSessionConfiguration `
+
+```java
+@Configuration
+@ConditionalOnMissingBean(SessionRepository.class)
+@ConditionalOnBean({ RedisTemplate.class, RedisConnectionFactory.class })
+@Conditional(SessionCondition.class)
+class RedisSessionConfiguration {
+
+   @Configuration
+   public static class SpringBootRedisHttpSessionConfiguration
+         extends RedisHttpSessionConfiguration {
+
+      private SessionProperties sessionProperties;
+
+      @Autowired
+      public void customize(SessionProperties sessionProperties) {
+         this.sessionProperties = sessionProperties;
+         Integer timeout = this.sessionProperties.getTimeout();
+         if (timeout != null) {
+            setMaxInactiveIntervalInSeconds(timeout);
+         }
+         SessionProperties.Redis redis = this.sessionProperties.getRedis();
+         setRedisNamespace(redis.getNamespace());
+         setRedisFlushMode(redis.getFlushMode());
+      }
+
+   }
+
+}
+```
+
+这个类在使用了@EnableRedisHttpSession之后不会加载 
+
+可以去掉@EnableRedisHttpSession 然后配置server.session.timeout=3600断点 customize方法生效
+
+@EnableRedisHttpSession 这个注解只读其中的属性maxInactiveIntervalInSeconds
+
 ## 参考资料
 
 [jquery ajax withCredentials:true 在 Chrome 中不起作用](https://q.cnblogs.com/q/113339/)
@@ -127,3 +169,5 @@ keywords: carlme,superwang,superwangcarl,carl,卡尔米,FAQ
 [再见，CSRF：讲解set-cookie中的SameSite属性](https://www.anquanke.com/post/id/83773)
 
 [跨站请求伪造与 Same-Site Cookie](https://www.jianshu.com/p/66f77b8f1759)
+
+[springboot动态设置spingsession过期时间](https://www.oschina.net/question/3516726_2284243)

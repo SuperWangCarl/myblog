@@ -219,6 +219,52 @@ export JENKINS_HOME=/application/jenkins/.jenkins
 
 ## 6. FAQ
 
+### 无法安装jekyll
+
+**问题 :** 
+
+问题1:
+
+![img]({{site.cdn}}/assets/images/blog/2019/20190927145235.jpg)
+
+问题2:
+
+![img]({{site.cdn}}/assets/images/blog/2019/20190927145437.jpg)
+
+**原因 :** 
+
+1. jekyll所需的某个依赖安装失败 安装其他版本的依赖
+2. gem需要更新
+
+**参考链接 :** 
+
+**解决 :** 
+
+```
+gem update --system
+gem install sassc --version=2.1.0
+```
+
+![img]({{site.cdn}}/assets/images/blog/2019/20190927145342.jpg)
+
+***
+
+### bundle构建失败
+
+**问题 :**  
+
+![img]({{site.cdn}}/assets/images/blog/2019/20190927145630.jpg)
+
+**原因 :** gemfile.lock里面的依赖没有安装
+
+**参考链接 :** 
+
+**解决 :**  进入该文件所在的目录下 运行 `bundle update`
+
+![img]({{site.cdn}}/assets/images/blog/2019/20190927145749.jpg)
+
+***
+
 ### 无法触发构建
 
 使用jenkins构建触发器的token,在github的hooks配置的url为token的url显示认证失败无法触发构建
