@@ -101,6 +101,8 @@ webSerivce虽然是一个比较老的跨语言交互接口,但是现在还是需
 
     ![img]({{site.cdn}}/assets/images/blog/2019/20190905143330.jpg)
 
+  - 截至为此完成基础的服务端,下面需要根据wsdl生成web.xml
+
 - 生成server-config文件
 
   - 编写bat脚本
