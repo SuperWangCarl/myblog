@@ -79,7 +79,7 @@ webSerivce虽然是一个比较老的跨语言交互接口,但是现在还是需
 
   - 导入依赖axis的lib包
 
-    ![img]({{site.cdn}}/assets/images/blog/2019/2019090514153.jpg)
+    ![img]({{site.cdn}}/assets/images/blog/2019/20190905141537.jpg)
 
   - 导入用soapui生成的java文件`包名错误时修改成一致即可`
 
