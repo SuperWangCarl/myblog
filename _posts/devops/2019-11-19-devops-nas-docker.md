@@ -7,7 +7,7 @@ comments: true
 title: NAS中的docker配置
 category: devops
 tags: [devops,nas,docker]
-excerpt: NAS中的docker配置 和 映射NFS
+excerpt: NAS中的docker配置 和 映射NFS 并将映射后的NFS 在服务器上开启ftp
 keywords: carlme,superwang,superwangcarl,carl,卡尔米,nas,exsi
 ---
 
@@ -99,6 +99,26 @@ keywords: carlme,superwang,superwangcarl,carl,卡尔米,nas,exsi
   ```
    mount -t nfs xxx.xxx.com:/volume1/SDInject /mnt/nas
   ```
+
+## 搭建FTP
+
+`上一步中我们已经挂在好了 /mnt/nas`,在服务器上基于这个路劲搭建个ftp
+
+- FTP搭建过程`略`
+
+- 权限开启
+
+  - 在NAS的NFS中配置该路径的权限
+
+    ![img]({{site.cdn}}/assets/images/blog/2019/20191121153125.jpg)
+
+  - 在linux服务器上新建`admin`用户
+
+    ```shell
+    useradd -d /mnt/nas -s /sbin/nologin admin
+    ```
+
+- 开启ftp
 
 ## 参考资料
 
