@@ -40,7 +40,7 @@ keywords: carlme,superwang,superwangcarl,carl,卡尔米,网络备案
 
 第二次是因为要提交个工单,填写紧急联系人的电话
 
-![img]({{site.cdn}}/assets/images/blog/2019/20190410225811.png)
+![img](../../assets/images/blog/2019/20190410225811.png)
 
 ## 4. 总结
 

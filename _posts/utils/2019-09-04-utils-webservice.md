@@ -19,7 +19,7 @@ webSerivce虽然是一个比较老的跨语言交互接口,但是现在还是需
 
 **工具** : SoapUI 5.3.0  
 
-​	   axis1.4压缩包 官网下载  [直接下载]({{site.downcdn}}/download/axis-bin-1_4.zip)
+​	   axis1.4压缩包 官网下载  [直接下载](../../download/axis-bin-1_4.zip)
 
 **文档** : 所需的wsdl文件
 
@@ -31,75 +31,75 @@ webSerivce虽然是一个比较老的跨语言交互接口,但是现在还是需
 
 - 根据wsdl创建项目
 
-  ![img]({{site.cdn}}/assets/images/blog/2019/20190904174629.jpg)
+  ![img](../../assets/images/blog/2019/20190904174629.jpg)
 
 - 关联axis工具
 
-  ![img]({{site.cdn}}/assets/images/blog/2019/20190904181731.jpg)
+  ![img](../../assets/images/blog/2019/20190904181731.jpg)
 
 ### 生成客户端
 
 - 选择生成客户端
 
-  ![img]({{site.cdn}}/assets/images/blog/2019/20190904181826.jpg)
+  ![img](../../assets/images/blog/2019/20190904181826.jpg)
 
 - 查看
 
-  ![img]({{site.cdn}}/assets/images/blog/2019/20190904181925.jpg)
+  ![img](../../assets/images/blog/2019/20190904181925.jpg)
 
 ### 生成传统服务端
 
 - 选择生成服务端
 
-  ![img]({{site.cdn}}/assets/images/blog/2019/20190904182026.jpg)
+  ![img](../../assets/images/blog/2019/20190904182026.jpg)
 
 - 查看
 
   此处包含`deploy.wsdd`和`undeploy.wsdd`后面要用到
 
-  ![img]({{site.cdn}}/assets/images/blog/2019/20190904182154.jpg)
+  ![img](../../assets/images/blog/2019/20190904182154.jpg)
 
 - 使用eclipse创建一个空的Web项目
 
   - 创建项目
 
-    ![img]({{site.cdn}}/assets/images/blog/2019/20190905130438.jpg)
+    ![img](../../assets/images/blog/2019/20190905130438.jpg)
 
   - 指定项目名
 
-    ![img]({{site.cdn}}/assets/images/blog/2019/20190905130513.jpg)
+    ![img](../../assets/images/blog/2019/20190905130513.jpg)
 
   - 指定class编译输出目录 `WebContent\WEB-INF\classes`
 
-    ![img]({{site.cdn}}/assets/images/blog/2019/20190905130607.jpg)
+    ![img](../../assets/images/blog/2019/20190905130607.jpg)
 
   - 完成
 
-    ![img]({{site.cdn}}/assets/images/blog/2019/20190905130721.jpg)
+    ![img](../../assets/images/blog/2019/20190905130721.jpg)
 
   - 导入依赖axis的lib包
 
-    ![img]({{site.cdn}}/assets/images/blog/2019/20190905141537.jpg)
+    ![img](../../assets/images/blog/2019/20190905141537.jpg)
 
   - 导入用soapui生成的java文件`包名错误时修改成一致即可`
 
-    ![img]({{site.cdn}}/assets/images/blog/2019/20190905141911.jpg)
+    ![img](../../assets/images/blog/2019/20190905141911.jpg)
 
   - 修改deploy.wsdd的包名
 
-    ![img]({{site.cdn}}/assets/images/blog/2019/20190905144515.jpg)
+    ![img](../../assets/images/blog/2019/20190905144515.jpg)
 
   - 拷贝axis中的web.xml文件到项目目录下
 
-    ![img]({{site.cdn}}/assets/images/blog/2019/20190905143221.jpg)
+    ![img](../../assets/images/blog/2019/20190905143221.jpg)
 
   - 发布项目到tomcat
 
-    ![img]({{site.cdn}}/assets/images/blog/2019/20190905143246.jpg)
+    ![img](../../assets/images/blog/2019/20190905143246.jpg)
 
   - 成功
 
-    ![img]({{site.cdn}}/assets/images/blog/2019/20190905143330.jpg)
+    ![img](../../assets/images/blog/2019/20190905143330.jpg)
 
   - 截至为此完成基础的服务端,下面需要根据wsdl生成web.xml
 
@@ -126,15 +126,15 @@ webSerivce虽然是一个比较老的跨语言交互接口,但是现在还是需
 
     将上面的代码写入新建文件`generate-config.bat`,双击运行该文件
 
-    ![img]({{site.cdn}}/assets/images/blog/2019/20190905144750.jpg)
+    ![img](../../assets/images/blog/2019/20190905144750.jpg)
 
   - 查看生成的server-config.wsdd文件
 
-    ![img]({{site.cdn}}/assets/images/blog/2019/20190905144831.jpg)
+    ![img](../../assets/images/blog/2019/20190905144831.jpg)
 
   - 刷新可以可以查看到生成的服务端
 
-    ![img]({{site.cdn}}/assets/images/blog/2019/20190905144900.jpg)
+    ![img](../../assets/images/blog/2019/20190905144900.jpg)
 
 ### 生成springboot服务端
 
@@ -142,7 +142,7 @@ webSerivce虽然是一个比较老的跨语言交互接口,但是现在还是需
 
   直接下一步,此处不细说
 
-  ![img]({{site.cdn}}/assets/images/blog/2019/20190905150148.jpg)
+  ![img](../../assets/images/blog/2019/20190905150148.jpg)
 
 - 在pom.xml文件中导入依赖
 
@@ -175,19 +175,19 @@ webSerivce虽然是一个比较老的跨语言交互接口,但是现在还是需
 
 - 在resources下新建WEB-INF,将上一步生成的`server-config.wsdd`文件拷贝到其中
 
-  ![img]({{site.cdn}}/assets/images/blog/2019/20190905150932.jpg)
+  ![img](../../assets/images/blog/2019/20190905150932.jpg)
 
 - 用jar启动需要手动编写 EngineConfigurationFactoryServlet.java类
 
-  ![img]({{site.cdn}}/assets/images/blog/2019/20190905150953.jpg)
+  ![img](../../assets/images/blog/2019/20190905150953.jpg)
 
 - controller使用注册配置的方式
 
-  ![img]({{site.cdn}}/assets/images/blog/2019/20190905151041.jpg)
+  ![img](../../assets/images/blog/2019/20190905151041.jpg)
 
 - 访问后效果相同
 
-  ![img]({{site.cdn}}/assets/images/blog/2019/20190905151324.jpg)
+  ![img](../../assets/images/blog/2019/20190905151324.jpg)
 
 ## 使用
 
@@ -195,7 +195,7 @@ webSerivce虽然是一个比较老的跨语言交互接口,但是现在还是需
 
 创建对象调用即可
 
-![img]({{site.cdn}}/assets/images/blog/2019/20190905153200.jpg)
+![img](../../assets/images/blog/2019/20190905153200.jpg)
 
 `example`
 
@@ -210,7 +210,7 @@ CSPRequestService service = new CSPRequestServiceLocator();
 
 只需在这个`CtmsSoapBindingImpl`类中编写我们的业务逻辑即可
 
-![img]({{site.cdn}}/assets/images/blog/2019/20190905153108.jpg)
+![img](../../assets/images/blog/2019/20190905153108.jpg)
 
 
 

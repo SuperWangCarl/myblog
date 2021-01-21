@@ -19,7 +19,7 @@ keywords: carlme,superwang,superwangcarl,carl,卡尔米,sso,单点登录服务�
 
 后来查看了google浏览器的cookie的存储,发现以前的记忆是错误的.里面也可以基于ip来绑定cookie,于是就有了这篇文章
 
-![img]({{site.cdn}}/assets/images/blog/2019/20190422185743.png)
+![img](../../assets/images/blog/2019/20190422185743.png)
 
 ## 2. 步骤
 
@@ -40,7 +40,7 @@ keytool -import -alias hedian -keystore D:\Develop\jdk1.8.0_111\jre\lib\security
 
 将证书上传到tomcat更目录
 
-![img]({{site.cdn}}/assets/images/blog/2019/20190422190321.png)
+![img](../../assets/images/blog/2019/20190422190321.png)
 
 配置tomcat的server.xml
 

@@ -93,7 +93,7 @@ public class ReportSynDataTask extends TimerTask {
 
 ## springboot定时任务
 
-![img]({{site.cdn}}/assets/images/blog/2019/20190527165706.png)
+![img](../../assets/images/blog/2019/20190527165706.png)
 
 ## 参考资料
 

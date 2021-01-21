@@ -43,15 +43,15 @@ keywords: carlme,superwang,superwangcarl,carl,卡尔米,单点登录客户端集
 
 详见源码
 
-![img]({{site.cdn}}/assets/images/blog/2019/20190412155847.png)
+![img](../../assets/images/blog/2019/20190412155847.png)
 
 ### 3. 参见上篇博文
 
 `和前后端分离域名不同的项目结构 大体相同,说下差异`
 
-![img]({{site.cdn}}/assets/images/blog/2019/20190412160143.png)
+![img](../../assets/images/blog/2019/20190412160143.png)
 
-![img]({{site.cdn}}/assets/images/blog/2019/20190412160050.png)
+![img](../../assets/images/blog/2019/20190412160050.png)
 
 ## 3. 总结
 

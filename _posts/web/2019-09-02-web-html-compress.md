@@ -28,7 +28,7 @@ npm install -g html-minifier
 
 1. 新建一个空目录
 
-   ![img]({{site.cdn}}/assets/images/blog/2019/20190902114949.jpg)
+   ![img](../../assets/images/blog/2019/20190902114949.jpg)
 
 2. 新建一个package.json文件,内容如下
 
@@ -44,7 +44,7 @@ npm install -g html-minifier
 
    Shift加右键打开`cmd`,运行`npm install`
 
-   ![img]({{site.cdn}}/assets/images/blog/2019/20190902115200.jpg)
+   ![img](../../assets/images/blog/2019/20190902115200.jpg)
 
 3. 新建一个js文件内容如下
 
@@ -70,7 +70,7 @@ npm install -g html-minifier
 
 1. 自定义监听器
 
-   ![img]({{site.cdn}}/assets/images/blog/2019/20190902115359.jpg)
+   ![img](../../assets/images/blog/2019/20190902115359.jpg)
 
 2. 配置
 
@@ -81,11 +81,11 @@ npm install -g html-minifier
    $FileDir$/../dist/$FileNameWithoutExtension$.html
    ```
 
-   ![img]({{site.cdn}}/assets/images/blog/2019/20190902115853.jpg)
+   ![img](../../assets/images/blog/2019/20190902115853.jpg)
 
 3. 效果如下
 
-   ![img]({{site.cdn}}/assets/images/blog/2019/20190902120132.jpg)
+   ![img](../../assets/images/blog/2019/20190902120132.jpg)
 
 ## minify函数参数说明
 
@@ -107,7 +107,7 @@ data: String类型， 一段html代码
 
 **问题 :** string的replace未定义
 
-![img]({{site.cdn}}/assets/images/blog/2019/20190903113851.jpg)
+![img](../../assets/images/blog/2019/20190903113851.jpg)
 
 **原因 :** 参数未指定决定路径找不到该文件
 

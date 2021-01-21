@@ -17,7 +17,7 @@ keywords: carlme,superwang,superwangcarl,carl,卡尔米,FAQ,springboot
 
 这次由于前后端分离了,没有使用tomcat所以就使用了spring-session-data-redis(以下简称`ssdr`)来实现sessiong共享,其实分布式下的session共享和单点登录还有好多方式,以后可以有空的时候在说说
 
-![img]({{site.cdn}}/assets/images/blog/2019/20190909175739.jpg)
+![img](../../assets/images/blog/2019/20190909175739.jpg)
 
 写这篇博文主要记录下,此次遇到的问题和解决流程,为以后做下总结,毕竟折腾了大半个下午
 
@@ -92,7 +92,7 @@ keywords: carlme,superwang,superwangcarl,carl,卡尔米,FAQ,springboot
 
 怀疑是chrome浏览器的问题,然后进行浏览器的设置
 
-![img]({{site.cdn}}/assets/images/blog/2019/20190911173722.jpg)
+![img](../../assets/images/blog/2019/20190911173722.jpg)
 
 之后还是无效
 
@@ -100,21 +100,21 @@ keywords: carlme,superwang,superwangcarl,carl,卡尔米,FAQ,springboot
 
 无意中发现设置cookie的参数,有一个没见过
 
-![img]({{site.cdn}}/assets/images/blog/2019/20190911173943.jpg)
+![img](../../assets/images/blog/2019/20190911173943.jpg)
 
 于是就进行了相关查询,范县果然是这个参数的问题,
 
-![img]({{site.cdn}}/assets/images/blog/2019/20190911174127.jpg)
+![img](../../assets/images/blog/2019/20190911174127.jpg)
 
 取消掉就可以了,成功了~~~
 
 1. 响应中让设置cookie
 
-![img]({{site.cdn}}/assets/images/blog/2019/20190911173802.jpg)
+![img](../../assets/images/blog/2019/20190911173802.jpg)
 
 2. 请求头中携带cookie
 
-   ![img]({{site.cdn}}/assets/images/blog/2019/20190911173851.jpg)
+   ![img](../../assets/images/blog/2019/20190911173851.jpg)
 
 ## FQA
 

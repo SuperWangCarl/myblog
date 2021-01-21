@@ -92,7 +92,7 @@ keywords: carlme,superwang,superwangcarl,carl,卡尔米,mybatis,FAQ
    mybatis-plus.mapper-locations[1]=classpath*:/com/hedian/platform/persistence/mapper/xml/*Mapper.xml
    ```
 
-   ![img]({{site.cdn}}/assets/images/blog/2019/20190419132545.png)
+   ![img](../../assets/images/blog/2019/20190419132545.png)
 
 ***
 

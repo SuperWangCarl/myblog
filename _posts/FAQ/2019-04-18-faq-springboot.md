@@ -21,7 +21,7 @@ keywords: carlme,superwang,superwangcarl,carl,卡尔米,springboot,FAQ
 
 **问题 :** 启动了直接关闭了没有任何打印日志,如图
 
-![img]({{site.cdn}}/assets/images/blog/2019/20190418222940.png)
+![img](../../assets/images/blog/2019/20190418222940.png)
 
 **原因 :** 配置了`logback.xml`里面没有配置打印到控制台的模块
 
@@ -46,7 +46,7 @@ keywords: carlme,superwang,superwangcarl,carl,卡尔米,springboot,FAQ
 
 **问题 :** yml中的属性无法注入到bean中
 
-![img]({{site.cdn}}/assets/images/blog/2019/20190418223641.png)
+![img](../../assets/images/blog/2019/20190418223641.png)
 
 **原因 :** yml中的属性大写了
 
@@ -109,13 +109,13 @@ InputStream inputStream = this.getClass().getClassLoader().getResourceAsStream("
 
 **问题 :**  Failed to bind properties under 'spring.datasource' to javax.sql.DataSource
 
-![img]({{site.cdn}}/assets/images/blog/2019/20190606162055.png)
+![img](../../assets/images/blog/2019/20190606162055.png)
 
-![img]({{site.cdn}}/assets/images/blog/2019/20190606162109.png)
+![img](../../assets/images/blog/2019/20190606162109.png)
 
 **原因 :** `springboot升级到2.X会出现此问题`
 
-![img]({{site.cdn}}/assets/images/blog/2019/20190606162627.png)
+![img](../../assets/images/blog/2019/20190606162627.png)
 
 根据报错提示在配置文件的24行，查看配置文件，该行代码是     filters: stat,wall,log4j
 
@@ -135,7 +135,7 @@ InputStream inputStream = this.getClass().getClassLoader().getResourceAsStream("
 
 方式二: 将DuridConfig中的配置注释掉
 
-![img]({{site.cdn}}/assets/images/blog/2019/20190606162422.png)
+![img](../../assets/images/blog/2019/20190606162422.png)
 
 方式三: 将springboot的版本退回`2.0以下`
 
@@ -157,7 +157,7 @@ InputStream inputStream = this.getClass().getClassLoader().getResourceAsStream("
 
 **问题 :** 
 
-![img]({{site.cdn}}/assets/images/blog/2019/20190618144752.png)
+![img](../../assets/images/blog/2019/20190618144752.png)
 
 **原因 :** druid中配置了`wall`防火前
 
@@ -174,11 +174,11 @@ InputStream inputStream = this.getClass().getClassLoader().getResourceAsStream("
 
 **问题 :** 
 
-![img]({{site.cdn}}/assets/images/blog/2019/20190906162600.jpg)
+![img](../../assets/images/blog/2019/20190906162600.jpg)
 
 **原因 :** 两个bean的name相同
 
-![img]({{site.cdn}}/assets/images/blog/2019/20190906162833.jpg)
+![img](../../assets/images/blog/2019/20190906162833.jpg)
 
 **参考链接 :** 
 
@@ -190,11 +190,11 @@ InputStream inputStream = this.getClass().getClassLoader().getResourceAsStream("
 
 **问题 :** 
 
-![img]({{site.cdn}}/assets/images/blog/2019/20190910094232.jpg)
+![img](../../assets/images/blog/2019/20190910094232.jpg)
 
 **原因 :** 由于bean同名,所以导致
 
-![img]({{site.cdn}}/assets/images/blog/2019/20190910095015.jpg)
+![img](../../assets/images/blog/2019/20190910095015.jpg)
 
 **参考链接 :** 
 
@@ -206,7 +206,7 @@ InputStream inputStream = this.getClass().getClassLoader().getResourceAsStream("
 
 问题 :** 关于SpringBoot2整合Redis集群时遇到的LettuceConnectionFactory空指针问题
 
-![img]({{site.cdn}}/assets/images/blog/2019/20190910150132.jpg)
+![img](../../assets/images/blog/2019/20190910150132.jpg)
 
 **原因 :** 在StringRedisTemplate对象调用setConnectionFactory()方法前，LettuceConnectionFactory对象先调用afterPropertiesSet()方法初始化。
 
@@ -220,7 +220,7 @@ InputStream inputStream = this.getClass().getClassLoader().getResourceAsStream("
 
 **问题 :** 
 
-![img]({{site.cdn}}/assets/images/blog/2019/20190916151242.jpg)
+![img](../../assets/images/blog/2019/20190916151242.jpg)
 
 **原因 :** 
 
@@ -235,7 +235,7 @@ InputStream inputStream = this.getClass().getClassLoader().getResourceAsStream("
 
 2. 将测试类放倒test目录下
 
-   ![img]({{site.cdn}}/assets/images/blog/2019/20190916151524.jpg)
+   ![img](../../assets/images/blog/2019/20190916151524.jpg)
 
 ***
 
@@ -255,7 +255,7 @@ InputStream inputStream = this.getClass().getClassLoader().getResourceAsStream("
 
 **问题 :**  java.lang.NoSuchFieldError: INSTANCE
 
-![img]({{site.cdn}}/assets/images/blog/2019/20190916164137.jpg)
+![img](../../assets/images/blog/2019/20190916164137.jpg)
 
 **原因 :** 基本都是jar包冲突
 
@@ -263,4 +263,4 @@ InputStream inputStream = this.getClass().getClassLoader().getResourceAsStream("
 
 **解决 :** 删除冲突的jar
 
-![img]({{site.cdn}}/assets/images/blog/2019/20190916164333.jpg)
+![img](../../assets/images/blog/2019/20190916164333.jpg)

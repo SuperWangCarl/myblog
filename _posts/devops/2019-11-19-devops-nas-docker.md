@@ -19,33 +19,33 @@ keywords: carlme,superwang,superwangcarl,carl,卡尔米,nas,exsi
 
 - 在套件中心安装docker,输入docker,选择安装套件,等待安装完毕
 
-  ![img]({{site.cdn}}/assets/images/blog/2019/20191119180559.jpg)
+  ![img](../../assets/images/blog/2019/20191119180559.jpg)
 
 - 选择注册表, 选择centos进行双击安装,
 
-  ![img]({{site.cdn}}/assets/images/blog/2019/20191119180654.jpg)
+  ![img](../../assets/images/blog/2019/20191119180654.jpg)
 
 - 选择映像,选中后点击启动然后进行配置
 
-  ![img]({{site.cdn}}/assets/images/blog/2019/20191119180754.jpg)
+  ![img](../../assets/images/blog/2019/20191119180754.jpg)
 
 - 点击高级设置进行配置
 
-  ![img]({{site.cdn}}/assets/images/blog/2019/20191119180852.jpg)
+  ![img](../../assets/images/blog/2019/20191119180852.jpg)
 
 - 配置卷映射,将 nas的共享文件夹docker映射给容器中的`/app`目录
 
-  ![img]({{site.cdn}}/assets/images/blog/2019/20191119180937.jpg)
+  ![img](../../assets/images/blog/2019/20191119180937.jpg)
 
 - 选择使用和nas相同的网络,这样方便外部使用ssh登录,不用在nas总做映射了
 
-  ![img]({{site.cdn}}/assets/images/blog/2019/20191119181100.jpg)
+  ![img](../../assets/images/blog/2019/20191119181100.jpg)
 
 - 点击完成进行安装
 
 - 启动容器
 
-  ![img]({{site.cdn}}/assets/images/blog/2019/20191119181220.jpg)
+  ![img](../../assets/images/blog/2019/20191119181220.jpg)
 
 ## NAS映射NFS
 
@@ -53,24 +53,24 @@ keywords: carlme,superwang,superwangcarl,carl,卡尔米,nas,exsi
 
 - NAS开启NFS服务
 
-  ![img]({{site.cdn}}/assets/images/blog/2019/20191119184508.jpg)
+  ![img](../../assets/images/blog/2019/20191119184508.jpg)
 
 
 - 新增共享文件夹
 
-  ![img]({{site.cdn}}/assets/images/blog/2019/20191119184235.jpg)
+  ![img](../../assets/images/blog/2019/20191119184235.jpg)
 
 - 编辑NFS权限
 
-  ![img]({{site.cdn}}/assets/images/blog/2019/20191119184341.jpg)
+  ![img](../../assets/images/blog/2019/20191119184341.jpg)
 
-  ![img]({{site.cdn}}/assets/images/blog/2019/20191119184410.jpg)
+  ![img](../../assets/images/blog/2019/20191119184410.jpg)
 
 ### 路由器端口映射
 
 由于NFS会用到 `111/2049/892` 三个端口,在路由器中做下端口映射
 
-![img]({{site.cdn}}/assets/images/blog/2019/20191119184602.jpg)
+![img](../../assets/images/blog/2019/20191119184602.jpg)
 
 ### NFS客户端操作
 
@@ -94,7 +94,7 @@ keywords: carlme,superwang,superwangcarl,carl,卡尔米,nas,exsi
 
 - 挂载 `/volume1/SDInject`为下图显示的地hi
 
-  ![img]({{site.cdn}}/assets/images/blog/2019/20191119184909.jpg)
+  ![img](../../assets/images/blog/2019/20191119184909.jpg)
 
   ```
    mount -t nfs xxx.xxx.com:/volume1/SDInject /mnt/nas
@@ -110,7 +110,7 @@ keywords: carlme,superwang,superwangcarl,carl,卡尔米,nas,exsi
 
   - 在NAS的NFS中配置该路径的权限
 
-    ![img]({{site.cdn}}/assets/images/blog/2019/20191121153125.jpg)
+    ![img](../../assets/images/blog/2019/20191121153125.jpg)
 
   - 在linux服务器上新建`admin`用户
 

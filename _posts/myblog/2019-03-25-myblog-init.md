@@ -49,7 +49,7 @@ cd /xxx/blog
 git reset --hard
 #拉取服务器代码
 git pull
-#生成静态页面
+#生成静态页面(bundel 需要安装ruby)
 bundle exec jekyll build --source /xxx/blog --destination /xxx/online
 #修改权限
 chmod -R 755 /xxx

@@ -25,7 +25,7 @@ uglifyjs -V
 
 其中的升级和错误,暂且不说
 
-![img]({{site.cdn}}/assets/images/blog/2019/20190828112931.jpg)
+![img](../../assets/images/blog/2019/20190828112931.jpg)
 
 ## 简单使用
 
@@ -68,7 +68,7 @@ uglifyjs 1.js 2.js -o min.js -c -m --source-map
 
 此处我配置两个,一个合并压缩所有的js文件,一个合并压缩单个的js文件
 
-![img]({{site.cdn}}/assets/images/blog/2019/20190828114832.jpg)
+![img](../../assets/images/blog/2019/20190828114832.jpg)
 
 ### 合并压缩所有
 
@@ -78,7 +78,7 @@ uglifyjs 1.js 2.js -o min.js -c -m --source-map
 1. 配置监听
 
 
-![img]({{site.cdn}}/assets/images/blog/2019/20190828115143.jpg)
+![img](../../assets/images/blog/2019/20190828115143.jpg)
 
 2. 参数值
 
@@ -86,17 +86,17 @@ uglifyjs 1.js 2.js -o min.js -c -m --source-map
 
    > uglifyjs config.js simple-jquery.js slide.js log.js common.js  -o ../dist/all.min.js -c -m
 
-   ![img]({{site.cdn}}/assets/images/blog/2019/20190901232624.jpg)
+   ![img](../../assets/images/blog/2019/20190901232624.jpg)
 
 3. 配置过滤
 
-![img]({{site.cdn}}/assets/images/blog/2019/20190828115235.jpg)
+![img](../../assets/images/blog/2019/20190828115235.jpg)
 
 ### 合并压缩单个
 
 1. 配置
 
-   ![img]({{site.cdn}}/assets/images/blog/2019/20190828115659.jpg)
+   ![img](../../assets/images/blog/2019/20190828115659.jpg)
 
 ## 参考资料
 

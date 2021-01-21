@@ -15,7 +15,7 @@ keywords: carlme,superwang,superwangcarl,carl,git,license,卡尔米,utils
 
 先看看一个网图
 
-![img]({{site.cdn}}/assets/images/blog/2019/20190409185910.png)
+![img](../../assets/images/blog/2019/20190409185910.png)
 
 ### 1. MIT 许可证
 
@@ -27,7 +27,7 @@ keywords: carlme,superwang,superwangcarl,carl,git,license,卡尔米,utils
 
 > 样例
 >
-> ![img]({{site.cdn}}/assets/images/blog/2019/20190408225607.png)
+> ![img](../../assets/images/blog/2019/20190408225607.png)
 
 ### 3. GPL 许可证
 
@@ -35,29 +35,29 @@ keywords: carlme,superwang,superwangcarl,carl,git,license,卡尔米,utils
 
 > 样例
 >
-> ![img]({{site.cdn}}/assets/images/blog/2019/20190408225647.png)
+> ![img](../../assets/images/blog/2019/20190408225647.png)
 
 ## 2. github创建许可证(MIT)
 
 1. 点击Create new File
 
-![img]({{site.cdn}}/assets/images/blog/2019/20190408225751.png)
+![img](../../assets/images/blog/2019/20190408225751.png)
 
 2. 输入LICENSE 之后自动生成一个按钮 点击即可
 
-![img]({{site.cdn}}/assets/images/blog/2019/20190408225933.png)
+![img](../../assets/images/blog/2019/20190408225933.png)
 
 3. 选择MIT协议,也可以选择其他的,输入名称,用户名或仓库名都可以
 
-![img]({{site.cdn}}/assets/images/blog/2019/20190408230114.png)
+![img](../../assets/images/blog/2019/20190408230114.png)
 
 4. 选择 1 提交到git的master分支上
 
-![img]({{site.cdn}}/assets/images/blog/2019/20190408230320.png)
+![img](../../assets/images/blog/2019/20190408230320.png)
 
 5. 完工
 
-![img]({{site.cdn}}/assets/images/blog/2019/20190408230407.png)
+![img](../../assets/images/blog/2019/20190408230407.png)
 
 ## 3. 参考资料
 

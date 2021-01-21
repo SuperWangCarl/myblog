@@ -21,7 +21,7 @@ keywords: carlme,superwang,superwangcarl,carl,卡尔米,SpringCloud,FAQ
 
 **问题 :** no suitable HttpMessageConverter found for response type [class java.lang.Object] and content type [application/json;charset=UTF-8]
 
-![img]({{site.cdn}}/assets/images/blog/2019/20190522105745.png)
+![img](../../assets/images/blog/2019/20190522105745.png)
 
 **原因 :** MediaType类型不支持
 
@@ -29,7 +29,7 @@ keywords: carlme,superwang,superwangcarl,carl,卡尔米,SpringCloud,FAQ
 
 **解决 :** 配置下封装参数
 
- [RestTemplateConfig.java]({{site.downcdn}}/download/java/RestTemplateConfig.java)
+ [RestTemplateConfig.java](../../download/java/RestTemplateConfig.java)
 
 ```xml
  <dependency>

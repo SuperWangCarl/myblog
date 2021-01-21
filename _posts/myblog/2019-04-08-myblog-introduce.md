@@ -17,11 +17,11 @@ keywords: carlme,superwang,superwangcarl,carl,字段标识,卡尔米
 
 ## 2.模块
 
-![img]({{site.cdn}}/assets/images/blog/2019/20190408223512.png)
+![img](../../assets/images/blog/2019/20190408223512.png)
 
-![img]({{site.cdn}}/assets/images/blog/2019/20190408223939.png)
+![img](../../assets/images/blog/2019/20190408223939.png)
 
-![img]({{site.cdn}}/assets/images/blog/2019/20190408224044.png)
+![img](../../assets/images/blog/2019/20190408224044.png)
 
 ## 3.标识
 

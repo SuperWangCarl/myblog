@@ -23,23 +23,23 @@ keywords: carlme,superwang,superwangcarl,carl,卡尔米,nas,exsi
 
 安装
 
-![img]({{site.cdn}}/assets/images/blog/2019/20190421191437.png)
+![img](../../assets/images/blog/2019/20190421191437.png)
 
 之后需要到需要将文件放到百度云的这个目录下,才会自动同步,上传的文件默认也是到这个目录下
 
-![img]({{site.cdn}}/assets/images/blog/2019/20190424113011.png)
+![img](../../assets/images/blog/2019/20190424113011.png)
 
 ### *Drive
 
 > 和电脑的备份
 
-![img]({{site.cdn}}/assets/images/blog/2019/20190421203313.png)
+![img](../../assets/images/blog/2019/20190421203313.png)
 
 ### *Snapshot Replication
 
 > 快照
 
-![img]({{site.cdn}}/assets/images/blog/2019/20190421205320.png)
+![img](../../assets/images/blog/2019/20190421205320.png)
 
 ### *video station
 
@@ -77,11 +77,11 @@ keywords: carlme,superwang,superwangcarl,carl,卡尔米,nas,exsi
 
 Cloud Statin Backup不可以修改
 
-![img]({{site.cdn}}/assets/images/blog/2019/20190422231640.png)
+![img](../../assets/images/blog/2019/20190422231640.png)
 
 重新连接之后可以设置
 
-![img]({{site.cdn}}/assets/images/blog/2019/20190422231830.png)
+![img](../../assets/images/blog/2019/20190422231830.png)
 
 ## 参考资料
 

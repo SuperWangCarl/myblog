@@ -21,7 +21,7 @@ keywords: carlme,superwang,superwangcarl,carl,卡尔米,Spring,FAQ
 
 **问题 :** 在springboot的test中解析xml文件报null
 
-![img]({{site.cdn}}/assets/images/blog/2019/20190606143218.png)
+![img](../../assets/images/blog/2019/20190606143218.png)
 
 **原因 :** 配置文件解析错误
 
@@ -33,7 +33,7 @@ keywords: carlme,superwang,superwangcarl,carl,卡尔米,Spring,FAQ
 
 加载正确的配置文件
 
-![img]({{site.cdn}}/assets/images/blog/2019/20190606143333.png)
+![img](../../assets/images/blog/2019/20190606143333.png)
 
 将spirngboot的test启动方式修改为spring的
 
