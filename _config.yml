@@ -17,9 +17,8 @@ favicon: favicon.ico
 repository: superwangcarl/superwangcarl.github.io
 github_url: https://github.com/superwangcarl
 url: https://www.carlme.com
-cdn: http://home.carlme.com:8001
-downcdn: http://home.carlme.com:8001
-smartcdn: http://home.carlme.com:8001
+cdn: https://home.carlme.com:8001
+downcdn: https://home.carlme.com:8001
 #enforce_ssl: carlme.com
 
 ## Gem

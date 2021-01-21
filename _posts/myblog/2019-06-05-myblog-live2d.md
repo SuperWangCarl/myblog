@@ -113,7 +113,7 @@ keywords: carlme,superwang,superwangcarl,carl,卡尔米,live2d-widget,jekyll
 
    ```javascript
    <!-- 动漫图 -->
-       <script src="{{ site.smartcdn }}/assets/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script>
+       <script src="{{ site.cdn }}/assets/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script>
        <script>
            setTimeout(() => {
                L2Dwidget.init({
