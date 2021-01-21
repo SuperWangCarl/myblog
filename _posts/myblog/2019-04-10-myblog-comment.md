@@ -55,7 +55,7 @@ gitalk:
 <!-- 评论 -->
 <link rel="stylesheet" href="/assets/css/gitalk.min.css">
 <div id="gitalk-container"></div>
-<script src="{{ site.cdn }}/assets/js/gitalk.min.js"></script>
+<script src="{{ site.smartcdn }}/assets/js/gitalk.min.js"></script>
 <script>
 var gitalk = new Gitalk({
     id: '{{ page.url }}',

@@ -35,7 +35,7 @@ keywords: carlme,superwang,superwangcarl,carl,blog,search,搜索,卡尔米,nginx
     window.simpleJekyllSearch = new SimpleJekyllSearch({
         searchInput: document.getElementById('search-input'),
         resultsContainer: document.getElementById('results-container'),
-        json: '{{ site.cdn }}/assets/json/search.json',
+        json: '{{ site.smartcdn }}/assets/json/search.json',
         searchResultTemplate: '<li><a href="{url}?query={query}" title="{desc}">{title}</a></li>',
         noResultsText: 'No results found',
         limit: 10,

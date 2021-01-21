@@ -17,7 +17,7 @@ keywords: carlme,superwang,superwangcarl,carl,卡尔米,share,iqiyi
 
 ## 操作
 
-[下载地址](../../download/qsvConvertmp4.exe)
+[下载地址]({{site.downcdn}}/download/qsvConvertmp4.exe)
 
 通过iqiyi客户端下载视频后,直接通过该软件转换即可
 
