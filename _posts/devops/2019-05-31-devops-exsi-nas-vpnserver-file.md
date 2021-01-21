@@ -158,7 +158,7 @@ exit
 
 在这里我们要下载个高点版本(1.4.1.895)的everything并配置一下就可以搜索了
 
-[下载地址]({{site.downcdn}}/download/everythingportable32w64w.zip)
+[下载地址](../../download/everythingportable32w64w.zip)
 
 1. 下载后使用任意版本即可
 
