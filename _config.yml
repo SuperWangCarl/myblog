@@ -16,8 +16,8 @@ encoding: "utf-8"
 favicon: favicon.ico
 repository: superwangcarl/superwangcarl.github.io
 github_url: https://github.com/superwangcarl
-url: https://www.carlme.com
-cdn: https://home.carlme.com:8001
+url: https://www.carlme.com/
+cdn: https://home.carlme.com:8001/
 #enforce_ssl: carlme.com
 
 ## Gem
