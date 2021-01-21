@@ -291,14 +291,14 @@ gitment:
     owner: SuperWangCarl
     repo: blog-comments
     oauth:
-        client_id: 6ec67c86667e610298ca
-        client_secret: d093ec2ef00f897d0457bc09dad29f0ade5b4f75
+        client_id: 2739f03aae4a7c607193
+        client_secret: cd74773cea4de45ea2e22ffa9741590120fd19a6
 
 # https://github.com/gitalk/gitalk#install
 gitalk:
     owner: SuperWangCarl
     repo: blog-comments
-    clientID: 6ec67c86667e610298ca
-    clientSecret: d093ec2ef00f897d0457bc09dad29f0ade5b4f75
+    clientID: 2739f03aae4a7c607193
+    clientSecret: cd74773cea4de45ea2e22ffa9741590120fd19a6
 # 在使用其它评论组件时可点击显示 Disqus
 lazy_load_disqus : true
