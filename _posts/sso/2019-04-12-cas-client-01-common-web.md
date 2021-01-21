@@ -43,7 +43,7 @@ keywords: carlme,superwang,superwangcarl,carl,卡尔米,单点登录客户端集
 
 ### 2. 在webapp/WEB-INF/lib中导入jar包
 
-![img](../../assets/images/blog/2019/20190412144536.png)
+![img]({{site.cdn}}assets/images/blog/2019/20190412144536.png)
 
 ### 3. 在web.xml中添加相应配置
 

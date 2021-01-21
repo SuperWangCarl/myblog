@@ -23,39 +23,39 @@ mybatisplus操作数据库还是比较方便的,性能也没有什么损耗.此�
 
 1. 导入pom.xml
 
-   ![img](../../assets/images/blog/2019/20190606150331.png)
+   ![img]({{site.cdn}}assets/images/blog/2019/20190606150331.png)
 
 2. 配置propeties
 
-   ![img](../../assets/images/blog/2019/20190606150408.png)
+   ![img]({{site.cdn}}assets/images/blog/2019/20190606150408.png)
 
 3. 启动类上配置MapperScan
 
-   ![img](../../assets/images/blog/2019/20190606150434.png)
+   ![img]({{site.cdn}}assets/images/blog/2019/20190606150434.png)
 
 4. 导入自动生成代码模版(自己写的,可省略)
 
-   ![img](../../assets/images/blog/2019/20190606150533.png)
+   ![img]({{site.cdn}}assets/images/blog/2019/20190606150533.png)
 
 5. mybatis-plus自动生成代码(`MP`)
 
-   ![img](../../assets/images/blog/2019/20190606151525.png)
+   ![img]({{site.cdn}}assets/images/blog/2019/20190606151525.png)
 
 6. 将模版导入项目中
 
-   ![img](../../assets/images/blog/2019/20190606151631.png)
+   ![img]({{site.cdn}}assets/images/blog/2019/20190606151631.png)
 
 7. 数据库中导入数据
 
-   ![img](../../assets/images/blog/2019/20190606151718.png)
+   ![img]({{site.cdn}}assets/images/blog/2019/20190606151718.png)
 
 8. 配置maven将xml可编译带class中
 
-   ![img](../../assets/images/blog/2019/20190606152630.png)
+   ![img]({{site.cdn}}assets/images/blog/2019/20190606152630.png)
 
 9. 测试
 
-   ![img](../../assets/images/blog/2019/20190606151735.png)
+   ![img]({{site.cdn}}assets/images/blog/2019/20190606151735.png)
 
 ## 引用
 

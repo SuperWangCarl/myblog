@@ -17,7 +17,7 @@ keywords: carlme,superwang,superwangcarl,carl,卡尔米,linux,nginx,myblog
 
 最近发现好多的错误日志都是访问我,项目中没有的文件,所以考虑加点安全措施
 
-![img](../../assets/images/blog/2019/20190410223514.png)
+![img]({{site.cdn}}assets/images/blog/2019/20190410223514.png)
 
 ## 2. 措施
 
@@ -33,7 +33,7 @@ if ($request_method !~ ^(GET|HEAD)$) {
 }
 ```
 
-![img](../../assets/images/blog/2019/20190410165724.png)
+![img]({{site.cdn}}assets/images/blog/2019/20190410165724.png)
 
 ### 2. nginx封禁频繁访问错误文件的ip
 
@@ -159,7 +159,7 @@ server {
 
 `http 会转到https,不是www.carlme.com的域名最后都会转到www.carlme.com的域名`
 
-![img](../../assets/images/blog/2019/20190410223304.gif)
+![img]({{site.cdn}}assets/images/blog/2019/20190410223304.gif)
 
 ### 4.防盗链
 
@@ -188,7 +188,7 @@ http{
 }
 ```
 
-![img](../../assets/images/blog/2019/20190410222408.png)
+![img]({{site.cdn}}assets/images/blog/2019/20190410222408.png)
 
 ### 6. iptables
 
@@ -246,7 +246,7 @@ service iptables restart
 
 返回如下:
 
-![img](../../assets/images/blog/2019/20190411090010.png)
+![img]({{site.cdn}}assets/images/blog/2019/20190411090010.png)
 
 看网上说配置 server_name _ 的不过我试了没有用.
 

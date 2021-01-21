@@ -93,9 +93,9 @@
     </script>
     {% when 'gitalk' %}
     <!-- 评论 -->
-    <link rel="stylesheet" href="{{ site.smartcdn }}/assets/css/gitalk.min.css">
+    <link rel="stylesheet" href="{{site.cdn}}/assets/css/gitalk.min.css">
     <div id="gitalk-container"></div>
-    <script type="text/javascript" src="{{ site.smartcdn }}/assets/js/gitalk.min.js"></script>
+    <script type="text/javascript" src="{{site.cdn}}/assets/js/gitalk.min.js"></script>
     <script>
         var gitalk = new Gitalk({
             id: subStr('{{ page.url }}'),

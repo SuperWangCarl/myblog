@@ -29,73 +29,73 @@ AOP : [GitHub代码地址](https://github.com/SuperWangCarl/spring-boot-examples
 
 2. 添加测试数据
 
-   ![img](../../assets/images/blog/2019/20190606133122.png)
+   ![img]({{site.cdn}}assets/images/blog/2019/20190606133122.png)
 
 3. 配置properties
 
-   ![img](../../assets/images/blog/2019/20190610153505.png)
+   ![img]({{site.cdn}}assets/images/blog/2019/20190610153505.png)
 
 4. 配置数据源
 
-   ![img](../../assets/images/blog/2019/20190610175603.png)
+   ![img]({{site.cdn}}assets/images/blog/2019/20190610175603.png)
 
 5. 配置数据源的切换获取类`DbContextHolder`
 
-   ![img](../../assets/images/blog/2019/20190606103544.png)
+   ![img]({{site.cdn}}assets/images/blog/2019/20190606103544.png)
 
 6. 扩展Spring的`AbstractRoutingDataSource`抽象类，实现动态数据源。
 
-   ![img](../../assets/images/blog/2019/20190606103237.png)
+   ![img]({{site.cdn}}assets/images/blog/2019/20190606103237.png)
 
 7. 配置 使用哪个数据源的注解 和AOP
 
-   ![img](../../assets/images/blog/2019/20190610185705.png)
+   ![img]({{site.cdn}}assets/images/blog/2019/20190610185705.png)
 
 8. 在mapper上添加注解
 
-   ![img](../../assets/images/blog/2019/20190610185906.png)
+   ![img]({{site.cdn}}assets/images/blog/2019/20190610185906.png)
 
 9. 测试
 
-   ![img](../../assets/images/blog/2019/20190610185939.png)
+   ![img]({{site.cdn}}assets/images/blog/2019/20190610185939.png)
 
 ## mybatis 分包
 
 1. pom.xml
 
-   ![img](../../assets/images/blog/2019/20190610153447.png)
+   ![img]({{site.cdn}}assets/images/blog/2019/20190610153447.png)
 
 2. 添加测试数据
 
-   ![img](../../assets/images/blog/2019/20190606133122.png)
+   ![img]({{site.cdn}}assets/images/blog/2019/20190606133122.png)
 
 3. 配置properties
 
-   ![img](../../assets/images/blog/2019/20190610153505.png)
+   ![img]({{site.cdn}}assets/images/blog/2019/20190610153505.png)
 
 4. 配置数据源01
 
-   ![img](../../assets/images/blog/2019/20190610153528.png)
+   ![img]({{site.cdn}}assets/images/blog/2019/20190610153528.png)
 
 5. 配置数据源02
 
-   ![img](../../assets/images/blog/2019/20190610153557.png)
+   ![img]({{site.cdn}}assets/images/blog/2019/20190610153557.png)
 
 6. 配置mapper01 接口 和 xml
 
-   ![img](../../assets/images/blog/2019/20190610153626.png)
+   ![img]({{site.cdn}}assets/images/blog/2019/20190610153626.png)
 
 7. 配置mapper02 接口 和 xml
 
-   ![img](../../assets/images/blog/2019/20190610153650.png)
+   ![img]({{site.cdn}}assets/images/blog/2019/20190610153650.png)
 
 8. 配置测试service
 
-   ![img](../../assets/images/blog/2019/20190610153716.png)
+   ![img]({{site.cdn}}assets/images/blog/2019/20190610153716.png)
 
 9. 测试
 
-   ![img](../../assets/images/blog/2019/20190610153756.png)
+   ![img]({{site.cdn}}assets/images/blog/2019/20190610153756.png)
 
 10. 查看插入结果
 
@@ -110,7 +110,7 @@ AOP : [GitHub代码地址](https://github.com/SuperWangCarl/spring-boot-examples
 
 **问题 :** 
 
-![img](../../assets/images/blog/2019/20190610150114.png)
+![img]({{site.cdn}}assets/images/blog/2019/20190610150114.png)
 
 **原因 :** 找到了两个`sqlSessionFactory`
 
@@ -118,13 +118,13 @@ AOP : [GitHub代码地址](https://github.com/SuperWangCarl/spring-boot-examples
 
 **解决 :** 添加`Primary`注解
 
-![img](../../assets/images/blog/2019/20190610150147.png)
+![img]({{site.cdn}}assets/images/blog/2019/20190610150147.png)
 
 ***
 
 **问题 :** 
 
-![img](../../assets/images/blog/2019/20190610150315.png)
+![img]({{site.cdn}}assets/images/blog/2019/20190610150315.png)
 
 **原因 :** xml文件没有添加到,相应的解析路径,或者包名配置错误
 
@@ -132,7 +132,7 @@ AOP : [GitHub代码地址](https://github.com/SuperWangCarl/spring-boot-examples
 
 **解决 :** 
 
-![img](../../assets/images/blog/2019/20190610150705.png)
+![img]({{site.cdn}}assets/images/blog/2019/20190610150705.png)
 
 ***
 
@@ -146,7 +146,7 @@ AOP : [GitHub代码地址](https://github.com/SuperWangCarl/spring-boot-examples
 
 **解决 :** 
 
-![img](../../assets/images/blog/2019/20190610174837.png)
+![img]({{site.cdn}}assets/images/blog/2019/20190610174837.png)
 
 ```java
 @Retention(RetentionPolicy.RUNTIME)

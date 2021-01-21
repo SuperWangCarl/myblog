@@ -21,17 +21,17 @@ keywords: carlme,superwang,superwangcarl,carl,卡尔米,Android,FAQ
 
 **问题 :** 配置后出错
 
-![img](../../assets/images/blog/2019/20190819105351.png)
+![img]({{site.cdn}}assets/images/blog/2019/20190819105351.png)
 
 **原因 :** 添加了无法解析的属性,删除即可
 
-![img](../../assets/images/blog/2019/20190819105452.png)
+![img]({{site.cdn}}assets/images/blog/2019/20190819105452.png)
 
 **参考链接 :** 
 
 **解决 :** 
 
-![img](../../assets/images/blog/2019/20190819105520.png)
+![img]({{site.cdn}}assets/images/blog/2019/20190819105520.png)
 
 
 
@@ -41,7 +41,7 @@ keywords: carlme,superwang,superwangcarl,carl,卡尔米,Android,FAQ
 
 **问题 :** js调用安卓的方法后,在安卓里面在调用js的方法无法调用
 
-![img](../../assets/images/blog/2019/20190716183926.png)
+![img]({{site.cdn}}assets/images/blog/2019/20190716183926.png)
 
 **原因 :** 可能是线程问题
 

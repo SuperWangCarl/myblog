@@ -19,35 +19,35 @@ keywords: carlme,superwang,superwangcarl,carl,卡尔米,nas,exsi
 
 ### 安装打开
 
-![img](../../assets/images/blog/2019/20190529122012.png)
+![img]({{site.cdn}}assets/images/blog/2019/20190529122012.png)
 
 ### 配置
 
-![img](../../assets/images/blog/2019/20190529122127.png)
+![img]({{site.cdn}}assets/images/blog/2019/20190529122127.png)
 
 ### 修改下默认的网关地址
 
 `防止和本机的内网ip地址冲突,因为默认的10.0.0.1使用的还是太多了`
 
-![img](../../assets/images/blog/2019/20190531011047.png)
+![img]({{site.cdn}}assets/images/blog/2019/20190531011047.png)
 
 ### 路由器做外网映射
 
-![img](../../assets/images/blog/2019/20190529122206.png)
+![img]({{site.cdn}}assets/images/blog/2019/20190529122206.png)
 
 ### 配置电脑vpn
 
-![img](../../assets/images/blog/2019/20190529122300.png)
+![img]({{site.cdn}}assets/images/blog/2019/20190529122300.png)
 
 ### 添加vpn
 
-![img](../../assets/images/blog/2019/20190529122345.png)
+![img]({{site.cdn}}assets/images/blog/2019/20190529122345.png)
 
-![img](../../assets/images/blog/2019/20190529122431.png)
+![img]({{site.cdn}}assets/images/blog/2019/20190529122431.png)
 
 ### 连接
 
-![img](../../assets/images/blog/2019/20190529122500.png)
+![img]({{site.cdn}}assets/images/blog/2019/20190529122500.png)
 
 ## 配置vpn
 
@@ -65,25 +65,25 @@ keywords: carlme,superwang,superwangcarl,carl,卡尔米,nas,exsi
 >
 > `此时任何网络都是走的vpn网关`
 >
-> ![img](../../assets/images/blog/2019/20190531005635.png)
+> ![img]({{site.cdn}}assets/images/blog/2019/20190531005635.png)
 
 ### 配置所有请求都不走vpn网关
 
 1. 点击适配器属性
 
-   ![img](../../assets/images/blog/2019/20190531004002.png)
+   ![img]({{site.cdn}}assets/images/blog/2019/20190531004002.png)
 
 2. 双击ipv4
 
-   ![img](../../assets/images/blog/2019/20190531004050.png)
+   ![img]({{site.cdn}}assets/images/blog/2019/20190531004050.png)
 
 3. 点击高级
 
-   ![img](../../assets/images/blog/2019/20190531004129.png)
+   ![img]({{site.cdn}}assets/images/blog/2019/20190531004129.png)
 
 4. 取消在远程网络上使用默认网关的勾选 之后点击保存
 
-   ![img](../../assets/images/blog/2019/20190531004154.png)
+   ![img]({{site.cdn}}assets/images/blog/2019/20190531004154.png)
 
 > **第二次查看路由表**
 >
@@ -97,7 +97,7 @@ keywords: carlme,superwang,superwangcarl,carl,卡尔米,nas,exsi
 >
 > `此时任何网络都是走的非vpn网关`
 >
-> ![img](../../assets/images/blog/2019/20190531005005.png)
+> ![img]({{site.cdn}}assets/images/blog/2019/20190531005005.png)
 
 ### 配置访问nas的走vpn网关
 
@@ -117,7 +117,7 @@ route add 192.168.1.150 mask 255.255.255.255 10.103.45.1
 >
 > `此时只有访问192.168.1.150是走的vpn网关`
 >
-> ![img](../../assets/images/blog/2019/20190531005213.png)
+> ![img]({{site.cdn}}assets/images/blog/2019/20190531005213.png)
 
 ### 编写一键bat脚本
 
@@ -140,17 +140,17 @@ exit
 
 1. 打开`Win+R`输入我们的nas地址`\\192.168.1.150`
 
-   ![img](../../assets/images/blog/2019/20190531010509.png)
+   ![img]({{site.cdn}}assets/images/blog/2019/20190531010509.png)
 
-   ![img](../../assets/images/blog/2019/20190531010609.png)
+   ![img]({{site.cdn}}assets/images/blog/2019/20190531010609.png)
 
 2. 选中共享文件 右键将之映射为网络驱动器
 
-   ![img](../../assets/images/blog/2019/20190531010714.png)
+   ![img]({{site.cdn}}assets/images/blog/2019/20190531010714.png)
 
 3. 查看
 
-   ![img](../../assets/images/blog/2019/20190531010811.png)
+   ![img]({{site.cdn}}assets/images/blog/2019/20190531010811.png)
 
 ## 使EveryThing可以搜网络驱动器
 
@@ -158,37 +158,37 @@ exit
 
 在这里我们要下载个高点版本(1.4.1.895)的everything并配置一下就可以搜索了
 
-[下载地址](../../download/everythingportable32w64w.zip)
+[下载地址]({{site.cdn}}download/everythingportable32w64w.zip)
 
 1. 下载后使用任意版本即可
 
-   ![img](../../assets/images/blog/2019/20190531011308.png)
+   ![img]({{site.cdn}}assets/images/blog/2019/20190531011308.png)
 
 2. 双击打开
 
-   ![img](../../assets/images/blog/2019/20190531013325.png)
+   ![img]({{site.cdn}}assets/images/blog/2019/20190531013325.png)
 
 3. 点击运行
 
-   ![img](../../assets/images/blog/2019/20190531013404.png)
+   ![img]({{site.cdn}}assets/images/blog/2019/20190531013404.png)
 
 4. 如果弹出此界面选择`安装"Everything"服务`,否则将看不到映射的磁盘（共享文件）
 
-   ![img](../../assets/images/blog/2019/20190531014102.png)
+   ![img]({{site.cdn}}assets/images/blog/2019/20190531014102.png)
 
 5. 打开 工具->选项
 
-   ![img](../../assets/images/blog/2019/20190531011420.png)
+   ![img]({{site.cdn}}assets/images/blog/2019/20190531011420.png)
 
 6. 选中需要添加的点击确定即可
 
-   ![img](../../assets/images/blog/2019/20190531011716.png)
+   ![img]({{site.cdn}}assets/images/blog/2019/20190531011716.png)
 
-   ![img](../../assets/images/blog/2019/20190531014209.png)
+   ![img]({{site.cdn}}assets/images/blog/2019/20190531014209.png)
 
 7. 搜索(可以看到是可以搜索到映射的磁盘中的文件的)
 
-   ![img](../../assets/images/blog/2019/20190531014347.png)
+   ![img]({{site.cdn}}assets/images/blog/2019/20190531014347.png)
 
 ## FAQ
 
@@ -198,19 +198,19 @@ exit
 
 未配置VPN,在路由器做了139 和445的端口映射后
 
-![img](../../assets/images/blog/2019/20190531002929.png)
+![img]({{site.cdn}}assets/images/blog/2019/20190531002929.png)
 
 在内网的情况下(即可以直接通过内网ip可以ping通nas服务器)通过域名,访问共享文件夹可以访问,如图
 
-![img](../../assets/images/blog/2019/20190531003128.png)
+![img]({{site.cdn}}assets/images/blog/2019/20190531003128.png)
 
-![img](../../assets/images/blog/2019/20190531003223.png)
+![img]({{site.cdn}}assets/images/blog/2019/20190531003223.png)
 
 但是在外网直接通过域名访问共享文件夹不可以访问,如图
 
-![img](../../assets/images/blog/2019/20190531003128.png)
+![img]({{site.cdn}}assets/images/blog/2019/20190531003128.png)
 
-![img](../../assets/images/blog/2019/20190531003551.png)
+![img]({{site.cdn}}assets/images/blog/2019/20190531003551.png)
 
 **原因 :** 内部跳转nas的时候可能有转换城了内网的ip,比如 本机通过域名访问nas的445端口后,nas主机又要求本机 访问139端口,但是此时nas可是识别到本机只是个内网ip比如192.168.1.111,然后让本机访问192.168.1.111的139端口,此时自然是访问不到的 ***(猜测)***
 
@@ -224,7 +224,7 @@ exit
 
 **问题 :** everything无法识别网络驱动器
 
-![img](../../assets/images/blog/2019/20190531013156.png)
+![img]({{site.cdn}}assets/images/blog/2019/20190531013156.png)
 
 **原因 :** 主要有这几个原因 版本过低,使用了已管理员运行的模式
 

@@ -96,7 +96,7 @@ keywords: carlme,superwang,superwangcarl,carl,卡尔米,exsi,ssh,linux,software
 
    1. DELL官方的下载如下:
 
-      ![img](../../assets/images/blog/2019/20190414222640.png)
+      ![img]({{site.cdn}}assets/images/blog/2019/20190414222640.png)
 
    2. VMware的官网下载如下[所有产品下载链接](https://my.vmware.com/zh/group/vmware/info/slug/datacenter_cloud_infrastructure/vmware_vsphere/6_7)
 
@@ -104,7 +104,7 @@ keywords: carlme,superwang,superwangcarl,carl,卡尔米,exsi,ssh,linux,software
 
       2. 登录后点击这里的注册 
 
-         ![img](../../assets/images/blog/2019/20190414225524.png)
+         ![img]({{site.cdn}}assets/images/blog/2019/20190414225524.png)
 
       3. 评估之后可以下载试用版,不过只有60天的有效期
 
@@ -114,43 +114,43 @@ keywords: carlme,superwang,superwangcarl,carl,卡尔米,exsi,ssh,linux,software
 
 4. 进入EXSI的安装页面,在引导过程中，可以看到机器的CPU、内存的基本信息
 
-   ![img](../../assets/images/blog/2019/20190414230052.png)
+   ![img]({{site.cdn}}assets/images/blog/2019/20190414230052.png)
 
 5. 单击“回车”键确认，确定安装
 
-   ![img](../../assets/images/blog/2019/20190414230130.png)
+   ![img]({{site.cdn}}assets/images/blog/2019/20190414230130.png)
 
 6. 按`F11`接受协议
 
-   ![img](../../assets/images/blog/2019/20190414230156.png)
+   ![img]({{site.cdn}}assets/images/blog/2019/20190414230156.png)
 
 7. 此界面选择安装位置，单击“回车”键确认，安装到本地磁盘中
 
-   ![img](../../assets/images/blog/2019/20190414230238.png)
+   ![img]({{site.cdn}}assets/images/blog/2019/20190414230238.png)
 
 8. 键盘类型，默认美式键盘，单击“回车”键确认
 
-   ![img](../../assets/images/blog/2019/20190414230311.png)
+   ![img]({{site.cdn}}assets/images/blog/2019/20190414230311.png)
 
 9. 输入root密码，密码要求7位以上，单击“回车”键确认
 
-   ![img](../../assets/images/blog/2019/20190414230332.png)
+   ![img]({{site.cdn}}assets/images/blog/2019/20190414230332.png)
 
 10. 单击“F11”键确认安装
 
-  ![img](../../assets/images/blog/2019/20190414230418.png)
+  ![img]({{site.cdn}}assets/images/blog/2019/20190414230418.png)
 
 11. 安装进行中
 
-    ![img](../../assets/images/blog/2019/20190414230449.png)
+    ![img]({{site.cdn}}assets/images/blog/2019/20190414230449.png)
 
 12. 几分钟后安装完成，提示取出光盘，单击“回车”键重启
 
-    ![img](../../assets/images/blog/2019/20190414230510.png)
+    ![img]({{site.cdn}}assets/images/blog/2019/20190414230510.png)
 
 13. 安装完成后，进入控制台，通过控制台可以看到服务器的基本信息以及IP地址
 
-    ![img](../../assets/images/blog/2019/20190414230534.png)
+    ![img]({{site.cdn}}assets/images/blog/2019/20190414230534.png)
 
 ### 客户端安装
 
@@ -160,35 +160,35 @@ keywords: carlme,superwang,superwangcarl,carl,卡尔米,exsi,ssh,linux,software
 
 2. 双击安装,自动解压
 
-   ![img](../../assets/images/blog/2019/20190414231813.png)
+   ![img]({{site.cdn}}assets/images/blog/2019/20190414231813.png)
 
-   ![img](../../assets/images/blog/2019/20190414232320.png)
+   ![img]({{site.cdn}}assets/images/blog/2019/20190414232320.png)
 
 3. 提示升级,点确定
 
-   ![img](../../assets/images/blog/2019/20190414232238.png)
+   ![img]({{site.cdn}}assets/images/blog/2019/20190414232238.png)
 
 4. 直接下一步,同意协议
 
-   ![img](../../assets/images/blog/2019/20190414232401.png)
+   ![img]({{site.cdn}}assets/images/blog/2019/20190414232401.png)
 
 5. 更改路径,安装,完成
 
-   ![img](../../assets/images/blog/2019/20190414232525.png)
+   ![img]({{site.cdn}}assets/images/blog/2019/20190414232525.png)
 
 ### 客户端使用
 
 1. 输入相关信息进行登录,(可以控制单个主机或者连接vCenter Server控制多个主机,此处我只控制一个)
 
-   ![img](../../assets/images/blog/2019/20190415213436.png)
+   ![img]({{site.cdn}}assets/images/blog/2019/20190415213436.png)
 
 2. 忽略
 
-   ![img](../../assets/images/blog/2019/20190415090611.png)
+   ![img]({{site.cdn}}assets/images/blog/2019/20190415090611.png)
 
 3. 进入菜单配置
 
-   ![img](../../assets/images/blog/2019/20190415091113.png)
+   ![img]({{site.cdn}}assets/images/blog/2019/20190415091113.png)
 
 
 ## FAQ
@@ -197,7 +197,7 @@ keywords: carlme,superwang,superwangcarl,carl,卡尔米,exsi,ssh,linux,software
 
 问题: 无法从服务器'0.0.0.0'检索到必须的客户端支持文件,如图
 
-![img](../../assets/images/blog/2019/20190416165948.png)
+![img]({{site.cdn}}assets/images/blog/2019/20190416165948.png)
 
 原因: 服务器和客户端的版本不一致,`exsi 6.5之后不再支持 vSphere Client`
 

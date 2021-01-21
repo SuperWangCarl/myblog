@@ -64,98 +64,98 @@ IDRAC卡的功能
 
 2. 通过浏览器访问远程管理卡的IP地址，默认是192.168.0.120
 
-   ![img](../../assets/images/blog/2019/20190414194107.png)
+   ![img]({{site.cdn}}assets/images/blog/2019/20190414194107.png)
 
 3. 提示更改密码，可以设置新密码或本次不更改密码
 
-   ![img](../../assets/images/blog/2019/20190414194132.png)
+   ![img]({{site.cdn}}assets/images/blog/2019/20190414194132.png)
 
 4. 跳过更改密码步骤
 
-   ![img](../../assets/images/blog/2019/20190414194202.png)
+   ![img]({{site.cdn}}assets/images/blog/2019/20190414194202.png)
 
 5. 点击启动
 
-   ![img](../../assets/images/blog/2019/20190414194237.png)
+   ![img]({{site.cdn}}assets/images/blog/2019/20190414194237.png)
 
 6. 下载一个文件
 
-   ![img](../../assets/images/blog/2019/20190414194336.png)
+   ![img]({{site.cdn}}assets/images/blog/2019/20190414194336.png)
 
 7. 更改使用java打开
 
-   ![img](../../assets/images/blog/2019/20190414194404.png)
+   ![img]({{site.cdn}}assets/images/blog/2019/20190414194404.png)
 
 8. 使用java打开
 
-   ![img](../../assets/images/blog/2019/20190414194428.png)
+   ![img]({{site.cdn}}assets/images/blog/2019/20190414194428.png)
 
 9. 点击继续
 
-   ![img](../../assets/images/blog/2019/20190414194454.png)
+   ![img]({{site.cdn}}assets/images/blog/2019/20190414194454.png)
 
 10. 点击运行
 
-    ![img](../../assets/images/blog/2019/20190414194520.png)
+    ![img]({{site.cdn}}assets/images/blog/2019/20190414194520.png)
 
-    ![img](../../assets/images/blog/2019/20190414194540.png)
+    ![img]({{site.cdn}}assets/images/blog/2019/20190414194540.png)
 
 11. 连接成功之后的界面
 
-    ![img](../../assets/images/blog/2019/20190414194605.png)
+    ![img]({{site.cdn}}assets/images/blog/2019/20190414194605.png)
 
 12. 连接到虚拟介质，类似于给服务器做一个远程的虚拟光驱
 
-    ![img](../../assets/images/blog/2019/20190414194635.png)
+    ![img]({{site.cdn}}assets/images/blog/2019/20190414194635.png)
 
 13. 关联到本地iso镜像
 
-    ![img](../../assets/images/blog/2019/20190414194701.png)
+    ![img]({{site.cdn}}assets/images/blog/2019/20190414194701.png)
 
 14. 选择iso并关联
 
-    ![img](../../assets/images/blog/2019/20190414194733.png)
+    ![img]({{site.cdn}}assets/images/blog/2019/20190414194733.png)
 
 15. 验证映射成功
 
-    ![img](../../assets/images/blog/2019/20190414194757.png)
+    ![img]({{site.cdn}}assets/images/blog/2019/20190414194757.png)
 
 16. 更改下次引导方式
 
-    ![img](../../assets/images/blog/2019/20190414194824.png)
+    ![img]({{site.cdn}}assets/images/blog/2019/20190414194824.png)
 
 17. 确认更改下次因此方式为虚拟ISO
 
-    ![img](../../assets/images/blog/2019/20190414194914.png)
+    ![img]({{site.cdn}}assets/images/blog/2019/20190414194914.png)
 
 18. 热重启服务器
 
-    ![img](../../assets/images/blog/2019/20190414194938.png)
+    ![img]({{site.cdn}}assets/images/blog/2019/20190414194938.png)
 
 19. 重启
 
-    ![img](../../assets/images/blog/2019/20190414194956.png)
+    ![img]({{site.cdn}}assets/images/blog/2019/20190414194956.png)
 
 20. 传递内存参数给网卡命名
 
-    ![img](../../assets/images/blog/2019/20190414195100.png)
+    ![img]({{site.cdn}}assets/images/blog/2019/20190414195100.png)
 
 ### 系统开关机
 
 1. 启动服务器，在启动过程中会出现相应提示，按下某某键进入远程管理卡配置界面。登录进去为它配置一个正确的IP地址。接着，在局域网内任意一台电脑的访问上面配置的IP地址，就能够显示远程管理卡的登录界面。如下图。
 
-   ![img](../../assets/images/blog/2019/20190414194107.png)
+   ![img]({{site.cdn}}assets/images/blog/2019/20190414194107.png)
 
 2. 输入账号，密码登陆系统，如下图：
 
-   ![img](../../assets/images/blog/2019/20190414194237.png)
+   ![img]({{site.cdn}}assets/images/blog/2019/20190414194237.png)
 
 3. 点击启动按钮->下载可执行文件->执行文件（需要java运行环境）->进入控制台 如下图所示：
 
-   ![img](../../assets/images/blog/2019/20190414194605.png)
+   ![img]({{site.cdn}}assets/images/blog/2019/20190414194605.png)
 
 4. 通过控制台，可以进行机器开机、关机、重启操作；配置下次引导方式； 如下图所示
-   ![img](../../assets/images/blog/2019/20190415004653.png)
+   ![img]({{site.cdn}}assets/images/blog/2019/20190415004653.png)
 
 ## 参考资料
 

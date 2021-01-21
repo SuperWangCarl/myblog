@@ -23,20 +23,20 @@ keywords: carlme,superwang,superwangcarl,carl,卡尔米,software,nginx,shell,lua
 
 **nignx源码包**
 
-[nginx-1.10.3.tar.gz](../../download/nginx-1.10.3.tar.gz)
+[nginx-1.10.3.tar.gz]({{site.cdn}}download/nginx-1.10.3.tar.gz)
 
 **lua脚本 所需依赖**
 
-[ngx_devel_kit-0.3.0.tar.gz](../../download/ngx_devel_kit-0.3.0.tar.gz)
+[ngx_devel_kit-0.3.0.tar.gz]({{site.cdn}}download/ngx_devel_kit-0.3.0.tar.gz)
 
-[LuaJIT-2.0.4.tar.gz](../../download/ngx_devel_kit-0.3.0.tar.gz)
+[LuaJIT-2.0.4.tar.gz]({{site.cdn}}download/ngx_devel_kit-0.3.0.tar.gz)
 
-[lua-nginx-module-0.10.8.tar.gz](../../download/lua-nginx-module-0.10.8.tar.gz)
+[lua-nginx-module-0.10.8.tar.gz]({{site.cdn}}download/lua-nginx-module-0.10.8.tar.gz)
 
 **lua调用shell所需**
 
-[sockproc.tar.gz](../../download/sockproc.tar.gz)
-[lua-resty-shell.tar.gz](../../download/lua-resty-shell.tar.gz)
+[sockproc.tar.gz]({{site.cdn}}download/sockproc.tar.gz)
+[lua-resty-shell.tar.gz]({{site.cdn}}download/lua-resty-shell.tar.gz)
 
 ### 安装依赖
 
@@ -131,7 +131,7 @@ location = /api/ls {
 
 ### 测试
 
-![img](../../assets/images/blog/2019/20190428224713.png)
+![img]({{site.cdn}}assets/images/blog/2019/20190428224713.png)
 
 ## FAQ
 
@@ -149,7 +149,7 @@ location = /api/ls {
 
 **问题 :** 
 
-![img](../../assets/images/blog/2019/20190428224013.png)
+![img]({{site.cdn}}assets/images/blog/2019/20190428224013.png)
 
 **原因 :** 由于编译时没有生成动态链接库，只能手动链接
 
@@ -170,7 +170,7 @@ ldconfig
 
 **问题 :** 找不到shell.lua
 
-![img](../../assets/images/blog/2019/20190429160515.png)
+![img]({{site.cdn}}assets/images/blog/2019/20190429160515.png)
 
 **原因 :** 路径配置错误,或者权限不够
 

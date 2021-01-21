@@ -25,17 +25,17 @@ keywords: carlme,superwang,superwangcarl,carl,卡尔米,SpringMVC,FAQ
 
 ***后台代码***
 
-![img](../../assets/images/blog/2019/20190419144417.png)
+![img]({{site.cdn}}assets/images/blog/2019/20190419144417.png)
 
 ***结果***
 
-![img](../../assets/images/blog/2019/20190419144518.png)
+![img]({{site.cdn}}assets/images/blog/2019/20190419144518.png)
 
 #### @RequestBody封装 (不可以)
 
 ***结果***
 
-![img](../../assets/images/blog/2019/20190419144615.png)
+![img]({{site.cdn}}assets/images/blog/2019/20190419144615.png)
 
 ***
 

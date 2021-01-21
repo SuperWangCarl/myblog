@@ -27,7 +27,7 @@ keywords: carlme,superwang,superwangcarl,carl,myblog,卡尔米
 
 ## 3. 效果展示
 
-![img](../../assets/images/blog/2019/20190408233039.png)
+![img]({{site.cdn}}assets/images/blog/2019/20190408233039.png)
 
 ***
 
