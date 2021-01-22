@@ -19,11 +19,10 @@ keywords: IT超仔,carlme,superwang,superwangcarl,carl,myblog,卡尔米
 
 在`copyright.html`中添加
 
-```html
-<p align="center" style="margin-top: 15px; font-size: 25px;color: #843534;">
-    <strong>（本篇博文完结,一共:<span style="color: #cc0000;">\{\{ page.content | number_of_words \}\} </span>字）</strong>
-</p>
-```
+1. 英文字数统计
+   - jekyll中有内置的英文字数统计方法`number_of_words`，直接在需要显示的文章中添加代码`{{ page.content | number_of_words }}`，我是直接在`post.html`中添加，注意`{{ page.content | number_of_words }}`显示出来的只是字数，你需要加一些文字说明。
+2. 中文字数统计
+   - 添加代码`{{ content | strip_html | strip_newlines | split: "" | size }}`，操作同上
 
 ## 3. 效果展示
 

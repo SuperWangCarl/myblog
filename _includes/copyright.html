@@ -1,6 +1,7 @@
 <div>
     <p align="center" style="margin-top: 15px; font-size: 25px;color: #843534;">
-    <strong>（本篇博文完结,一共:<span style="color: #cc0000;">{{ page.content | number_of_words }} </span>字）</strong>
+    <strong>（本篇博文完结,英文字数一共:<span style="color: #cc0000;">{{ page.content | number_of_words }} </span>字）</strong>
+        <strong>（本篇博文完结,中文字数一共:<span style="color: #cc0000;">{{ page.content | strip_html | strip_newlines | split: "" | size }}</span>字）</strong>
 </p>
     <p align="center">
         {% if page.copyright %}
