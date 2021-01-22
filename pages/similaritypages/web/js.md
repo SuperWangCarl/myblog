@@ -1,7 +1,7 @@
-0---
+---
 layout: page
 title: 这里分享关于 JS 的一切
-titlebar: vue
+titlebar: JS
 subtitle: <span class="mega-octicon octicon-clippy"></span>&nbsp;&nbsp; js 系列文章
 menu: web
 css: ['blog-page.min.css']

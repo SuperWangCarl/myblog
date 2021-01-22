@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 这里分享关于 jquery 的一切
-titlebar: vue
+titlebar: jquery
 subtitle: <span class="mega-octicon octicon-clippy"></span>&nbsp;&nbsp; jquery 系列文章
 menu: web
 css: ['blog-page.min.css']

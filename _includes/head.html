@@ -6,7 +6,7 @@
     <!-- Favicon Icon -->
     <link rel="shortcut icon" type="image/x-icon" href="{{site.cdn}}/assets/images/favicon.ico">
 
-    <title>{% if page.titlebar %} {{ page.titlebar | escape }} - Carl博客 {% elsif page.title %} {{ page.title | escape }} - Carl博客 {% else %}{{ site.title | escape }}{% endif %}</title>
+    <title>{% if page.titlebar %} {{ page.titlebar | escape }} - {{ site.name }}博客 {% elsif page.title %} {{ page.title | escape }} - {{ site.name }}博客 {% else %}{{ site.title | escape }}{% endif %}</title>
     <meta name="keywords" content="{% if page.keywords %}{{ page.keywords | escape }}{% else %}{{ site.keywords }}{% endif %}">
     <meta name="description"
           content="{% if page.excerpt %}{{ page.excerpt | escape }}{% else %}{{ site.description }}{% endif %}">
