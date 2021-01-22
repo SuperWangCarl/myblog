@@ -5,7 +5,7 @@ copyright: me
 original: me
 comments: true
 title: 戴尔服务器风扇调节
-category: 所属分类
+category: devops
 tags: [iDRAC,dell,r510]
 excerpt: 手动调节戴尔服务器风扇
 keywords: IT超仔,carlme,superwang,superwangcarl,carl,linux,dell,风扇
