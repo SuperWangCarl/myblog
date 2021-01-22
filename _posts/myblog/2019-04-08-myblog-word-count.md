@@ -30,3 +30,6 @@ keywords: IT超仔,carlme,superwang,superwangcarl,carl,myblog,卡尔米
 
 ***
 
+## 参考资料
+
+[为Jekyll博客添加小功能](https://blog.csdn.net/ds19991999/article/details/81293467)
