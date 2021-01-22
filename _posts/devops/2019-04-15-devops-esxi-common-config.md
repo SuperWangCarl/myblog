@@ -8,7 +8,7 @@ title: 物理机上安装exsi的常用配置
 category: devops
 tags: [devops,exsi]
 excerpt: 物理机上安装exsi的常用配置
-keywords: carlme,superwang,superwangcarl,carl,卡尔米,exsi,ssh,linux
+keywords: IT超仔,carlme,superwang,superwangcarl,carl,卡尔米,exsi,ssh,linux
 ---
 
 

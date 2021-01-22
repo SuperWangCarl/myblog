@@ -8,7 +8,7 @@ title: 博客评论功能
 category: myblog
 tags: [myblog,disqus,gitment,gitalk]
 excerpt: 分析下主流评论模块并添加
-keywords: carlme,superwang,superwangcarl,carl,卡尔米,disqus,gitment,gitalk
+keywords: IT超仔,carlme,superwang,superwangcarl,carl,卡尔米,disqus,gitment,gitalk
 ---
 
 ## 1. 简介

@@ -8,7 +8,7 @@ title: CAS服务端 基于ip
 category: sso
 tags: [sso,x5,cas]
 excerpt: CAS服务端基于ip的认证
-keywords: carlme,superwang,superwangcarl,carl,卡尔米,sso,单点登录服务端,cas,client
+keywords: IT超仔,carlme,superwang,superwangcarl,carl,卡尔米,sso,单点登录服务端,cas,client
 ---
 
 ## 1. 简介

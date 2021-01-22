@@ -13,7 +13,6 @@ email: carlme@aliyun.com
 description: 本站是王超的技术分享博客
 keywords: IT 超仔,carlme,superwang,superwangcarl,Spring,Spring Boot,Spring Cloud,MongoDB,Jvm,Docker,DevOps,架构,大数据,一线,开源,开发者,编程,代码,开源,IT网站,Developer,Programmer,Coder,Geek,IT技术博客,Java,Python
 encoding: "utf-8"
-favicon: favicon.ico
 repository: superwangcarl/superwangcarl.github.io
 github_url: https://github.com/superwangcarl
 url: https://www.carlme.com/

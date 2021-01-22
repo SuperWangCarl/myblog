@@ -8,7 +8,7 @@ title: 博客jekyll添加模版动画
 category: myblog
 tags: [myblog]
 excerpt: 博客jekyll添加模版动画
-keywords: carlme,superwang,superwangcarl,carl,卡尔米,live2d-widget,jekyll
+keywords: IT超仔,carlme,superwang,superwangcarl,carl,卡尔米,live2d-widget,jekyll
 ---
 
 ## 1. 简介

@@ -8,7 +8,7 @@ title: 前后端分离项目域名端口相同集成cas客户端
 category: sso
 tags: [sso,springboot]
 excerpt: 前后端分离项目域名端口相同集成cas客户端
-keywords: carlme,superwang,superwangcarl,carl,卡尔米,单点登录客户端集成,cas,client,springboot,前后端分离
+keywords: IT超仔,carlme,superwang,superwangcarl,carl,卡尔米,单点登录客户端集成,cas,client,springboot,前后端分离
 ---
 
 ## 1. 简介

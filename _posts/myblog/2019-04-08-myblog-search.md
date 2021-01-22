@@ -8,7 +8,7 @@ title: 博客搜索
 category: myblog
 tags: [search,myblog,nginx跨域]
 excerpt: 给博客添加搜索功能
-keywords: carlme,superwang,superwangcarl,carl,blog,search,搜索,卡尔米,nginx跨域
+keywords: IT超仔,carlme,superwang,superwangcarl,carl,blog,search,搜索,卡尔米,nginx跨域
 ---
 
 ## 1. 简介

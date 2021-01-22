@@ -8,7 +8,7 @@ title: 物理机上安装exsi的简单使用
 category: devops
 tags: [devops,exsi]
 excerpt: exsi的简单安装和使用
-keywords: carlme,superwang,superwangcarl,carl,卡尔米,exsi,ssh,linux,software
+keywords: IT超仔,carlme,superwang,superwangcarl,carl,卡尔米,exsi,ssh,linux,software
 ---
 
 ## 简介

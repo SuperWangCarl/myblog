@@ -8,7 +8,7 @@ title: webservice之axis
 category: axis
 tags: [utils,axis]
 excerpt: webservice之axis根据wsdl生成客户端和服务端
-keywords: carlme,superwang,superwangcarl,carl,卡尔米,axis,utils
+keywords: IT超仔,carlme,superwang,superwangcarl,carl,卡尔米,axis,utils
 ---
 
 ## 简介

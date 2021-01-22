@@ -8,7 +8,7 @@ title: NAS的备份
 category: devops
 tags: [devops]
 excerpt: NAS的备份和磁盘映射
-keywords: carlme,superwang,superwangcarl,carl,卡尔米,nas,exsi
+keywords: IT超仔,carlme,superwang,superwangcarl,carl,卡尔米,nas,exsi
 ---
 
 ## 简介

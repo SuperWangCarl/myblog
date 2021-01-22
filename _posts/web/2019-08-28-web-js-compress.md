@@ -8,7 +8,7 @@ title: 前端js批量压缩和webStrom配置
 category: web
 tags: [web,javascript]
 excerpt: 前端js批量压缩和webStrom配置
-keywords: carlme,superwang,superwangcarl,carl,git,license,卡尔米,web,javascript
+keywords: IT超仔,carlme,superwang,superwangcarl,carl,git,license,卡尔米,web,javascript
 ---
 
 ## 简介

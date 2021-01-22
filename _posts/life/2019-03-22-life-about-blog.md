@@ -8,7 +8,7 @@ title: 博客介绍
 category: life
 tags: [blog,myblog]
 excerpt: 关于建立博客的目的
-keywords: carlme,superwang,superwangcarl,carl,myblog,life,生活,卡尔米
+keywords: IT超仔,carlme,superwang,superwangcarl,carl,myblog,life,生活,卡尔米
 sitemap: false
 ---
 

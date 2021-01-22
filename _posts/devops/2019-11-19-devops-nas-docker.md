@@ -8,7 +8,7 @@ title: NAS中的docker配置
 category: devops
 tags: [devops,nas,docker]
 excerpt: NAS中的docker配置 和 映射NFS 并将映射后的NFS 在服务器上开启ftp
-keywords: carlme,superwang,superwangcarl,carl,卡尔米,nas,exsi
+keywords: IT超仔,carlme,superwang,superwangcarl,carl,卡尔米,nas,exsi
 ---
 
 ## 简介

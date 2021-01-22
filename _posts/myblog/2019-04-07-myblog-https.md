@@ -8,7 +8,7 @@ title: 博客https的认证配置
 category: myblog
 tags: [myblog,https]
 excerpt: 给博客配上https的安全认证
-keywords: carlme,superwang,superwangcarl,carl,https,myblog,blog,nginx,认证,卡尔米
+keywords: IT超仔,carlme,superwang,superwangcarl,carl,https,myblog,blog,nginx,认证,卡尔米
 ---
 
 ## 1. 简介

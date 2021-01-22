@@ -8,7 +8,7 @@ title: springboot项目集成cas客户端
 category: sso
 tags: [sso,springboot]
 excerpt: springboot项目集成cas客户端
-keywords: carlme,superwang,superwangcarl,carl,卡尔米,单点登录客户端集成,cas,client,springboot
+keywords: IT超仔,carlme,superwang,superwangcarl,carl,卡尔米,单点登录客户端集成,cas,client,springboot
 ---
 
 ## 1. 简介

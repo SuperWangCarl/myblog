@@ -8,7 +8,7 @@ title: CAS客户端 集成 x5
 category: sso
 tags: [sso,x5,cas]
 excerpt: 比较老的一个项目,集成CAS客户端
-keywords: carlme,superwang,superwangcarl,carl,卡尔米,sso,单点登录客户端集成,cas,client
+keywords: IT超仔,carlme,superwang,superwangcarl,carl,卡尔米,sso,单点登录客户端集成,cas,client
 ---
 
 ## 1. 简介

@@ -8,7 +8,7 @@ title: 博客网站流量统计
 category: myblog
 tags: [myblog,流量统计]
 excerpt: 给博客添加网站流量统计
-keywords: carlme,superwang,superwangcarl,carl,卡尔米,博客,流量统计
+keywords: IT超仔,carlme,superwang,superwangcarl,carl,卡尔米,博客,流量统计
 ---
 
 ## 1. 流量统计介绍

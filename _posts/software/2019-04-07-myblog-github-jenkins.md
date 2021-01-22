@@ -8,7 +8,7 @@ title: 博客持续集成
 category: myblog
 tags: [git,jenkins,devops]
 excerpt: github和jenkins持续集成
-keywords: carlme,superwang,superwangcarl,carl,git,jenkins,myblog,jdk安装,devops,卡尔米,software
+keywords: IT超仔,carlme,superwang,superwangcarl,carl,git,jenkins,myblog,jdk安装,devops,卡尔米,software
 ---
 
 ## 1. 简介

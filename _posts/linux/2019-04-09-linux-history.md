@@ -8,7 +8,7 @@ title: Linux的history
 category: linux
 tags: [linux,history,time]
 excerpt: Linux的history的命令介绍和配置
-keywords: carlme,superwang,superwangcarl,carl,history,操作时间,操作历史,卡尔米
+keywords: IT超仔,carlme,superwang,superwangcarl,carl,history,操作时间,操作历史,卡尔米
 ---
 
 

@@ -8,7 +8,7 @@ title: exsi中安装nas
 category: devops
 tags: [devops,nas,exsi]
 excerpt: 在exsi中安装nas
-keywords: carlme,superwang,superwangcarl,carl,卡尔米
+keywords: IT超仔,carlme,superwang,superwangcarl,carl,卡尔米
 ---
 
 

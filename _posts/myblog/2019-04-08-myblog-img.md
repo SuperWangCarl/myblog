@@ -8,7 +8,7 @@ title: 博客增加图片缩放
 category: myblog
 tags: [myblog,image]
 excerpt: 博客增加图片缩放
-keywords: carlme,superwang,superwangcarl,carl,图片缩放,卡尔米
+keywords: IT超仔,carlme,superwang,superwangcarl,carl,图片缩放,卡尔米
 ---
 
 ## 1. 简介

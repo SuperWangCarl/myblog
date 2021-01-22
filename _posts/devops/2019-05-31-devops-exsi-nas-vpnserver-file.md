@@ -8,7 +8,7 @@ title: NAS的共享文件夹外网映射
 category: devops
 tags: [devops]
 excerpt: NAS的共享文件夹外网映射
-keywords: carlme,superwang,superwangcarl,carl,卡尔米,nas,exsi
+keywords: IT超仔,carlme,superwang,superwangcarl,carl,卡尔米,nas,exsi
 ---
 
 ## 简介

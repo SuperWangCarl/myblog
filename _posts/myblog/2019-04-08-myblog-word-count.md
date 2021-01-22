@@ -8,7 +8,7 @@ title: 博客字数统计
 category: myblog
 tags: [myblog,word,count]
 excerpt: 给每篇博文添加一个字数统计
-keywords: carlme,superwang,superwangcarl,carl,myblog,卡尔米
+keywords: IT超仔,carlme,superwang,superwangcarl,carl,myblog,卡尔米
 ---
 
 ## 1. 简介

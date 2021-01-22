@@ -8,7 +8,7 @@ title: 博客安装
 category: myblog
 tags: [blog,myblog]
 excerpt: 自建博客介绍和初始安装
-keywords: carlme,superwang,superwangcarl,carl,卡尔米
+keywords: IT超仔,carlme,superwang,superwangcarl,carl,卡尔米
 ---
 
 ## 1. 简介

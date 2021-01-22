@@ -8,7 +8,7 @@ title: 普通web项目集成cas客户端
 category: sso
 tags: [sso,web]
 excerpt: 普通web项目集成cas客户端
-keywords: carlme,superwang,superwangcarl,carl,卡尔米,单点登录客户端集成,cas,client
+keywords: IT超仔,carlme,superwang,superwangcarl,carl,卡尔米,单点登录客户端集成,cas,client
 ---
 
 ## 1. 简介

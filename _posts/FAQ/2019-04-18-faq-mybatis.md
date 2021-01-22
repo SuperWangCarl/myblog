@@ -8,7 +8,7 @@ title: mybatis采坑总结(持续更新)
 category: FAQ
 tags: [mybatis,faq]
 excerpt: mybatis采坑总结(持续更新)
-keywords: carlme,superwang,superwangcarl,carl,卡尔米,mybatis,FAQ
+keywords: IT超仔,carlme,superwang,superwangcarl,carl,卡尔米,mybatis,FAQ
 ---
 
 

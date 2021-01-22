@@ -8,7 +8,7 @@ title: bat常用
 category: Bat
 tags: [language,bat]
 excerpt: windows bat 目录跳转 注释 脚本
-keywords: carlme,superwang,superwangcarl,carl,卡尔米,Bat,language
+keywords: IT超仔,carlme,superwang,superwangcarl,carl,卡尔米,Bat,language
 ---
 
 

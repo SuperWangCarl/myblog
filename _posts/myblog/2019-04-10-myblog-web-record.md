@@ -8,7 +8,7 @@ title: 博客域名备案
 category: myblog
 tags: [myblog,record]
 excerpt: 博客域名备案和流程介绍
-keywords: carlme,superwang,superwangcarl,carl,卡尔米,网络备案
+keywords: IT超仔,carlme,superwang,superwangcarl,carl,卡尔米,网络备案
 ---
 
 ## 1. 简介

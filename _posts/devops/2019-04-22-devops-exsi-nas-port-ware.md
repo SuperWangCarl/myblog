@@ -8,7 +8,7 @@ title: NAS的常用端口 软件
 category: devops
 tags: [devops]
 excerpt: NAS的常用端口 软件
-keywords: carlme,superwang,superwangcarl,carl,卡尔米,nas,exsi
+keywords: IT超仔,carlme,superwang,superwangcarl,carl,卡尔米,nas,exsi
 ---
 
 ## 简介

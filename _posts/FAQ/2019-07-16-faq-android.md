@@ -8,7 +8,7 @@ title: Android采坑总结(持续更新)
 category: FAQ
 tags: [Android,faq]
 excerpt: Android采坑总结(持续更新)
-keywords: carlme,superwang,superwangcarl,carl,卡尔米,Android,FAQ
+keywords: IT超仔,carlme,superwang,superwangcarl,carl,卡尔米,Android,FAQ
 ---
 
 ## 简介

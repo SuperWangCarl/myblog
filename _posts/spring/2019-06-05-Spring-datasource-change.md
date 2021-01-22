@@ -8,7 +8,7 @@ title: 多数据源切换--Spring
 category: java
 tags: [java]
 excerpt: 多数据源切换--Spring
-keywords: carlme,superwang,superwangcarl,carl,卡尔米,springboot,java
+keywords: IT超仔,carlme,superwang,superwangcarl,carl,卡尔米,springboot,java
 ---
 
 ## 简介

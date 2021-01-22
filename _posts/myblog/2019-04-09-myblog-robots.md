@@ -8,7 +8,7 @@ title: 博客让搜索引擎主动爬取
 category: myblog
 tags: [myblog,robots]
 excerpt: 让搜索引擎主动来爬取你的博客
-keywords: carlme,superwang,superwangcarl,carl,blog,myblog,robots,搜索引擎,百度,谷歌,卡尔米
+keywords: IT超仔,carlme,superwang,superwangcarl,carl,blog,myblog,robots,搜索引擎,百度,谷歌,卡尔米
 ---
 
 ## 1. 简介

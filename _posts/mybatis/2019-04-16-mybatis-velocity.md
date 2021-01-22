@@ -8,7 +8,7 @@ title: mybatis-plus模板修改
 category: mybatis
 tags: [mybatis,mybatisplus]
 excerpt: mybatis-plus模版生成修改
-keywords: carlme,superwang,superwangcarl,carl,卡尔米,mybatis,mybatisplus,ssm
+keywords: IT超仔,carlme,superwang,superwangcarl,carl,卡尔米,mybatis,mybatisplus,ssm
 ---
 
 ## 简介

@@ -8,7 +8,7 @@ title: Springboot集成Mybatisplus
 category: java
 tags: [springboot]
 excerpt: Springboot集成Mybatisplus
-keywords: carlme,superwang,superwangcarl,carl,卡尔米,springboot,java,Mybatisplus
+keywords: IT超仔,carlme,superwang,superwangcarl,carl,卡尔米,springboot,java,Mybatisplus
 ---
 
 ## 简介

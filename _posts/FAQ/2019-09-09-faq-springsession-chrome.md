@@ -8,7 +8,7 @@ title: Spring-session-data-redis采坑
 category: FAQ
 tags: [faq,springboot]
 excerpt: Spring-session-data-redis在chrome跨域下的丢失cookie
-keywords: carlme,superwang,superwangcarl,carl,卡尔米,FAQ,springboot
+keywords: IT超仔,carlme,superwang,superwangcarl,carl,卡尔米,FAQ,springboot
 ---
 
 ## 简介

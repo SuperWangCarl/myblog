@@ -8,7 +8,7 @@ title: 博客添加简单的安全加固
 category: myblog
 tags: [myblog,linux]
 excerpt: 给博客服务器添加简单的安全,防止恶意访问
-keywords: carlme,superwang,superwangcarl,carl,卡尔米,linux,nginx,myblog
+keywords: IT超仔,carlme,superwang,superwangcarl,carl,卡尔米,linux,nginx,myblog
 ---
 
 

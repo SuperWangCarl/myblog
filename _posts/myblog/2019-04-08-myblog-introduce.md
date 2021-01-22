@@ -8,7 +8,7 @@ title: 博客整体架构和标识
 category: myblog
 tags: [myblog]
 excerpt: 介绍下博客的大体架构,和常用的关键标识
-keywords: carlme,superwang,superwangcarl,carl,字段标识,卡尔米
+keywords: IT超仔,carlme,superwang,superwangcarl,carl,字段标识,卡尔米
 ---
 
 ## 1. 简介

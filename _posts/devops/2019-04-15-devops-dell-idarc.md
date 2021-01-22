@@ -8,7 +8,7 @@ title: 戴尔远程卡配置
 category: devops
 tags: [iDRAC,dell,r510]
 excerpt: 给戴尔服务器配置上远程卡
-keywords: carlme,superwang,superwangcarl,carl,卡尔米,linux,dell,r510,iDRAC
+keywords: IT超仔,carlme,superwang,superwangcarl,carl,卡尔米,linux,dell,r510,iDRAC
 ---
 
 

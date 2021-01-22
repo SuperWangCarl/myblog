@@ -8,7 +8,7 @@ title: nginx+lua安装
 category: software
 tags: [software]
 excerpt: nginx+lua安装,并调用本地脚本
-keywords: carlme,superwang,superwangcarl,carl,卡尔米,software,nginx,shell,lua
+keywords: IT超仔,carlme,superwang,superwangcarl,carl,卡尔米,software,nginx,shell,lua
 ---
 
 ## 简介

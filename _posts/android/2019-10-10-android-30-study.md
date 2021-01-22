@@ -8,7 +8,7 @@ title: Android-30天安卓学习计划
 category: android
 tags: [android,study]
 excerpt: 计划一个30天的安卓学习计划
-keywords: carlme,superwang,superwangcarl,carl,git,license,卡尔米,web,css
+keywords: IT超仔,carlme,superwang,superwangcarl,carl,git,license,卡尔米,web,css
 ---
 
 ## 简介

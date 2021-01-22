@@ -8,7 +8,7 @@ title: JS中&&和||(转)
 category: js
 tags: [web,javascript]
 excerpt: JavaScript赋值语句中的逻辑与&&和逻辑或||(转)
-keywords: carlme,superwang,superwangcarl,carl,git,license,卡尔米,web,javascript
+keywords: IT超仔,carlme,superwang,superwangcarl,carl,git,license,卡尔米,web,javascript
 ---
 
 ## 常见许可证

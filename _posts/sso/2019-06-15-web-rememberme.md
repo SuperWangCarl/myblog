@@ -8,7 +8,7 @@ title: 基于cookie的记住我
 category: jquery
 tags: [jquery,web,safe]
 excerpt: 简介
-keywords: carlme,superwang,superwangcarl,carl,卡尔米,web,jquery,safe
+keywords: IT超仔,carlme,superwang,superwangcarl,carl,卡尔米,web,jquery,safe
 ---
 
 ## 简介

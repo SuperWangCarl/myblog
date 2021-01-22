@@ -8,7 +8,7 @@ title: 定时任务使用总结
 category: springboot
 tags: [springboot]
 excerpt: 定时任务使用总结
-keywords: carlme,superwang,superwangcarl,carl,卡尔米,springboot,java
+keywords: IT超仔,carlme,superwang,superwangcarl,carl,卡尔米,springboot,java
 ---
 
 ## 简介

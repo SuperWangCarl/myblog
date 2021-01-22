@@ -8,7 +8,7 @@ title: 博客图片和文件
 category: myblog
 tags: [myblog,linux]
 excerpt: 博客图片和文件
-keywords: carlme,superwang,superwangcarl,carl,卡尔米,linux,nginx,myblog
+keywords: IT超仔,carlme,superwang,superwangcarl,carl,卡尔米,linux,nginx,myblog
 ---
 
 ## 1. 简介

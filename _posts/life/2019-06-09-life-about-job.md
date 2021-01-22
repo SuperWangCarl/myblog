@@ -8,7 +8,7 @@ title: 最近的生活和状态(2019)
 category: life
 tags: [life]
 excerpt: 记录下最近的工作生活状态的改变(2019-06-10)
-keywords: carlme,superwang,superwangcarl,carl,life,生活,卡尔米
+keywords: IT超仔,carlme,superwang,superwangcarl,carl,life,生活,卡尔米
 sitemap: true
 ---
 

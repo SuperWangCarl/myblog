@@ -8,7 +8,7 @@ title: springboot集成阿里云ddns
 category: springboot
 tags: [springboot,aliyun]
 excerpt: 使用springboot集成阿里云的ddns
-keywords: carlme,superwang,superwangcarl,carl,卡尔米,springboot,阿里云,ddns
+keywords: IT超仔,carlme,superwang,superwangcarl,carl,卡尔米,springboot,阿里云,ddns
 ---
 
 ## 简介

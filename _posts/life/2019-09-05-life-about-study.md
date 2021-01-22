@@ -8,7 +8,7 @@ title: 最近的学习计划和状态
 category: life
 tags: [life]
 excerpt: 记录下最近的学习计划和生活状态(2019-09-05)
-keywords: carlme,superwang,superwangcarl,carl,life,生活,卡尔米
+keywords: IT超仔,carlme,superwang,superwangcarl,carl,life,生活,卡尔米
 sitemap: true
 ---
 
