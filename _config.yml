@@ -69,7 +69,7 @@ menus:
     target: _self
 
   -
-    href: /blog.html
+    href: /all.html
     label: Blog
     target: _self
 
@@ -183,7 +183,7 @@ navs:
     label: Code
     target: _blank
 
-  - href: /all.html
+  - href: /blog.html
     label: All
     target: _self
 
