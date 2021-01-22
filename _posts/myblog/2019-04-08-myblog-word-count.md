@@ -21,7 +21,7 @@ keywords: IT超仔,carlme,superwang,superwangcarl,carl,myblog,卡尔米
 
 ```html
 <p align="center" style="margin-top: 15px; font-size: 25px;color: #843534;">
-    <strong>（本篇博文完结,一共:<span style="color: #cc0000;">{{ page.content | number_of_words }} </span>字）</strong>
+    <strong>（本篇博文完结,一共:<span style="color: #cc0000;">\{\{ page.content | number_of_words \}\} </span>字）</strong>
 </p>
 ```
 
