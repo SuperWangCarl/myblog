@@ -19,7 +19,7 @@ keywords: IT超仔,carlme,superwang,superwangcarl,carl,linux,dell,风扇
 
 ### 设置iDRAC远程卡
 
-详见 => [戴尔IDRAC远程卡配置]({{site.url}}/devops/2019/04/15/devops-dell-idarc.html)
+详见 => [戴尔IDRAC远程卡配置]({{site.url}}devops/2019/04/15/devops-dell-idarc.html)
 
 ### 下载安装远程调节工具
 

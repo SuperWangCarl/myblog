@@ -19,7 +19,7 @@ keywords: IT超仔,carlme,superwang,superwangcarl,carl,卡尔米,linux,dell,r510
 
 > 远程管理卡是安装在服务器上的硬件设备，提供一个以太网接口，使它可以连接到局域网内，提供远程访问。这种远程管理基于BMC（底板管理控制器），由集成在管理卡上的系统微处理器负责监测和管理操作系统之外的服务器环境和状态。它既不会占用服务器系统的资源，也不会影响服务器系统的运行。
 
-## 功能
+## 功能ta
 
 IDRAC卡的功能
 
@@ -62,47 +62,47 @@ IDRAC卡的功能
 
 1. 在服务器启动时按`Ctrl + E`配置好 iDRAC卡的地址
 
-   ![img]({{ site.cdn }}/assets/images/blog/2021/20210125104902.png)
+   ![img]({{ site.cdn }}assets/images/blog/2021/20210125104902.png)
 
 2. 进入 iDRAC6卡的配置界面，如下图 2 所示 
 
-   ![img]({{ site.cdn }}/assets/images/blog/2021/20210125104941.png)
+   ![img]({{ site.cdn }}assets/images/blog/2021/20210125104941.png)
 
 3. 在上图的界面中将光标移动至 LAN Parameters 选项
 
-   ![img]({{ site.cdn }}/assets/images/blog/2021/20210125105058.png)
+   ![img]({{ site.cdn }}assets/images/blog/2021/20210125105058.png)
 
-   ![img]({{ site.cdn }}/assets/images/blog/2021/20210125105117.png)
+   ![img]({{ site.cdn }}assets/images/blog/2021/20210125105117.png)
 
-   使用 向下的方向键 继续移动光标至 IPv4 Settings 位置 , 在此处配置一个 IPv4 的地址
-   配置修改的键盘使用方法 :
-   a. 上下方向键选择需要修改的位置
-   b. 上下方向键选定位置后，按回车键表示修改
-   c. IPv4 Address 、 Subnet Mask 、 Default Gateway 修改完成后，按 ESC 键表示修改完毕并
-   退出 LAN Parameters 选项配置； 
+   > 使用 向下的方向键 继续移动光标至 IPv4 Settings 位置 , 在此处配置一个 IPv4 的地址
+   > 配置修改的键盘使用方法 :
+   > a. 上下方向键选择需要修改的位置
+   > b. 上下方向键选定位置后，按回车键表示修改
+   > c. IPv4 Address 、 Subnet Mask 、 Default Gateway 修改完成后，按 ESC 键表示修改完毕并
+   > 退出 LAN Parameters 选项配置；
 
-   ![img]({{ site.cdn }}/assets/images/blog/2021/20210125105354.png)
+   ![img]({{ site.cdn }}assets/images/blog/2021/20210125105354.png)
 
 4. 在图 2 界面中将光标移动至 LAN User configuration 选项，按回车键进入配置 
 
-   ![img]({{ site.cdn }}/assets/images/blog/2021/20210125105420.png)
+   ![img]({{ site.cdn }}assets/images/blog/2021/20210125105420.png)
 
-   ![img]({{ site.cdn }}/assets/images/blog/2021/20210125105443.png)
+   ![img]({{ site.cdn }}assets/images/blog/2021/20210125105443.png)
 
-   默认用户名为 root 将密码设置为 !power
-   配置密码时的键盘使用方法 :
-   a. 上下方向键选择两处输入密码的位置
-   b. 确认密码输入后，按回车键表示保存
-   注意保存的时候一定要先按回车键保存，然后在按 ESC键退出回到图 2 界面； 
+   >  默认用户名为 root 将密码设置为 !power
+   > 配置密码时的键盘使用方法 :
+   > a. 上下方向键选择两处输入密码的位置
+   > b. 确认密码输入后，按回车键表示保存
+   > 注意保存的时候一定要先按回车键保存，然后在按 ESC键退出回到图 2 界面；
 
 5. 4 中最后一步回到图 2 界面后，继续按 ESC键后，如下图界面 
 
-   ![img]({{ site.cdn }}/assets/images/blog/2021/20210125105522.png)
+   ![img]({{ site.cdn }}assets/images/blog/2021/20210125105522.png)
 
 6. 前面 5 步配置完成后， iDRAC6卡的网线连接至如下面所示 IDRAC6卡网口 处 :
    Dell R510 设备后端 iDRAC6 卡+4 块 NIC 的位置图示 
 
-   ![img]({{ site.cdn }}/assets/images/blog/2021/20210125105603.png)
+   ![img]({{ site.cdn }}assets/images/blog/2021/20210125105603.png)
 
 ### 安装linux系统
 
@@ -146,7 +146,7 @@ IDRAC卡的功能
 
 10. 连接成功之后的界面
 
-   ![img]({{site.cdn}}assets/images/blog/2019/20190414194605.png)
+  ![img]({{site.cdn}}assets/images/blog/2019/20190414194605.png)
 
 11. 连接到虚拟介质，类似于给服务器做一个远程的虚拟光驱
 
