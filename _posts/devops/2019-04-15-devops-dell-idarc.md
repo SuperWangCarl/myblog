@@ -4,7 +4,7 @@ no-post-nav: false
 copyright: me
 original: me
 comments: true
-title: 戴尔远程卡配置
+title: 戴尔IDRAC远程卡配置
 category: devops
 tags: [iDRAC,dell,r510]
 excerpt: 给戴尔服务器配置上远程卡
@@ -56,87 +56,131 @@ IDRAC卡的功能
 
 ## 实战
 
-### 安装Centos7
+### 配置IDRAC卡
 
 通过IDRAC卡安装Centos 7操作系统过程
 
 1. 在服务器启动时按`Ctrl + E`配置好 iDRAC卡的地址
 
-2. 通过浏览器访问远程管理卡的IP地址，默认是192.168.0.120
+   ![img]({{ site.cdn }}/assets/images/blog/2021/20210125104902.png)
+
+2. 进入 iDRAC6卡的配置界面，如下图 2 所示 
+
+   ![img]({{ site.cdn }}/assets/images/blog/2021/20210125104941.png)
+
+3. 在上图的界面中将光标移动至 LAN Parameters 选项
+
+   ![img]({{ site.cdn }}/assets/images/blog/2021/20210125105058.png)
+
+   ![img]({{ site.cdn }}/assets/images/blog/2021/20210125105117.png)
+
+   使用 向下的方向键 继续移动光标至 IPv4 Settings 位置 , 在此处配置一个 IPv4 的地址
+   配置修改的键盘使用方法 :
+   a. 上下方向键选择需要修改的位置
+   b. 上下方向键选定位置后，按回车键表示修改
+   c. IPv4 Address 、 Subnet Mask 、 Default Gateway 修改完成后，按 ESC 键表示修改完毕并
+   退出 LAN Parameters 选项配置； 
+
+   ![img]({{ site.cdn }}/assets/images/blog/2021/20210125105354.png)
+
+4. 在图 2 界面中将光标移动至 LAN User configuration 选项，按回车键进入配置 
+
+   ![img]({{ site.cdn }}/assets/images/blog/2021/20210125105420.png)
+
+   ![img]({{ site.cdn }}/assets/images/blog/2021/20210125105443.png)
+
+   默认用户名为 root 将密码设置为 !power
+   配置密码时的键盘使用方法 :
+   a. 上下方向键选择两处输入密码的位置
+   b. 确认密码输入后，按回车键表示保存
+   注意保存的时候一定要先按回车键保存，然后在按 ESC键退出回到图 2 界面； 
+
+5. 4 中最后一步回到图 2 界面后，继续按 ESC键后，如下图界面 
+
+   ![img]({{ site.cdn }}/assets/images/blog/2021/20210125105522.png)
+
+6. 前面 5 步配置完成后， iDRAC6卡的网线连接至如下面所示 IDRAC6卡网口 处 :
+   Dell R510 设备后端 iDRAC6 卡+4 块 NIC 的位置图示 
+
+   ![img]({{ site.cdn }}/assets/images/blog/2021/20210125105603.png)
+
+### 安装linux系统
+
+1. 通过浏览器访问远程管理卡的IP地址，默认是192.168.0.120
 
    ![img]({{site.cdn}}assets/images/blog/2019/20190414194107.png)
 
-3. 提示更改密码，可以设置新密码或本次不更改密码
+2. 提示更改密码，可以设置新密码或本次不更改密码
 
    ![img]({{site.cdn}}assets/images/blog/2019/20190414194132.png)
 
-4. 跳过更改密码步骤
+3. 跳过更改密码步骤
 
    ![img]({{site.cdn}}assets/images/blog/2019/20190414194202.png)
 
-5. 点击启动
+4. 点击启动
 
    ![img]({{site.cdn}}assets/images/blog/2019/20190414194237.png)
 
-6. 下载一个文件
+5. 下载一个文件
 
    ![img]({{site.cdn}}assets/images/blog/2019/20190414194336.png)
 
-7. 更改使用java打开
+6. 更改使用java打开
 
    ![img]({{site.cdn}}assets/images/blog/2019/20190414194404.png)
 
-8. 使用java打开
+7. 使用java打开
 
    ![img]({{site.cdn}}assets/images/blog/2019/20190414194428.png)
 
-9. 点击继续
+8. 点击继续
 
    ![img]({{site.cdn}}assets/images/blog/2019/20190414194454.png)
 
-10. 点击运行
+9. 点击运行
 
-    ![img]({{site.cdn}}assets/images/blog/2019/20190414194520.png)
+   ![img]({{site.cdn}}assets/images/blog/2019/20190414194520.png)
 
-    ![img]({{site.cdn}}assets/images/blog/2019/20190414194540.png)
+   ![img]({{site.cdn}}assets/images/blog/2019/20190414194540.png)
 
-11. 连接成功之后的界面
+10. 连接成功之后的界面
 
-    ![img]({{site.cdn}}assets/images/blog/2019/20190414194605.png)
+   ![img]({{site.cdn}}assets/images/blog/2019/20190414194605.png)
 
-12. 连接到虚拟介质，类似于给服务器做一个远程的虚拟光驱
+11. 连接到虚拟介质，类似于给服务器做一个远程的虚拟光驱
 
     ![img]({{site.cdn}}assets/images/blog/2019/20190414194635.png)
 
-13. 关联到本地iso镜像
+12. 关联到本地iso镜像
 
     ![img]({{site.cdn}}assets/images/blog/2019/20190414194701.png)
 
-14. 选择iso并关联
+13. 选择iso并关联
 
     ![img]({{site.cdn}}assets/images/blog/2019/20190414194733.png)
 
-15. 验证映射成功
+14. 验证映射成功
 
     ![img]({{site.cdn}}assets/images/blog/2019/20190414194757.png)
 
-16. 更改下次引导方式
+15. 更改下次引导方式
 
     ![img]({{site.cdn}}assets/images/blog/2019/20190414194824.png)
 
-17. 确认更改下次因此方式为虚拟ISO
+16. 确认更改下次因此方式为虚拟ISO
 
     ![img]({{site.cdn}}assets/images/blog/2019/20190414194914.png)
 
-18. 热重启服务器
+17. 热重启服务器
 
     ![img]({{site.cdn}}assets/images/blog/2019/20190414194938.png)
 
-19. 重启
+18. 重启
 
     ![img]({{site.cdn}}assets/images/blog/2019/20190414194956.png)
 
-20. 传递内存参数给网卡命名
+19. 传递内存参数给网卡命名
 
     ![img]({{site.cdn}}assets/images/blog/2019/20190414195100.png)
 
@@ -158,6 +202,8 @@ IDRAC卡的功能
    ![img]({{site.cdn}}assets/images/blog/2019/20190415004653.png)
 
 ## 参考资料
+
+[Dell-R510服务器iDRAC6卡配置和各网卡网线的连接操作文档](https://wenku.baidu.com/view/80fd253ea417866fb94a8e1e.html)
 
 [通过iDRAC卡远程安装Centos 7系统](http://blogs.studylinux.net/?p=4609)
 
