@@ -43,7 +43,7 @@ keywords: IT超仔,carlme,superwang,superwangcarl,carl,linux,dell,风扇
 
    | 十进制  | 十六进制 |
    | ---- | ---- |
-   | 10   | aa   |
+   | 10   | a   |
    | 15   | f    |
    | 20   | 14   |
    | 31   | 1f   |
