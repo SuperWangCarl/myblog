@@ -57,7 +57,7 @@ keywords: IT超仔,carlme,superwang,superwangcarl,carl,blog,search,搜索,卡尔
 
 ### 4.search.json
 
-[文件下载]({{site.cdn}}download/search.json)
+[文件下载]({{site.cdn}}assets/download/search.json)
 
 ```json
 见图

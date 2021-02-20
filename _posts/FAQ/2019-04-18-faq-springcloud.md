@@ -29,7 +29,7 @@ keywords: IT超仔,carlme,superwang,superwangcarl,carl,卡尔米,SpringCloud,FAQ
 
 **解决 :** 配置下封装参数
 
- [RestTemplateConfig.java]({{site.cdn}}download/java/RestTemplateConfig.java)
+ [RestTemplateConfig.java]({{site.cdn}}assets/download/java/RestTemplateConfig.java)
 
 ```xml
  <dependency>

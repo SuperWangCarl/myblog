@@ -19,7 +19,7 @@ webSerivce虽然是一个比较老的跨语言交互接口,但是现在还是需
 
 **工具** : SoapUI 5.3.0  
 
-​	   axis1.4压缩包 官网下载  [直接下载]({{site.cdn}}download/axis-bin-1_4.zip)
+​	   axis1.4压缩包 官网下载  [直接下载]({{site.cdn}}assets/download/axis-bin-1_4.zip)
 
 **文档** : 所需的wsdl文件
 
