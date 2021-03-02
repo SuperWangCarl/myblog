@@ -50,7 +50,7 @@ keywords: IT超仔,carlme,superwang,superwangcarl,carl,linux,dell,风扇
 
 3. 命令行 不同调节
 
-   ![img]({{ site.cdn }}/assets/images/blog/2021/20210125115419.png)
+   ![img]({{site.cdn}}assets/images/blog/2021/20210125115419.png)
 
 ## 参考资料
 

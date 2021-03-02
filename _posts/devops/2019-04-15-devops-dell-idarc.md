@@ -62,17 +62,17 @@ IDRAC卡的功能
 
 1. 在服务器启动时按`Ctrl + E`配置好 iDRAC卡的地址
 
-   ![img]({{ site.cdn }}assets/images/blog/2021/20210125104902.png)
+   ![img]({{site.cdn}}assets/images/blog/2021/20210125104902.png)
 
 2. 进入 iDRAC6卡的配置界面，如下图 2 所示 
 
-   ![img]({{ site.cdn }}assets/images/blog/2021/20210125104941.png)
+   ![img]({{site.cdn}}assets/images/blog/2021/20210125104941.png)
 
 3. 在上图的界面中将光标移动至 LAN Parameters 选项
 
-   ![img]({{ site.cdn }}assets/images/blog/2021/20210125105058.png)
+   ![img]({{site.cdn}}assets/images/blog/2021/20210125105058.png)
 
-   ![img]({{ site.cdn }}assets/images/blog/2021/20210125105117.png)
+   ![img]({{site.cdn}}assets/images/blog/2021/20210125105117.png)
 
    > 使用 向下的方向键 继续移动光标至 IPv4 Settings 位置 , 在此处配置一个 IPv4 的地址
    > 配置修改的键盘使用方法 :
@@ -81,13 +81,13 @@ IDRAC卡的功能
    > c. IPv4 Address 、 Subnet Mask 、 Default Gateway 修改完成后，按 ESC 键表示修改完毕并
    > 退出 LAN Parameters 选项配置；
 
-   ![img]({{ site.cdn }}assets/images/blog/2021/20210125105354.png)
+   ![img]({{site.cdn}}assets/images/blog/2021/20210125105354.png)
 
 4. 在图 2 界面中将光标移动至 LAN User configuration 选项，按回车键进入配置 
 
-   ![img]({{ site.cdn }}assets/images/blog/2021/20210125105420.png)
+   ![img]({{site.cdn}}assets/images/blog/2021/20210125105420.png)
 
-   ![img]({{ site.cdn }}assets/images/blog/2021/20210125105443.png)
+   ![img]({{site.cdn}}assets/images/blog/2021/20210125105443.png)
 
    >  默认用户名为 root 将密码设置为 !power
    > 配置密码时的键盘使用方法 :
@@ -97,12 +97,12 @@ IDRAC卡的功能
 
 5. 4 中最后一步回到图 2 界面后，继续按 ESC键后，如下图界面 
 
-   ![img]({{ site.cdn }}assets/images/blog/2021/20210125105522.png)
+   ![img]({{site.cdn}}assets/images/blog/2021/20210125105522.png)
 
 6. 前面 5 步配置完成后， iDRAC6卡的网线连接至如下面所示 IDRAC6卡网口 处 :
    Dell R510 设备后端 iDRAC6 卡+4 块 NIC 的位置图示 
 
-   ![img]({{ site.cdn }}assets/images/blog/2021/20210125105603.png)
+   ![img]({{site.cdn}}assets/images/blog/2021/20210125105603.png)
 
 ### 安装linux系统
 
