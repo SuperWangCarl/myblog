@@ -33,48 +33,48 @@ keywords: IT超仔,carlme,superwang,superwangcarl,carl,卡尔米,nas,exsi
 
 服务端代开 `Drive管理控制台`
 
-![img]({{site.cdn}}assets/images/blog/2019/20190421204411.png)
+![img]({{ site.cdn }}assets/images/blog/2019/20190421204411.png)
 
 配置团队文件夹
 
-![img]({{site.cdn}}assets/images/blog/2019/20190421235345.png)
+![img]({{ site.cdn }}assets/images/blog/2019/20190421235345.png)
 
 客户端输入地址和帐号密码
 
-![img]({{site.cdn}}assets/images/blog/2019/20190421235504.png)
+![img]({{ site.cdn }}assets/images/blog/2019/20190421235504.png)
 
 编辑服务器上的位置
 
-![img]({{site.cdn}}assets/images/blog/2019/20190422090705.png)
+![img]({{ site.cdn }}assets/images/blog/2019/20190422090705.png)
 
 创建个文件夹
 
-![img]({{site.cdn}}assets/images/blog/2019/20190422090744.png)
+![img]({{ site.cdn }}assets/images/blog/2019/20190422090744.png)
 
 选择本地需要同步的位置
 
-![img]({{site.cdn}}assets/images/blog/2019/20190422090902.png)
+![img]({{ site.cdn }}assets/images/blog/2019/20190422090902.png)
 
 选中文件夹,不可不创建空的`SynologyDrive`
 
-![img]({{site.cdn}}assets/images/blog/2019/20190422091000.png)
+![img]({{ site.cdn }}assets/images/blog/2019/20190422091000.png)
 
 完成
 
-![img]({{site.cdn}}assets/images/blog/2019/20190422091058.png)
+![img]({{ site.cdn }}assets/images/blog/2019/20190422091058.png)
 
 ***配置策略***
 
 一般用来备份的话,可以配置单向上传,这样本地删除了,还可以去服务器上取
 
-![img]({{site.cdn}}assets/images/blog/2019/20190422091443.png)
+![img]({{ site.cdn }}assets/images/blog/2019/20190422091443.png)
 
 默认的图标样式是这样的
 
-![img]({{site.cdn}}assets/images/blog/2019/20190422092234.png)
+![img]({{ site.cdn }}assets/images/blog/2019/20190422092234.png)
 
 可以取消这些选中,则不显示样式
 
-![img]({{site.cdn}}assets/images/blog/2019/20190422092308.png)
+![img]({{ site.cdn }}assets/images/blog/2019/20190422092308.png)
 
-![img]({{site.cdn}}assets/images/blog/2019/20190422092340.png)
+![img]({{ site.cdn }}assets/images/blog/2019/20190422092340.png)

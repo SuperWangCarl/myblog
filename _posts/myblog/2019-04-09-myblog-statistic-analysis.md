@@ -75,35 +75,35 @@ keywords: IT超仔,carlme,superwang,superwangcarl,carl,卡尔米,博客,流量�
 
 注册登陆后，将来到【友盟+ 我的产品】页面,选择首页,选择产品【U-Web网站统计】
 
-![img]({{site.cdn}}assets/images/blog/2019/20190409191342.png)
+![img]({{ site.cdn }}assets/images/blog/2019/20190409191342.png)
 
 进入如下页面,点击立即使用
 
-![img]({{site.cdn}}assets/images/blog/2019/20190409191446.png)
+![img]({{ site.cdn }}assets/images/blog/2019/20190409191446.png)
 
 点击添加站点
 
-![img]({{site.cdn}}assets/images/blog/2019/20190409191717.png)
+![img]({{ site.cdn }}assets/images/blog/2019/20190409191717.png)
 
 ### 3. 获取代码
 
 选择一种合适自己的代码放入博客中
 
-![img]({{site.cdn}}assets/images/blog/2019/20190409192204.png)
+![img]({{ site.cdn }}assets/images/blog/2019/20190409192204.png)
 
 ### 4. 在cnzz查看
 
 设置不需要查看密码
 
-![img]({{site.cdn}}assets/images/blog/2019/20190409194537.png)
+![img]({{ site.cdn }}assets/images/blog/2019/20190409194537.png)
 
 之后点击
 
-![img]({{site.cdn}}assets/images/blog/2019/20190409194455.png)
+![img]({{ site.cdn }}assets/images/blog/2019/20190409194455.png)
 
 图片或文字可以进入
 
-![img]({{site.cdn}}assets/images/blog/2019/20190409194346.png)
+![img]({{ site.cdn }}assets/images/blog/2019/20190409194346.png)
 
 ## 4. 参考资料
 

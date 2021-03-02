@@ -43,7 +43,7 @@ keywords: IT超仔,carlme,superwang,superwangcarl,carl,卡尔米,单点登录客
 
 ### 2. 在webapp/WEB-INF/lib中导入jar包
 
-![img]({{site.cdn}}assets/images/blog/2019/20190412144536.png)
+![img]({{ site.cdn }}assets/images/blog/2019/20190412144536.png)
 
 ### 3. 在web.xml中添加相应配置
 

@@ -206,11 +206,11 @@ keywords: IT超仔,carlme,superwang,superwangcarl,carl,卡尔米,nas,exsi
 
 Cloud Statin Backup不可以修改
 
-![img]({{site.cdn}}assets/images/blog/2019/20190422231640.png)
+![img]({{ site.cdn }}assets/images/blog/2019/20190422231640.png)
 
 重新连接之后可以设置
 
-![img]({{site.cdn}}assets/images/blog/2019/20190422231830.png)
+![img]({{ site.cdn }}assets/images/blog/2019/20190422231830.png)
 
 ## 参考资料
 

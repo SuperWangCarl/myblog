@@ -42,7 +42,7 @@ path = /data/resource
 
 ### 本地安装windos版的rsync客户端
 
-[下载地址]({{site.cdn}}assets/download/cwRsync_4.1.0_Installer.exe)
+[下载地址]({{ site.cdn }}assets/download/cwRsync_4.1.0_Installer.exe)
 
 ### 本地编写bat脚本
 

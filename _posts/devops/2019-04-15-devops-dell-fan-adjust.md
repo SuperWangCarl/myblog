@@ -23,7 +23,7 @@ keywords: IT超仔,carlme,superwang,superwangcarl,carl,linux,dell,风扇
 
 ### 下载安装远程调节工具
 
-[qm下载]({{site.cdn}}assets/download/OM-BMC-Dell-Web-WIN-9.0.2-2641_A00.exe) 
+[qm下载]({{ site.cdn }}assets/download/OM-BMC-Dell-Web-WIN-9.0.2-2641_A00.exe) 
 
 ### 调节风扇
 
@@ -50,7 +50,7 @@ keywords: IT超仔,carlme,superwang,superwangcarl,carl,linux,dell,风扇
 
 3. 命令行 不同调节
 
-   ![img]({{site.cdn}}assets/images/blog/2021/20210125115419.png)
+   ![img]({{ site.cdn }}assets/images/blog/2021/20210125115419.png)
 
 ## 参考资料
 

@@ -57,7 +57,7 @@ body{margin:20px 30px;padding:100px;margin-left:0}h1{font:200 36px/ ➥1.5 sans-
 
 此处我配置两个,一个合并压缩所有的css文件,一个合并压缩单个的css文件
 
-![img]({{site.cdn}}assets/images/blog/2019/20190901232442.jpg)
+![img]({{ site.cdn }}assets/images/blog/2019/20190901232442.jpg)
 
 ### 合并压缩所有
 
@@ -67,17 +67,17 @@ body{margin:20px 30px;padding:100px;margin-left:0}h1{font:200 36px/ ➥1.5 sans-
    -i $FileName$ -o ../dist/all.min.css
    ```
 
-   ![img]({{site.cdn}}assets/images/blog/2019/20190901232806.jpg)
+   ![img]({{ site.cdn }}assets/images/blog/2019/20190901232806.jpg)
 
 2. 配置过滤器,监听哪些文件
 
-   ![img]({{site.cdn}}assets/images/blog/2019/20190901232858.jpg)
+   ![img]({{ site.cdn }}assets/images/blog/2019/20190901232858.jpg)
 
 ### 合并压缩单个
 
 1. 配置 和过滤器
 
-   ![img]({{site.cdn}}assets/images/blog/2019/20190901233033.jpg)
+   ![img]({{ site.cdn }}assets/images/blog/2019/20190901233033.jpg)
 
 ## 参考资料
 

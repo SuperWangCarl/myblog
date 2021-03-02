@@ -44,7 +44,7 @@ keywords: IT超仔,carlme,superwang,superwangcarl,carl,卡尔米,exsi,ssh,linux
 
 选中Configure Password，单击“回车”键确认，提示输入老密码和二次新密码，按“回车”，密码修改完成。
 
-![img]({{site.cdn}}assets/images/blog/2019/20190414233808.png)
+![img]({{ site.cdn }}assets/images/blog/2019/20190414233808.png)
 
 ***
 
@@ -67,7 +67,7 @@ NetworkAdapters : 此处可以选择多块网卡
 
 选中ipv4
 
-![img]({{site.cdn}}assets/images/blog/2019/20190414234105.png)
+![img]({{ site.cdn }}assets/images/blog/2019/20190414234105.png)
 
 按空格键选中第三项，设置静态IP地址、掩码、网关的信息
 
@@ -77,7 +77,7 @@ Usedynamic IPv4 address and network configuration       配置动态IPv4地�
 
 Setstatic IPv4 address and network configuration        配置静态IPv4地址
 
-![img]({{site.cdn}}assets/images/blog/2019/20190414234253.png)
+![img]({{ site.cdn }}assets/images/blog/2019/20190414234253.png)
 
 ***
 
@@ -85,11 +85,11 @@ Setstatic IPv4 address and network configuration        配置静态IPv4地�
 
 选中dns
 
-![img]({{site.cdn}}assets/images/blog/2019/20190414234314.png)
+![img]({{ site.cdn }}assets/images/blog/2019/20190414234314.png)
 
 配置dns
 
-![img]({{site.cdn}}assets/images/blog/2019/20190414234342.png)
+![img]({{ site.cdn }}assets/images/blog/2019/20190414234342.png)
 
 ***
 
@@ -97,7 +97,7 @@ Setstatic IPv4 address and network configuration        配置静态IPv4地�
 
 选择重置我们的系统
 
-![img]({{site.cdn}}assets/images/blog/2019/20190415000313.png)
+![img]({{ site.cdn }}assets/images/blog/2019/20190415000313.png)
 
 重启结束后,我们在按`F2`登录就不用密码了
 
@@ -109,13 +109,13 @@ Setstatic IPv4 address and network configuration        配置静态IPv4地�
 
 #### 服务端配置
 
-![img]({{site.cdn}}assets/images/blog/2019/20190414234413.png)
+![img]({{ site.cdn }}assets/images/blog/2019/20190414234413.png)
 
-![img]({{site.cdn}}assets/images/blog/2019/20190414234518.png)
+![img]({{ site.cdn }}assets/images/blog/2019/20190414234518.png)
 
 #### 网页客户端配置
 
-![img]({{site.cdn}}assets/images/blog/2019/20190415001230.png)
+![img]({{ site.cdn }}assets/images/blog/2019/20190415001230.png)
 
 ***
 
@@ -123,15 +123,15 @@ Setstatic IPv4 address and network configuration        配置静态IPv4地�
 
 此时我们可以看到还是未激活的状态
 
-![img]({{site.cdn}}assets/images/blog/2019/20190414224305.png)
+![img]({{ site.cdn }}assets/images/blog/2019/20190414224305.png)
 
 下面进行激活,输入激活码(可以在网上随便找个)
 
-![img]({{site.cdn}}assets/images/blog/2019/20190414224357.png)
+![img]({{ site.cdn }}assets/images/blog/2019/20190414224357.png)
 
 此时在回到主机里面看下,就是激活的状态了
 
-![img]({{site.cdn}}assets/images/blog/2019/20190414224452.png)
+![img]({{ site.cdn }}assets/images/blog/2019/20190414224452.png)
 
 ***
 
@@ -147,35 +147,35 @@ Setstatic IPv4 address and network configuration        配置静态IPv4地�
 
 1. 首先点击导航栏的存储
 
-   ![img]({{site.cdn}}assets/images/blog/2019/20190415222112.png)
+   ![img]({{ site.cdn }}assets/images/blog/2019/20190415222112.png)
 
 2. 可以看到此时我们的数据存储中有一块硬盘,而设备里面有两块硬盘`我们要把设备里面的硬盘添加到数据存储里面`
 
-   ![img]({{site.cdn}}assets/images/blog/2019/20190415222149.png)
+   ![img]({{ site.cdn }}assets/images/blog/2019/20190415222149.png)
 
 3. 选择`新建数据存储`
 
-   ![img]({{site.cdn}}assets/images/blog/2019/20190415222313.png)
+   ![img]({{ site.cdn }}assets/images/blog/2019/20190415222313.png)
 
 4. 选中`创建新的`下一步
 
-   ![img]({{site.cdn}}assets/images/blog/2019/20190415222847.png)
+   ![img]({{ site.cdn }}assets/images/blog/2019/20190415222847.png)
 
 5. 起个名字创建新的 下一步
 
-   ![img]({{site.cdn}}assets/images/blog/2019/20190415222949.png)
+   ![img]({{ site.cdn }}assets/images/blog/2019/20190415222949.png)
 
 6. 分配容量 下一步
 
-   ![img]({{site.cdn}}assets/images/blog/2019/20190415223036.png)
+   ![img]({{ site.cdn }}assets/images/blog/2019/20190415223036.png)
 
 7. 完成
 
-   ![img]({{site.cdn}}assets/images/blog/2019/20190415223110.png)
+   ![img]({{ site.cdn }}assets/images/blog/2019/20190415223110.png)
 
 8. 点击`是` 之后可以查看分配后的容量
 
-   ![img]({{site.cdn}}assets/images/blog/2019/20190415223146.png)
+   ![img]({{ site.cdn }}assets/images/blog/2019/20190415223146.png)
 
 ***
 
@@ -183,15 +183,15 @@ Setstatic IPv4 address and network configuration        配置静态IPv4地�
 
 1. 获取需要挂在的硬盘的设备和名称
 
-   ![img]({{site.cdn}}assets/images/blog/2019/20190421150718.png)
+   ![img]({{ site.cdn }}assets/images/blog/2019/20190421150718.png)
 
-   ![img]({{site.cdn}}assets/images/blog/2019/20190421150600.png)
+   ![img]({{ site.cdn }}assets/images/blog/2019/20190421150600.png)
 
 2. 获取被挂在点的路径
 
-   ![img]({{site.cdn}}assets/images/blog/2019/20190421150753.png)
+   ![img]({{ site.cdn }}assets/images/blog/2019/20190421150753.png)
 
-   ![img]({{site.cdn}}assets/images/blog/2019/20190421150435.png)
+   ![img]({{ site.cdn }}assets/images/blog/2019/20190421150435.png)
 
 3. 在shell命令行中进行挂在
 
@@ -204,26 +204,26 @@ Setstatic IPv4 address and network configuration        配置静态IPv4地�
 
    `注意此处要写个名字`
 
-   ![img]({{site.cdn}}assets/images/blog/2019/20190421150955.png)
+   ![img]({{ site.cdn }}assets/images/blog/2019/20190421150955.png)
 
 
 4. 查看
 
-   ![img]({{site.cdn}}assets/images/blog/2019/20190421151039.png)
+   ![img]({{ site.cdn }}assets/images/blog/2019/20190421151039.png)
 
 5. 使用
 
    添加虚拟机的时候删除默认硬盘
 
-   ![img]({{site.cdn}}assets/images/blog/2019/20190421151259.png)
+   ![img]({{ site.cdn }}assets/images/blog/2019/20190421151259.png)
 
    添加现有硬盘
 
-   ![img]({{site.cdn}}assets/images/blog/2019/20190421151355.png)
+   ![img]({{ site.cdn }}assets/images/blog/2019/20190421151355.png)
 
    选中我们创建的即可
 
-   ![img]({{site.cdn}}assets/images/blog/2019/20190421151426.png)
+   ![img]({{ site.cdn }}assets/images/blog/2019/20190421151426.png)
 
 ***
 
@@ -231,7 +231,7 @@ Setstatic IPv4 address and network configuration        配置静态IPv4地�
 
 ***如图***'
 
-![img]({{site.cdn}}assets/images/blog/2019/20190419164708.png)
+![img]({{ site.cdn }}assets/images/blog/2019/20190419164708.png)
 
 ***端口组***
 
@@ -239,7 +239,7 @@ Setstatic IPv4 address and network configuration        配置静态IPv4地�
 
 添加端口组时,需要依赖虚拟交换机,好比我们的电脑网口要连接路由器.
 
-![img]({{site.cdn}}assets/images/blog/2019/20190419170216.png)
+![img]({{ site.cdn }}assets/images/blog/2019/20190419170216.png)
 
 ***虚拟交换机***
 
@@ -248,7 +248,7 @@ Setstatic IPv4 address and network configuration        配置静态IPv4地�
 
 - 如果没有上行链路,那么这个交换机就不能和外网通信,那么连接到这个虚拟交换机上的端口组也不能和外网通信.就是个内网模式
 
-![img]({{site.cdn}}assets/images/blog/2019/20190419170325.png)
+![img]({{ site.cdn }}assets/images/blog/2019/20190419170325.png)
 
 ***物理网卡***
 
@@ -256,7 +256,7 @@ Setstatic IPv4 address and network configuration        配置静态IPv4地�
 
 图中的全双工
 
-![img]({{site.cdn}}assets/images/blog/2019/20190419170546.png)
+![img]({{ site.cdn }}assets/images/blog/2019/20190419170546.png)
 
 > - [全双工](https://baike.baidu.com/item/%E5%85%A8%E5%8F%8C%E5%B7%A5/310007?fr=aladdin#2)（Full Duplex）是通讯传输的一个术语。通信允许数据在两个方向上同时传输，它在能力上相当于两个单工通信方式的结合。全双工指可以同时（瞬时）进行信号的双向传输（A→B且B→A）。指A→B的同时B→A，是瞬时同步的。
 > - [半双工](https://baike.baidu.com/item/%E5%8D%8A%E5%8F%8C%E5%B7%A5)（Half Duplex），所谓半双工就是指一个时间段内只有一个动作发生，举个简单例子，一条窄窄的马路，同时只能有一辆车通过，当目前有两辆车对开，这种情况下就只能一辆先过，等到头儿后另一辆再开，这个例子就形象的说明了半双工的原理。早期的[对讲机](https://baike.baidu.com/item/%E5%AF%B9%E8%AE%B2%E6%9C%BA)、以及早期[集线器](https://baike.baidu.com/item/%E9%9B%86%E7%BA%BF%E5%99%A8)等设备都是基于半双工的产品。随着技术的不断进步，半双工会逐渐退出历史舞台
@@ -268,7 +268,7 @@ Setstatic IPv4 address and network configuration        配置静态IPv4地�
 
 `如图`
 
-![img]({{site.cdn}}assets/images/blog/2019/20190419170718.png)
+![img]({{ site.cdn }}assets/images/blog/2019/20190419170718.png)
 
 [参考](http://blog.sina.com.cn/s/blog_6ceed3280101gj91.html)
 
@@ -301,7 +301,7 @@ VMkernel 包含多个子接口，分别是：`Management Traffic`、`vMotion`、
 
 2. 将证书传到根目录中
 
-   ![img]({{site.cdn}}assets/images/blog/2019/20190416003742.png)
+   ![img]({{ site.cdn }}assets/images/blog/2019/20190416003742.png)
 
 3. 获取到的证书是已`.pem 和 .key结尾的`
 
@@ -323,7 +323,7 @@ VMkernel 包含多个子接口，分别是：`Management Traffic`、`vMotion`、
 
 4. 效果
 
-   ![img]({{site.cdn}}assets/images/blog/2019/20190416004221.png)
+   ![img]({{ site.cdn }}assets/images/blog/2019/20190416004221.png)
 
 ***
 
@@ -331,21 +331,21 @@ VMkernel 包含多个子接口，分别是：`Management Traffic`、`vMotion`、
 
 1. 选中需要自动启动的虚拟机,右键
 
-   ![img]({{site.cdn}}assets/images/blog/2019/20190415001605.png)
+   ![img]({{ site.cdn }}assets/images/blog/2019/20190415001605.png)
 
 2. 选中自动启动
 
-   ![img]({{site.cdn}}assets/images/blog/2019/20190415001702.png)
+   ![img]({{ site.cdn }}assets/images/blog/2019/20190415001702.png)
 
 3. 配置EXSI
 
-   ![img]({{site.cdn}}assets/images/blog/2019/20190415001801.png)
+   ![img]({{ site.cdn }}assets/images/blog/2019/20190415001801.png)
 
-   ![img]({{site.cdn}}assets/images/blog/2019/20190415001836.png)
+   ![img]({{ site.cdn }}assets/images/blog/2019/20190415001836.png)
 
 4. 之后会在下载看到,开机自动启动的设备
 
-   ![img]({{site.cdn}}assets/images/blog/2019/20190415001909.png)
+   ![img]({{ site.cdn }}assets/images/blog/2019/20190415001909.png)
 
 ***
 
@@ -355,53 +355,53 @@ VMkernel 包含多个子接口，分别是：`Management Traffic`、`vMotion`、
 
 1. 创建新的虚拟机
 
-   ![img]({{site.cdn}}assets/images/blog/2019/20190415235245.png)
+   ![img]({{ site.cdn }}assets/images/blog/2019/20190415235245.png)
 
 2. 起个名称选系统
 
-   ![img]({{site.cdn}}assets/images/blog/2019/20190415235344.png)
+   ![img]({{ site.cdn }}assets/images/blog/2019/20190415235344.png)
 
 3. 此处我们先选系统盘`等虚拟机创建好了,再选数据盘`
 
-   ![img]({{site.cdn}}assets/images/blog/2019/20190415235428.png)
+   ![img]({{ site.cdn }}assets/images/blog/2019/20190415235428.png)
 
 4. 选择合适的配置
 
-   ![img]({{site.cdn}}assets/images/blog/2019/20190416005412.png)
+   ![img]({{ site.cdn }}assets/images/blog/2019/20190416005412.png)
 
 5. 最后看下配置点完成
 
-   ![img]({{site.cdn}}assets/images/blog/2019/20190416005451.png)
+   ![img]({{ site.cdn }}assets/images/blog/2019/20190416005451.png)
 
 6. 配置完成点击虚拟机,之后打开电源,开始安装
 
-   ![img]({{site.cdn}}assets/images/blog/2019/20190416005536.png)
+   ![img]({{ site.cdn }}assets/images/blog/2019/20190416005536.png)
 
 7. 安装完成后,将网卡的网段,设置为和exsi同一个网段即可
 
-   ![img]({{site.cdn}}assets/images/blog/2019/20190416005953.png)
+   ![img]({{ site.cdn }}assets/images/blog/2019/20190416005953.png)
 
 ### 为虚拟机分配数据盘
 
 1. 点击`编辑`
 
-   ![img]({{site.cdn}}assets/images/blog/2019/20190416171105.png)
+   ![img]({{ site.cdn }}assets/images/blog/2019/20190416171105.png)
 
 2. 点击`添加硬盘->新硬盘->再点击出现的新硬盘`为它分配机械硬盘
 
-   ![img]({{site.cdn}}assets/images/blog/2019/20190416171157.png)
+   ![img]({{ site.cdn }}assets/images/blog/2019/20190416171157.png)
 
 3. 在数据盘中创建`data/main-centos`目录将磁盘挂到这里面
 
-   ![img]({{site.cdn}}assets/images/blog/2019/20190416171256.png)
+   ![img]({{ site.cdn }}assets/images/blog/2019/20190416171256.png)
 
 4. 无需重启直接登录服务器查看
 
-   ![img]({{site.cdn}}assets/images/blog/2019/20190416171352.png)
+   ![img]({{ site.cdn }}assets/images/blog/2019/20190416171352.png)
 
 ### 三类磁盘的区别
 
-![img]({{site.cdn}}assets/images/blog/2019/20190416171413.png)
+![img]({{ site.cdn }}assets/images/blog/2019/20190416171413.png)
 
 1. 厚置备延迟置零（zeroed thick）
 
@@ -429,7 +429,7 @@ VMkernel 包含多个子接口，分别是：`Management Traffic`、`vMotion`、
 
 原因: 在使用固态硬盘时，不要使用服务器的RAID卡配置程序将硬盘用RAID配置(`还是得配置一下,防止数据丢失`)，因为在启用了RAID配置之后，在VMware ESXi中将不能正确的识别出固态硬盘，此时只会将固态硬盘作为普通磁盘使用。如下图固态硬盘被识别成“非SSD”
 
-![img]({{site.cdn}}assets/images/blog/2019/20190414235143.png)
+![img]({{ site.cdn }}assets/images/blog/2019/20190414235143.png)
 
 而固态硬盘未使用RAID卡配置时，就是将固态硬盘直接装在服务器上，不进行配置，在ESXi中是可以被正确识别的
 
@@ -449,7 +449,7 @@ reboot
 
 修改过后可以看到为`SSD`了
 
-![img]({{site.cdn}}assets/images/blog/2019/20190415221133.png)
+![img]({{ site.cdn }}assets/images/blog/2019/20190415221133.png)
 
 > 追问:
 >
@@ -487,7 +487,7 @@ reboot
 
 问题: 在服务器主机登录出现`Authenication Denied`,如图
 
-![img]({{site.cdn}}assets/images/blog/2019/20190416001509.png)
+![img]({{ site.cdn }}assets/images/blog/2019/20190416001509.png)
 
 原因: 可能是配置ssl之后重启出错
 

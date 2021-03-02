@@ -15,7 +15,7 @@ keywords: IT超仔,carlme,superwang,superwangcarl,carl,卡尔米,live2d-widget,j
 
 感觉这个动画满萌的添加个动画
 
-![img]({{site.cdn}}assets/images/blog/2019/20190605172515.png)
+![img]({{ site.cdn }}assets/images/blog/2019/20190605172515.png)
 
 由于这个是基于Hexo的方式开发的,所以引用到jekyll里面还是费点劲的
 
@@ -46,7 +46,7 @@ keywords: IT超仔,carlme,superwang,superwangcarl,carl,卡尔米,live2d-widget,j
 
 2. 效果如图
 
-   ![img]({{site.cdn}}assets/images/blog/2019/20190605230213.png)
+   ![img]({{ site.cdn }}assets/images/blog/2019/20190605230213.png)
 
 ### 3.安装Live2D
 
@@ -85,7 +85,7 @@ keywords: IT超仔,carlme,superwang,superwangcarl,carl,卡尔米,live2d-widget,j
 
 4. 找到项目里的`live2d-widget-model-wanko`文件夹，把里面`assets`里面的内容（不含`assets`文件夹），拷贝到Hexo的`blog`文件夹下新建一个`live2d_models\wanko`文件夹中。
 
-   ![img]({{site.cdn}}assets/images/blog/2019/20190605230817.png)
+   ![img]({{ site.cdn }}assets/images/blog/2019/20190605230817.png)
 
 5. 注意`_config.xml`中的`model`下面的`use`和`live2d_models`下面的文件夹相对应。
 
@@ -97,7 +97,7 @@ keywords: IT超仔,carlme,superwang,superwangcarl,carl,卡尔米,live2d-widget,j
 
    效果图:
 
-   ![img]({{site.cdn}}assets/images/blog/2019/20190605230920.png)
+   ![img]({{ site.cdn }}assets/images/blog/2019/20190605230920.png)
 
 7. 编译静态文件
 
@@ -113,7 +113,7 @@ keywords: IT超仔,carlme,superwang,superwangcarl,carl,卡尔米,live2d-widget,j
 
    ```javascript
    <!-- 动漫图 -->
-       <script src="{{site.cdn}}/assets/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script>
+       <script src="{{ site.cdn }}/assets/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script>
        <script>
            setTimeout(() => {
                L2Dwidget.init({
@@ -133,11 +133,11 @@ keywords: IT超仔,carlme,superwang,superwangcarl,carl,卡尔米,live2d-widget,j
 
 2. 将public下的`live2dw`复制放倒jekyll的assets目录下
 
-   ![img]({{site.cdn}}assets/images/blog/2019/20190605232958.png)
+   ![img]({{ site.cdn }}assets/images/blog/2019/20190605232958.png)
 
 3. 如图,大功告成
 
-   ![img]({{site.cdn}}assets/images/blog/2019/20190605233352.png)
+   ![img]({{ site.cdn }}assets/images/blog/2019/20190605233352.png)
 
 ### 5.更换图片
 
@@ -151,7 +151,7 @@ keywords: IT超仔,carlme,superwang,superwangcarl,carl,卡尔米,live2d-widget,j
 
 4. 如图
 
-   ![img]({{site.cdn}}assets/images/blog/2019/20190605234410.png)
+   ![img]({{ site.cdn }}assets/images/blog/2019/20190605234410.png)
 
 ## 3.参考链接
 

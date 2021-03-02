@@ -21,23 +21,23 @@ keywords: IT超仔,carlme,superwang,superwangcarl,carl,卡尔米,springboot,阿�
 
 1. 点击`AccessKey`
 
-   ![img]({{site.cdn}}assets/images/blog/2019/20190416135212.png)
+   ![img]({{ site.cdn }}assets/images/blog/2019/20190416135212.png)
 
 2. 安全起见我们还是使用子用户
 
-   ![img]({{site.cdn}}assets/images/blog/2019/20190416135313.png)
+   ![img]({{ site.cdn }}assets/images/blog/2019/20190416135313.png)
 
 3. 创建用户
 
-   ![img]({{site.cdn}}assets/images/blog/2019/20190416141439.png)
+   ![img]({{ site.cdn }}assets/images/blog/2019/20190416141439.png)
 
 4. 给用户分配权限
 
-   ![img]({{site.cdn}}assets/images/blog/2019/20190416141602.png)
+   ![img]({{ site.cdn }}assets/images/blog/2019/20190416141602.png)
 
 5. 获取AccessKey
 
-   ![img]({{site.cdn}}assets/images/blog/2019/20190416141701.png)
+   ![img]({{ site.cdn }}assets/images/blog/2019/20190416141701.png)
 
 ### 配置nginx获取ip
 

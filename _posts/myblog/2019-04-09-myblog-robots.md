@@ -23,71 +23,71 @@ keywords: IT超仔,carlme,superwang,superwangcarl,carl,blog,myblog,robots,搜索
 
    1. 在我们的项目文件`Gemfile`中添加`gem 'jekyll-sitemap'`
 
-      ![img]({{site.cdn}}assets/images/blog/2019/20190409134601.png)
+      ![img]({{ site.cdn }}assets/images/blog/2019/20190409134601.png)
 
    2. 在`_config.yml`中添加`- jekyll-sitemap`
 
-      ![img]({{site.cdn}}assets/images/blog/2019/20190409134823.png)
+      ![img]({{ site.cdn }}assets/images/blog/2019/20190409134823.png)
 
    3. 在项目根目录下执行`bundle install`安装插件,如果本地没有环境可以在服务器上安装.如果直接在使用的github Page那么直接忽略本篇博文,因为gitpage中的内容百度无法爬取
 
    4. 执行命令`bundle exec jekyll build`生成静态文件,可以看到目录下出现了`sitemap.xml`文件
 
-      ![img]({{site.cdn}}assets/images/blog/2019/20190409135606.png)
+      ![img]({{ site.cdn }}assets/images/blog/2019/20190409135606.png)
 
 2. 提交给百度搜索 平台
 
    1. 需要注册百度的熊掌id,注册后大概有2-5个工作日的审核
 
-      ![img]({{site.cdn}}assets/images/blog/2019/20190409135223.png)
+      ![img]({{ site.cdn }}assets/images/blog/2019/20190409135223.png)
 
    2. 右上角显示已认证,点击`搜索资源`
 
-      ![img]({{site.cdn}}assets/images/blog/2019/20190410211531.png)
+      ![img]({{ site.cdn }}assets/images/blog/2019/20190410211531.png)
 
    3. 点击`内容设置` -> `绑定设置`
 
-      ![img]({{site.cdn}}assets/images/blog/2019/20190410211803.png)
+      ![img]({{ site.cdn }}assets/images/blog/2019/20190410211803.png)
 
    4. 绑定新站点
 
-      ![img]({{site.cdn}}assets/images/blog/2019/20190410211854.png)
+      ![img]({{ site.cdn }}assets/images/blog/2019/20190410211854.png)
 
    5. 添加站点
 
-      ![img]({{site.cdn}}assets/images/blog/2019/20190410211941.png)
+      ![img]({{ site.cdn }}assets/images/blog/2019/20190410211941.png)
 
    6. 点击添加联系方式
 
-      ![img]({{site.cdn}}assets/images/blog/2019/20190410212211.png)
+      ![img]({{ site.cdn }}assets/images/blog/2019/20190410212211.png)
 
    7. 输入需要绑定的网站
 
-      ![img]({{site.cdn}}assets/images/blog/2019/20190410212027.png)
+      ![img]({{ site.cdn }}assets/images/blog/2019/20190410212027.png)
 
    8. 认证
 
-      ![img]({{site.cdn}}assets/images/blog/2019/20190410212610.png)
+      ![img]({{ site.cdn }}assets/images/blog/2019/20190410212610.png)
 
    9. 回到我们的内容源设置 选择我们刚才设置的域名
 
-      ![img]({{site.cdn}}assets/images/blog/2019/20190410212653.png)
+      ![img]({{ site.cdn }}assets/images/blog/2019/20190410212653.png)
 
    10. 内容同步设置
 
-      ![img]({{site.cdn}}assets/images/blog/2019/20190410230234.png)
+      ![img]({{ site.cdn }}assets/images/blog/2019/20190410230234.png)
 
    11. 提交资源
 
-       ![img]({{site.cdn}}assets/images/blog/2019/20190410230324.png)
+       ![img]({{ site.cdn }}assets/images/blog/2019/20190410230324.png)
 
-       ![img]({{site.cdn}}assets/images/blog/2019/20190410230424.png)
+       ![img]({{ site.cdn }}assets/images/blog/2019/20190410230424.png)
 
    12. PS:` 我也不知道有没有用....`
 
 3. 如果不希望某篇博文被提交可以配置`sitemap=false`
 
-   ![img]({{site.cdn}}assets/images/blog/2019/20190409001353.png)
+   ![img]({{ site.cdn }}assets/images/blog/2019/20190409001353.png)
 
 ### 2. 方案2
 

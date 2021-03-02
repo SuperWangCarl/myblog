@@ -43,7 +43,7 @@ keywords: IT超仔,carlme,superwang,superwangcarl,carl,卡尔米,单点登录客
 
 ### 2. 先看个流程图
 
-![img]({{site.cdn}}assets/images/blog/2019/20190412152817.png)
+![img]({{ site.cdn }}assets/images/blog/2019/20190412152817.png)
 
 ### 3. 前端设置
 
@@ -134,9 +134,9 @@ cas.client-web-url=http://www.clientweb.com:8080
 
 `这代码是复制了源码的验证过滤器稍微的改了下,将原来的重定向,改为向前台发送json数据,让前台重定向了.`
 
-![img]({{site.cdn}}assets/images/blog/2019/20190412154044.png)
+![img]({{ site.cdn }}assets/images/blog/2019/20190412154044.png)
 
-![img]({{site.cdn}}assets/images/blog/2019/20190412154650.png)
+![img]({{ site.cdn }}assets/images/blog/2019/20190412154650.png)
 
 #### 6. 添加认证controller
 

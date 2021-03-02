@@ -29,15 +29,15 @@ keywords: IT超仔,carlme,superwang,superwangcarl,carl,卡尔米,disqus,gitment,
 
 > https://github.com/settings/applications/new
 
-![img]({{site.cdn}}assets/images/blog/2019/20190410105436.png)
+![img]({{ site.cdn }}assets/images/blog/2019/20190410105436.png)
 
 ### 2. 获取 Client ID 和 Client Secret
 
-![img]({{site.cdn}}assets/images/blog/2019/20190410105548.png)
+![img]({{ site.cdn }}assets/images/blog/2019/20190410105548.png)
 
 ### 3. 创建一个用于评论的github的项目
 
-![img]({{site.cdn}}assets/images/blog/2019/20190410105629.png)
+![img]({{ site.cdn }}assets/images/blog/2019/20190410105629.png)
 
 ### 4. 配置_config.yml
 
@@ -55,7 +55,7 @@ gitalk:
 <!-- 评论 -->
 <link rel="stylesheet" href="/assets/css/gitalk.min.css">
 <div id="gitalk-container"></div>
-<script src="{{site.cdn}}/assets/js/gitalk.min.js"></script>
+<script src="{{ site.cdn }}/assets/js/gitalk.min.js"></script>
 <script>
 var gitalk = new Gitalk({
     id: '{{ page.url }}',
@@ -117,12 +117,12 @@ gitment.render('container')
 
 2. 选中repo
 
-   ![img]({{site.cdn}}assets/images/blog/2019/20190410111717.png)
+   ![img]({{ site.cdn }}assets/images/blog/2019/20190410111717.png)
 
 
 3. 获取token
 
-![img]({{site.cdn}}assets/images/blog/2019/20190410111744.png)
+![img]({{ site.cdn }}assets/images/blog/2019/20190410111744.png)
 
 ### 2. 自动化脚本
 
@@ -182,7 +182,7 @@ ruby comments.rb
 
 ### 点击github等重定向到首页
 
-![img]({{site.cdn}}assets/images/blog/2019/20190410105203.png)
+![img]({{ site.cdn }}assets/images/blog/2019/20190410105203.png)
 
 原因: 本地调试的域名和 注册github授权的域名不一样,导致github重定向了
 
@@ -194,7 +194,7 @@ ruby comments.rb
 
 `{"message":"Validation Failed","errors":[{"value":"https://www.carlme.com/myblog/2019/03/25/myblog-init.html","resource":"Label","field":"name","code":"invalid"}],"documentation_url":"https://developer.github.com/v3/issues/#create-an-issue"}`
 
-![img]({{site.cdn}}assets/images/blog/2019/20190410133546.png)
+![img]({{ site.cdn }}assets/images/blog/2019/20190410133546.png)
 
 原因 : url字符长度超过50个,github不允许
 
@@ -213,7 +213,7 @@ end
 
 `open_http': 404 Not Found (OpenURI::HTTPError)`
 
-![img]({{site.cdn}}assets/images/blog/2019/20190410134056.png)
+![img]({{ site.cdn }}assets/images/blog/2019/20190410134056.png)
 
 原因: 主页面中我都每天加 .html
 

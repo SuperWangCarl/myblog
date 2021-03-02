@@ -23,25 +23,25 @@ keywords: IT超仔,carlme,superwang,superwangcarl,carl,https,myblog,blog,nginx,�
 
 1. 在阿里云域名控制台申请免费的ssl证书
 
-![img]({{site.cdn}}assets/images/blog/2019/20190407223445.jpg)
+![img]({{ site.cdn }}assets/images/blog/2019/20190407223445.jpg)
 
 2. 选择免费的并填写信息
 
-![img]({{site.cdn}}assets/images/blog/2019/20190407223700.jpg)
+![img]({{ site.cdn }}assets/images/blog/2019/20190407223700.jpg)
 
 3. 提交审核
 
-![img]({{site.cdn}}assets/images/blog/2019/20190407223843.jpg)
+![img]({{ site.cdn }}assets/images/blog/2019/20190407223843.jpg)
 
-![img]({{site.cdn}}assets/images/blog/2019/20190407223928.jpg)
+![img]({{ site.cdn }}assets/images/blog/2019/20190407223928.jpg)
 
 4. 签发成功
 
-![img]({{site.cdn}}assets/images/blog/2019/20190407224119.jpg)
+![img]({{ site.cdn }}assets/images/blog/2019/20190407224119.jpg)
 
 5. 下载证书
 
-   ![img]({{site.cdn}}assets/images/blog/2019/20190407224341.jpg)
+   ![img]({{ site.cdn }}assets/images/blog/2019/20190407224341.jpg)
 
 6. 也可以直接在控制台搜索`ssl`进行购买
 
@@ -76,7 +76,7 @@ keywords: IT超仔,carlme,superwang,superwangcarl,carl,https,myblog,blog,nginx,�
    		ssl_prefer_server_ciphers on;
    ```
 
-![img]({{site.cdn}}assets/images/blog/2019/20190407230831.jpg)
+![img]({{ site.cdn }}assets/images/blog/2019/20190407230831.jpg)
 
 ## 3. 其他
 

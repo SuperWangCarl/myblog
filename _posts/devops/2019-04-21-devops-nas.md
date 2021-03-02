@@ -43,85 +43,85 @@ by 2018-8-24
 
 选择操作名称和操作系统
 
-![img]({{site.cdn}}assets/images/blog/2019/20190421164937.png)
+![img]({{ site.cdn }}assets/images/blog/2019/20190421164937.png)
 
 随便选个位置,后面会删除
 
-![img]({{site.cdn}}assets/images/blog/2019/20190421165019.png)
+![img]({{ site.cdn }}assets/images/blog/2019/20190421165019.png)
 
 删除不需要的组件
 
-![img]({{site.cdn}}assets/images/blog/2019/20190421165108.png)
+![img]({{ site.cdn }}assets/images/blog/2019/20190421165108.png)
 
 添加硬盘
 
-![img]({{site.cdn}}assets/images/blog/2019/20190421165146.png)
+![img]({{ site.cdn }}assets/images/blog/2019/20190421165146.png)
 
 选择我们上传上来的硬盘
 
-![img]({{site.cdn}}assets/images/blog/2019/20190421165212.png)
+![img]({{ site.cdn }}assets/images/blog/2019/20190421165212.png)
 
 在添加一块10G的硬盘用来安装系统固件`pat`
 
-![img]({{site.cdn}}assets/images/blog/2019/20190421165317.png)
+![img]({{ site.cdn }}assets/images/blog/2019/20190421165317.png)
 
 注意：需要删除“SATA控制器0”，不然会出现无法找到硬盘的情况
 
-![img]({{site.cdn}}assets/images/blog/2019/20190421171343.png)
+![img]({{ site.cdn }}assets/images/blog/2019/20190421171343.png)
 
 完成
 
-![img]({{site.cdn}}assets/images/blog/2019/20190421165357.png)
+![img]({{ site.cdn }}assets/images/blog/2019/20190421165357.png)
 
 ### 安装NAS
 
 开启虚拟机
 
-![img]({{site.cdn}}assets/images/blog/2019/20190421171202.png)
+![img]({{ site.cdn }}assets/images/blog/2019/20190421171202.png)
 
 通过局域网的其他电脑，[访问](http://find.synology.com/)，找到该DSM，点击“设置”
 
-![img]({{site.cdn}}assets/images/blog/2019/20190421172247.png)
+![img]({{ site.cdn }}assets/images/blog/2019/20190421172247.png)
 
 固件如图
 
-![img]({{site.cdn}}assets/images/blog/2019/20190421225543.png)
+![img]({{ site.cdn }}assets/images/blog/2019/20190421225543.png)
 
 选择我们下载好的固件,进行安装
 
-![img]({{site.cdn}}assets/images/blog/2019/20190421172709.png)
+![img]({{ site.cdn }}assets/images/blog/2019/20190421172709.png)
 
-![img]({{site.cdn}}assets/images/blog/2019/20190421173028.png)
+![img]({{ site.cdn }}assets/images/blog/2019/20190421173028.png)
 
 清空数据
 
-![img]({{site.cdn}}assets/images/blog/2019/20190421172842.png)
+![img]({{ site.cdn }}assets/images/blog/2019/20190421172842.png)
 
 安装中
 
-![img]({{site.cdn}}assets/images/blog/2019/20190421173056.png)
+![img]({{ site.cdn }}assets/images/blog/2019/20190421173056.png)
 
 重启
 
-![img]({{site.cdn}}assets/images/blog/2019/20190421173235.png)
+![img]({{ site.cdn }}assets/images/blog/2019/20190421173235.png)
 
 ## 配置NAS
 
 创建用户名密码等
 
-![img]({{site.cdn}}assets/images/blog/2019/20190421173313.png)
+![img]({{ site.cdn }}assets/images/blog/2019/20190421173313.png)
 
 DSM维护和更新，选择“下载DSM更新并进行手动安装下载计划”，因为是虚拟机下面2个勾可以全部去掉，点击“下一步”
 
-![img]({{site.cdn}}assets/images/blog/2019/20190421173501.png)
+![img]({{ site.cdn }}assets/images/blog/2019/20190421173501.png)
 
 QuickConnect现在已经无法设置了，点击“跳过步骤” - “是”
 
-![img]({{site.cdn}}assets/images/blog/2019/20190421173620.png)
+![img]({{ site.cdn }}assets/images/blog/2019/20190421173620.png)
 
 完成
 
-![img]({{site.cdn}}assets/images/blog/2019/20190421173647.png)
+![img]({{ site.cdn }}assets/images/blog/2019/20190421173647.png)
 
 ## FAQ
 
@@ -129,13 +129,13 @@ QuickConnect现在已经无法设置了，点击“跳过步骤” - “是”
 
 **问题 :** 访问[搜索](http://find.synology.com/)无结果,显示`局域网内未找到DiskStation`,如图
 
-![img]({{site.cdn}}assets/images/blog/2019/20190421172431.png)
+![img]({{ site.cdn }}assets/images/blog/2019/20190421172431.png)
 
 **原因 :** 可能不再同一个网段,或者使用的版本错误`我就是开始使用了6.2的引导盘,导致一直找不到`,其他原因
 
 **解决 :** 更换一个版本或者直接登录路由器的界面,查找出一个`DiskStation`的直接通过ip访问即可
 
-![img]({{site.cdn}}assets/images/blog/2019/20190421172558.png)
+![img]({{ site.cdn }}assets/images/blog/2019/20190421172558.png)
 
 ***
 

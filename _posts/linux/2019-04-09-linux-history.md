@@ -72,7 +72,7 @@ bash_profile只对单一用户有效，文件存储位于~/.bash_profile，该�
 
 当登入系统时候获得一个shell进程时，其读取环境设定档如下：
 
-![img]({{site.cdn}}assets/images/blog/2019/20190409143544.png)
+![img]({{ site.cdn }}assets/images/blog/2019/20190409143544.png)
 
 ## 3. history的配置
 
@@ -102,7 +102,7 @@ export HISTTIMEFORMAT
 
 效果
 
-![img]({{site.cdn}}assets/images/blog/2019/20190409145458.png)
+![img]({{ site.cdn }}assets/images/blog/2019/20190409145458.png)
 
 #### 方式二
 
@@ -118,7 +118,7 @@ unset HISTCONTROL
 
 效果
 
-![img]({{site.cdn}}assets/images/blog/2019/20190409145312.png)
+![img]({{ site.cdn }}assets/images/blog/2019/20190409145312.png)
 
 ### 将日志存储到指定的位置
 
@@ -142,7 +142,7 @@ chmod 600 /var/log/operation/${LOGNAME}/*.log 2>/dev/null
 
 ## 4. 操作的路径显示
 
-![img]({{site.cdn}}assets/images/blog/2019/20190409143806.png)
+![img]({{ site.cdn }}assets/images/blog/2019/20190409143806.png)
 
 可以修改环境变量中`/etc/bashrc`的`PS1`实现
 

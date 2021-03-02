@@ -25,7 +25,7 @@ keywords: IT超仔,carlme,superwang,superwangcarl,carl,图片缩放,卡尔米
 <link rel="stylesheet" href="/assets/css/zoomify.min.css">
 ```
 
-![img]({{site.cdn}}assets/images/blog/2019/20190408002547.jpg)
+![img]({{ site.cdn }}assets/images/blog/2019/20190408002547.jpg)
 
 ### 2. 在footer中引入js
 
@@ -37,8 +37,8 @@ keywords: IT超仔,carlme,superwang,superwangcarl,carl,图片缩放,卡尔米
 </script>
 ```
 
-![img]({{site.cdn}}assets/images/blog/2019/20190408002636.jpg)
+![img]({{ site.cdn }}assets/images/blog/2019/20190408002636.jpg)
 
 ## 3. 效果展示
 
-![img]({{site.cdn}}assets/images/blog/2019/20190409001833.png)
+![img]({{ site.cdn }}assets/images/blog/2019/20190409001833.png)

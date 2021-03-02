@@ -104,14 +104,14 @@ export JENKINS_HOME=/application/jenkins/.jenkins
 
 ​	1. 生成token
 
-​	     ![img]({{site.cdn}}assets/images/blog/2019/20190407200436.jpg)
+​	     ![img]({{ site.cdn }}assets/images/blog/2019/20190407200436.jpg)
 
-![img]({{site.cdn}}assets/images/blog/2019/20190407200556.jpg)
+![img]({{ site.cdn }}assets/images/blog/2019/20190407200556.jpg)
 
-![img]({{site.cdn}}assets/images/blog/2019/20190407200629.jpg)
+![img]({{ site.cdn }}assets/images/blog/2019/20190407200629.jpg)
 
 ​	2. 配置保存即可
-![img]({{site.cdn}}assets/images/blog/2019/20190407170617.jpg)
+![img]({{ site.cdn }}assets/images/blog/2019/20190407170617.jpg)
 
 ### 3. jenkins配置
 
@@ -119,75 +119,75 @@ export JENKINS_HOME=/application/jenkins/.jenkins
 
 1. 显示如下
 
-![img]({{site.cdn}}assets/images/blog/2019/201947163319.jpg)
+![img]({{ site.cdn }}assets/images/blog/2019/201947163319.jpg)
 
 2. 安装插件(推荐或者自己选择)
 
-   ![img]({{site.cdn}}assets/images/blog/2019/20190407164659.jpg)
+   ![img]({{ site.cdn }}assets/images/blog/2019/20190407164659.jpg)
 
    1. 选择需要的插件
 
-   ![img]({{site.cdn}}assets/images/blog/2019/20190407164914.jpg)
+   ![img]({{ site.cdn }}assets/images/blog/2019/20190407164914.jpg)
 
    2. 安装中(需要等待一会,如果不能下载,可以跳过之后选择离线安装)
 
-   ![img]({{site.cdn}}assets/images/blog/2019/20190407164951.jpg)
+   ![img]({{ site.cdn }}assets/images/blog/2019/20190407164951.jpg)
 
 3. 用户
 
-   ![img]({{site.cdn}}assets/images/blog/2019/20190407165322.jpg)
+   ![img]({{ site.cdn }}assets/images/blog/2019/20190407165322.jpg)
 
 4. 实例配置,开始使用
 
-   ![img]({{site.cdn}}assets/images/blog/2019/20190407165428.jpg)
+   ![img]({{ site.cdn }}assets/images/blog/2019/20190407165428.jpg)
 
-   ![img]({{site.cdn}}assets/images/blog/2019/20190407165507.jpg)
+   ![img]({{ site.cdn }}assets/images/blog/2019/20190407165507.jpg)
 
 5. 配置全局的github的token
 
-   ![img]({{site.cdn}}assets/images/blog/2019/20190407200859.jpg)
+   ![img]({{ site.cdn }}assets/images/blog/2019/20190407200859.jpg)
 
    1. 配置github服务器
 
-   ![img]({{site.cdn}}assets/images/blog/2019/20190407201106.jpg)
+   ![img]({{ site.cdn }}assets/images/blog/2019/20190407201106.jpg)
 
-   ![img]({{site.cdn}}assets/images/blog/2019/20190407201229.jpg)
+   ![img]({{ site.cdn }}assets/images/blog/2019/20190407201229.jpg)
 
 6. 创建视图
 
    `因为我这个项目是一个jekyll的项目,并且大部分操作都是通过脚本进行的,所以我的jenkins中就不配置,maven,jdk..了,如果需要可以参考网上的教程或者我之后的博客`
 
-   ![img]({{site.cdn}}assets/images/blog/2019/20190407165548.jpg)
+   ![img]({{ site.cdn }}assets/images/blog/2019/20190407165548.jpg)
 
-   ![img]({{site.cdn}}assets/images/blog/2019/20190407165643.jpg)
+   ![img]({{ site.cdn }}assets/images/blog/2019/20190407165643.jpg)
 
    1. General
 
-   ![img]({{site.cdn}}assets/images/blog/2019/20190407165900.jpg)
+   ![img]({{ site.cdn }}assets/images/blog/2019/20190407165900.jpg)
 
    2. 源码管理
 
-   ![img]({{site.cdn}}assets/images/blog/2019/20190407202142.jpg)
+   ![img]({{ site.cdn }}assets/images/blog/2019/20190407202142.jpg)
 
    3. 构建触发器
 
-   ![img]({{site.cdn}}assets/images/blog/2019/20190407165933.jpg)
+   ![img]({{ site.cdn }}assets/images/blog/2019/20190407165933.jpg)
 
    4. 构建环境
 
-   ![img]({{site.cdn}}assets/images/blog/2019/20190407202259.jpg)
+   ![img]({{ site.cdn }}assets/images/blog/2019/20190407202259.jpg)
 
-   ![img]({{site.cdn}}assets/images/blog/2019/20190407202236.jpg)
+   ![img]({{ site.cdn }}assets/images/blog/2019/20190407202236.jpg)
 
    5. 执行shell 
 
-   ![img]({{site.cdn}}assets/images/blog/2019/20190407170043.jpg)
+   ![img]({{ site.cdn }}assets/images/blog/2019/20190407170043.jpg)
 
-   ![img]({{site.cdn}}assets/images/blog/2019/20190407170115.jpg)
+   ![img]({{ site.cdn }}assets/images/blog/2019/20190407170115.jpg)
 
    6. 保存
 
-   ![img]({{site.cdn}}assets/images/blog/2019/20190407170231.jpg)
+   ![img]({{ site.cdn }}assets/images/blog/2019/20190407170231.jpg)
 
 ## 5.流程分析和最小化配置
 
@@ -203,17 +203,17 @@ export JENKINS_HOME=/application/jenkins/.jenkins
 
 可以看下jenkins的这个说明
 
-![img]({{site.cdn}}assets/images/blog/2019/20190407204431.jpg)
+![img]({{ site.cdn }}assets/images/blog/2019/20190407204431.jpg)
 
 就是说如果不做些更新类的操作什么的是不需要这个认证的
 
 `也就是说最简单的配置就是 jenkins中配置这个`
 
-![img]({{site.cdn}}assets/images/blog/2019/20190407205639.jpg)
+![img]({{ site.cdn }}assets/images/blog/2019/20190407205639.jpg)
 
 `github中配置这个`
 
-![img]({{site.cdn}}assets/images/blog/2019/20190407205738.jpg)
+![img]({{ site.cdn }}assets/images/blog/2019/20190407205738.jpg)
 
 就可以触发构建了
 
@@ -225,11 +225,11 @@ export JENKINS_HOME=/application/jenkins/.jenkins
 
 问题1:
 
-![img]({{site.cdn}}assets/images/blog/2019/20190927145235.jpg)
+![img]({{ site.cdn }}assets/images/blog/2019/20190927145235.jpg)
 
 问题2:
 
-![img]({{site.cdn}}assets/images/blog/2019/20190927145437.jpg)
+![img]({{ site.cdn }}assets/images/blog/2019/20190927145437.jpg)
 
 **原因 :** 
 
@@ -245,7 +245,7 @@ gem update --system
 gem install sassc --version=2.1.0
 ```
 
-![img]({{site.cdn}}assets/images/blog/2019/20190927145342.jpg)
+![img]({{ site.cdn }}assets/images/blog/2019/20190927145342.jpg)
 
 ***
 
@@ -253,7 +253,7 @@ gem install sassc --version=2.1.0
 
 **问题 :**  
 
-![img]({{site.cdn}}assets/images/blog/2019/20190927145630.jpg)
+![img]({{ site.cdn }}assets/images/blog/2019/20190927145630.jpg)
 
 **原因 :** gemfile.lock里面的依赖没有安装
 
@@ -261,7 +261,7 @@ gem install sassc --version=2.1.0
 
 **解决 :**  进入该文件所在的目录下 运行 `bundle update`
 
-![img]({{site.cdn}}assets/images/blog/2019/20190927145749.jpg)
+![img]({{ site.cdn }}assets/images/blog/2019/20190927145749.jpg)
 
 ***
 
@@ -269,7 +269,7 @@ gem install sassc --version=2.1.0
 
 使用jenkins构建触发器的token,在github的hooks配置的url为token的url显示认证失败无法触发构建
 
-![img]({{site.cdn}}assets/images/blog/2019/20190407195755.jpg)
+![img]({{ site.cdn }}assets/images/blog/2019/20190407195755.jpg)
 
 ```
 因为jenkins触发后期需要认证,后来采用了

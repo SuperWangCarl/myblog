@@ -19,7 +19,7 @@ keywords: IT超仔,carlme,superwang,superwangcarl,carl,卡尔米,sso,单点登�
 
 ### 1. 集成jar包
 
-![img]({{site.cdn}}assets/images/blog/2019/20190412144536.png)
+![img]({{ site.cdn }}assets/images/blog/2019/20190412144536.png)
 
 ### 2. web.xml中集成单点登录的配置
 
