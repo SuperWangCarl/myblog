@@ -89,7 +89,7 @@ webSerivce虽然是一个比较老的跨语言交互接口,但是现在还是需
 
     ![img]({{ site.cdn }}assets/images/blog/2019/20190905144515.jpg)
 
-  - 拷贝axis中的web.xml文件到项目目录下
+  - 拷贝axis中的web.xml文件到项目目录下 `保持WEB-INF下没有 server-config.wsdd文件`
 
     ![img]({{ site.cdn }}assets/images/blog/2019/20190905143221.jpg)
 
