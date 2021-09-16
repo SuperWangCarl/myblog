@@ -23,7 +23,7 @@ keywords: IT超仔,carlme,superwang,superwangcarl,carl,卡尔米,nas,exsi
 
 - 打开ssh登录
 
-  ![img]({{ site.cdn }}assets/images/blog/2021/images/20210916105644.png)
+  ![img]({{ site.cdn }}assets/images/blog/2021/20210916105644.png)
 
 - 打开xshell登录nas命令行界面 配置rsync
 
