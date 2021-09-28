@@ -23,7 +23,7 @@ keywords: IT超仔,carlme,superwang,superwangcarl,carl,卡尔米,k2,openwrt
 
 ## 02刷入breed
 
-1. [下载breed和openwrt需要的工具]({{site.cdn}}download/k2-openwrt.rar)
+1. [下载breed和openwrt需要的工具]({{site.cdn}}assets/download/k2-openwrt.rar)
 
 2. 打开路由器刷breed_Web控制台助手v5.9版本
 
