@@ -799,7 +799,7 @@ yum install gitlab-ce
 ## 简单配置启动
 
 根据提示来配置：
-[![img](http://www.yulongjun.com/{{ site.cdn }}assets/images/blog/2021/gitlab/15081222033853.jpg)]({{ site.cdn }}assets/images/blog/2021/gitlab/15081222033853.jpg)
+[img]({{ site.cdn }}assets/images/blog/2021/gitlab/15081222033853.jpg)
 
 `vim /etc/gitlab/gitlab.rb`
 
