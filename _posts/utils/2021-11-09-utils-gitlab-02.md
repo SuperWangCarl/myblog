@@ -4,7 +4,7 @@ no-post-nav: false
 copyright: me
 original: me
 comments: true
-title: gitlab常用总结
+title: gitlab全集
 category: devops
 tags: [git,gitlab,linux]
 excerpt: gitlab全集
