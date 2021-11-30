@@ -23,41 +23,21 @@ Shadowsocks for OpenWrt 是基于 shadowsocks-libev 移植的，包含 **ss-loca
 
 首先，由于 OpenWrt 内建的 wget 不支持 TLS，无法下载 HTTPS 网站上的软件包，因此 SSH 进入 OpenWrt 命令行后先安装好整版的 wget 和 CA 证书软件包
 
-```
-# opkg update
-# opkg install wget ca-certificates
-```
-
-接着安装 shadowsocks `UDP-Relay `（UDP 转发）功能依赖的软件包 `iptables-mod-tproxy`
-
-```
-# opkg install iptables-mod-tproxy
-```
-
-最后，前往下列项目主页下载安装最新预编译版本 shadowsocks-libev 及其 luci 前端。注意，要选择 `current `目录下正确的硬件架构版本，使用 `opkg print-architecture `命令查看你的路由器硬件架构，例如博主是 `x86_64`
-
-**提示： **（推荐）使用软件源方式安装 Shadowsocks，方法见下文
-
-[**shadowsocks-libev**](https://github.com/shadowsocks/openwrt-shadowsocks/releases)
-
-[**luci-app-shadowsocks**](https://github.com/shadowsocks/luci-app-shadowsocks/releases)
-
-```
-# cd /tmp
-# wget https://xxx.ipk
-# opkg install xxx.ipk
+```shell
+opkg update
+opkg install wget ca-certificates
 ```
 
 openwrt-dist 软件源安装方法：
 
 添加软件源公钥
 
-```
-# wget http://openwrt-dist.sourceforge.net/packages/openwrt-dist.pub
-# opkg-key add openwrt-dist.pub
+```shell
+wget http://openwrt-dist.sourceforge.net/packages/openwrt-dist.pub
+opkg-key add openwrt-dist.pub
 ```
 
-添加软件源到配置文件，注意命令中 `x86_64 `替换为你的硬件架构
+添加软件源到配置文件，注意命令中 `x86_64 `替换为你的硬件架构斐讯k2为`mipsel_24kc`
 
 ```
 # vim /etc/opkg/customfeeds.conf
@@ -65,19 +45,19 @@ src/gz openwrt_dist http://openwrt-dist.sourceforge.net/packages/base/x86_64
 src/gz openwrt_dist_luci http://openwrt-dist.sourceforge.net/packages/luci
 ```
 
-安装 shadowsocks-libev、luci-app-shadowsocks
+接着安装 shadowsocks `UDP-Relay `（UDP 转发）功能依赖的软件包 `iptables-mod-tproxy`
 
-```
-# opkg update
-# opkg install shadowsocks-libev
-# opkg install luci-app-shadowsocks
+```shell
+opkg install iptables-mod-tproxy
 ```
 
+安装 shadowsocks-libev、luci-app-shadowsocks( luci 前端)
 
-
-
-
-
+```shell
+opkg update
+opkg install shadowsocks-libev
+opkg install luci-app-shadowsocks
+```
 
 ## 02安装 ChinaDNS
 
@@ -85,23 +65,11 @@ src/gz openwrt_dist_luci http://openwrt-dist.sourceforge.net/packages/luci
 
 > ChinaDNS 分国内 DNS 和可信 DNS。ChinaDNS 会同时向国内 DNS 和可信 DNS 发请求，如果可信 DNS 先返回，则采用可信 DNS 的数据；如果国内 DNS 先返回，又分两种情况，返回的数据是国内的 IP, 则采用，否则丢弃并转而采用可信 DNS 的结果。
 
-前往下列项目主页下载安装最新版本 ChinaDNS （选择 `current `目录下特定硬件平台版本） 及其 luci APP
+先前添加了 openwrt-dist 源，直接命令行安装
 
-[**ChinaDNS**](https://github.com/aa65535/openwrt-chinadns/releases)
-
-[**chinadns-luci-app**](https://github.com/aa65535/openwrt-dist-luci/releases)
-
-```
-# cd /tmp
-# wget https://xxx.ipk
-# opkg install xxx.ipk
-```
-
-如果先前你按本文所述方法添加了 openwrt-dist 源，也可直接命令行安装
-
-```
-# opkg install ChinaDNS
-# opkg install luci-app-chinadns
+```shell
+opkg install ChinaDNS
+opkg install luci-app-chinadns
 ```
 
 立即更新 ChinaDNS 的国内 IP 路由表 `/etc/chinadns_chnroute.txt`
@@ -142,13 +110,13 @@ Servers Manage
 **注意 **：如果要开启 `TCP Fast Open `选项，需要修改 `sysctl.conf `添加一行net.ipv4.tcp_fastopen = 3，然后使之生效。命令如下
 
 ```
-# echo "net.ipv4.tcp_fastopen = 3" >> /etc/sysctl.conf
-# sysctl -p
+echo "net.ipv4.tcp_fastopen = 3" >> /etc/sysctl.conf
+sysctl -p
 ```
 
 General Settings
 
-使能 `Transparent Proxy `和 `Port Forward `，其中 `UDP-Relay `是 UDP 转发功能，这里要将其开启，其余配置项保持默认即可。
+打开 `Transparent Proxy `和 `Port Forward `，其中 `UDP-Relay `是 UDP 转发功能，这里要将其开启，其余配置项保持默认即可。
 
 Access Control
 
@@ -171,3 +139,7 @@ OpenWrt 管理面 `Network `-> `DHCP and DNS`
 `DNS forwardings `修改为 `127.0.0.1#5353 `即 ChinaDNS 监听的端口；勾选 `Ignore resolve file `（不使用 `/etc/resolv.conf `中的 DNS 即电信运营商分配的 DNS）。
 
 至此，一切准备就绪，Enjoy yourself! 🙂
+
+## 参考资料
+
+[软路由内核查询](https://openwrt.org/toh/start)
