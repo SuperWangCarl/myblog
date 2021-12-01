@@ -143,3 +143,5 @@ OpenWrt 管理面 `Network `-> `DHCP and DNS`
 ## 参考资料
 
 [软路由内核查询](https://openwrt.org/toh/start)
+
+[OpenWrt+shadowsocks实现路由器透明代理](https://joybean.org/blog/2018/02/14/configure-router-for-transparent-proxy-by-using-openwrt-and-shadowsocks/)

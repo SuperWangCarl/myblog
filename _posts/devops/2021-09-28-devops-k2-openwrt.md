@@ -60,3 +60,7 @@ keywords: IT超仔,carlme,superwang,superwangcarl,carl,卡尔米,k2,openwrt
 4.下载中文语言包的方法：System-Software–Software-Actions，在Download and install package右边的文本框里输入：luci-i18n-chinese或者luci-i18n-base-zh-cn，点击OK，系统即会自动下载并安装。
 
 5.安装完后到语言设置的位置选择chinese，然后刷新页面即可。
+
+## 参考资料
+
+[固件地址](https://openwrt.org/toh/views/toh_fwdownload)
