@@ -309,13 +309,15 @@ VMkernel 包含多个子接口，分别是：`Management Traffic`、`vMotion`、
 
    ```shell
    #备份之前的
+   cd /etc/vmware/ssl/
    mv rui.crt rui.crt.bak
    mv rui.key rui.key.bak
+   cd /
    #将pem转换为crt
-   openssl x509 -inform PEM -in 2060789_exsi.carlme.com.pem  -out rui.crt
+   openssl x509 -inform PEM -in a.pem  -out rui.crt
+   mv a.key rui.key
    #移动 crt 和key 到/etc/vmware/ssl中
-   mv 2060789_exsi.carlme.com.key /etc/vmware/ssl/rui.key
-   mv rui.crt /etc/vmware/ssl
+   mv rui.* /etc/vmware/ssl
    #重启服务
    services.sh restart
 
